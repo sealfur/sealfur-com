@@ -6,7 +6,7 @@ My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can b
 
 ## Why does it look this way?
 
-There is no CSS defining the styles. Everything you see will be based on your own default preferences in your browser. It will be that way until I get the code working properly.
+There is no CSS defining the styles. Everything you see will be based on your own default preferences in your browser. It will be that way until I get things working properly in terms of templating for pages and blog posts.
 
 ## Principals for this site
 
