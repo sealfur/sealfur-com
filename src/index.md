@@ -14,6 +14,13 @@ There is no CSS defining the styles. Everything you see will be based on your ow
 2. [Rule of least power](https://www.w3.org/2001/tag/doc/leastPower.html) (described by Tim Berners-Lee and Noah Mendelsohn)[^1]
 3. Function over form
 4. Keep learning
+5. Low barrier to contribution
+
+### Markdown as default word processing
+
+Principle 5 exists to make it as easy as possible for me to add things to this site. I started to find the WYSIWYG interface of WordPress too frustrating for me. In my every day work I write in [Markdown](https://daringfireball.net/projects/markdown/) if I'm not writing in longhand.
+
+11ty uses [markdown-it](https://markdown-it.github.io/) as its default Markdown parser. So I make use of it to save me some time and help me with some shortcuts like the footnotes you see on this page.
 
 ## Hosting
 
