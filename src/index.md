@@ -1,4 +1,7 @@
-# Sealfur.com
+---
+title: 'Sealfur: a website by Joshua Kinal'
+layout: 'layouts/home.html'
+---
 
 This isn't a thing yet. But it will be.
 
@@ -16,7 +19,7 @@ There is no CSS defining the styles. Everything you see will be based on your ow
 4. Keep learning
 5. Low barrier to contribution
 
-### Markdown as default word processing
+### Markdown as default "word processing"
 
 Principle 5 exists to make it as easy as possible for me to add things to this site. I started to find the WYSIWYG interface of WordPress too frustrating for me. In my every day work I write in [Markdown](https://daringfireball.net/projects/markdown/) if I'm not writing in longhand.
 
