@@ -6,9 +6,11 @@
     <header>
       <h1>{{ title }}</h1>
       <p>
-        {{ subtitle }}
+        {{ intro.subtitle }}
       </p>
     </header>
-    {{ content | safe }}
+    <main>
+      {{ content | safe }}
+    </main>
   </article>
 {% endblock %}
