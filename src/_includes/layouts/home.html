@@ -1,8 +1,14 @@
+{# This is the homepage layout #}
 {% extends "layouts/base.html" %}
 
 {% block content %}
   <article>
-    <h1>{{ title }}</h1>
+    <header>
+      <h1>{{ title }}</h1>
+      <p>
+        {{ subtitle }}
+      </p>
+    </header>
     {{ content | safe }}
   </article>
 {% endblock %}

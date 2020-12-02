@@ -1,9 +1,8 @@
 ---
 title: 'Sealfur: a website by Joshua Kinal'
+subtitle: 'This isn't a thing yet. But it will be.'
 layout: 'layouts/home.html'
 ---
-
-This isn't a thing yet. But it will be.
 
 My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can blog using markdown and git alone. Also, I want to build a repository of resources about certain topics to refer people to when they ask me questions.
 
