@@ -1,5 +1,6 @@
 ---
 title: 'Sealfur: a website by Joshua Kinal'
+description: 'Opinions about design (like web design, architecture and brands) and popular culture (like movies, music and books), by Joshua Kinal'
 layout: 'layouts/home.html'
 intro:
   subtitle: 'This isn’t a thing yet. But it will be.'
@@ -13,7 +14,7 @@ There is no CSS defining the styles. Everything you see will be based on your ow
 
 ## Principals for this site
 
-1. [WCAG 2.1 AA+](https://www.w3.org/WAI/WCAG21/quickref/) accessibility
+1. [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AA+](https://www.w3.org/WAI/WCAG21/quickref/) accessibility
 2. [Rule of least power](https://www.w3.org/2001/tag/doc/leastPower.html) (described by Tim Berners-Lee and Noah Mendelsohn)[^1]
 3. Function over form
 4. Keep learning
