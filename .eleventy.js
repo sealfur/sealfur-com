@@ -12,8 +12,9 @@ const options = {
 const markdownLib = markdownIt(options).use(markdownItFootnote);
 
 module.exports = (config) => {
+  // ----Set directories to pass through to the dist folder
+  config.addPassthroughCopy('.src/images/')
   // ------Markdown overrides----
-
   config.setLibrary('md', markdownLib);
 
   return {

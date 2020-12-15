@@ -5,3 +5,11 @@ layout: 'layouts/home.html'
 intro:
   subtitle: 'You might call this a blog. It’s currently empty.'
 ---
+
+<!-- todo:
+- [ ] Set up layouts/feed.html
+- [ ]  Set up partials/page-header.html
+- [ ]  Set up partials/post-list.html
+- [ ]  Pagination needs a partial
+- [ ]  tags need an index page
+todo: \\ -->
