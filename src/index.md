@@ -1,9 +1,9 @@
 ---
-title: 'Sealfur: a website by Joshua Kinal'
+title: 'Sealfur: soft to touch and smells like fish guts'
 description: 'Opinions about design (like web design, architecture and brands) and popular culture (like movies, music and books), by Joshua Kinal'
 layout: 'layouts/home.html'
 intro:
-  subtitle: 'This isn’t a thing yet. But it will be.'
+  subtitle: 'This isn’t a thing yet. But it will be soon.'
 ---
 
 My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can blog using markdown and git alone. Also, I want to build a repository of resources about certain topics to refer people to when they ask me questions.
@@ -19,6 +19,7 @@ There is no CSS defining the styles. Everything you see will be based on your ow
 3. Function over form
 4. Keep learning
 5. Low barrier to contribution
+6. Build in public
 
 ### Markdown as default "word processing"
 
