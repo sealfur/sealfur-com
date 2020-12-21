@@ -12,4 +12,5 @@ intro:
 - [ ]  Set up partials/post-list.html
 - [ ]  Pagination needs a partial
 - [ ]  tags need an index page
+- [ ]  see [Cascading Data](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/7/#heading-cascading-data) for some more data functionality
 todo: \\ -->
