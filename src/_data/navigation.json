@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Thoughts & Opinions",
+      "url": "/blog/"
+    },
+    {
+      "text": "Clippings",
+      "url": "/reference-clippings/"
+    },
+    {
+      "text": "About",
+      "url": "/about/"
+    }
+  ]
+}
