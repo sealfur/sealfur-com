@@ -4,6 +4,9 @@ description: 'Opinions about design (like web design, architecture and brands) a
 layout: 'layouts/home.html'
 intro:
   subtitle: 'This isn’t a thing yet. But it will be soon.'
+featuredClippings:
+  title: 'selected clippings'
+  summary: 'I collect articles to share with other people. Here’s just a few to give you a taste. (Actually, I’m just playing with 11ty’s “Collections” feature. This will probably be used for some featured blog posts or something.)'
 ---
 
 My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can blog using markdown and git alone. Also, I want to build a repository of resources about certain topics to refer people to when they ask me questions.

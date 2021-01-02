@@ -1,4 +1,5 @@
 //=====This is the eleventy config file==========
+const sortByRatingOrder = require('./src/utils/sort-by-rating.js');
 
 //Markdown-it features
 const markdownIt = require('markdown-it');
@@ -18,16 +19,21 @@ module.exports = (config) => {
   // ------Markdown overrides----
   config.setLibrary('md', markdownLib);
 
-  //---Returns all clippings sorted by "rating"
-  //   which will be in the front-matter of all clippings.
-  //   They will probably flow by 
+  // Returns clippings, sorted by rating
   config.addCollection('clippings', (collection) => {
-    return collection
-      .getFilteredByGlob('./src/clippings/*.md')
-      .sort((a, b) =>
-        Number(a.data.rating) > Number(b.data.rating) ? 1 : -1
-      );
+    return sortByRatingOrder(
+      collection.getFilteredByGlob('./src/clippings/*.md')
+    );
   });
+
+  // Returns clippings filtered by "featured: true"
+  config.addCollection('featuredClippings', (collection) => {
+    return sortByRatingOrder(
+      collection.getFilteredByGlob('./src/clippings/*.md')
+    ).filter((x) => x.data.featured);
+  });
+
+  // see 11ty from scratch lesson 8 for [creating "featured" collections with this kind of filter](hhttps://piccalil.li/course/learn-eleventy-from-scratch/lesson/8/#heading-refactoring-our-collections)
 
   return {
     markdownTemplateEngine: 'njk', //using nunjucks as templating engine

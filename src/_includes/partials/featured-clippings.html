@@ -1,0 +1,26 @@
+<section class="[ featured-items ]">
+  <div class="[ wrapper ] [ flow ]">
+    <div class="[ featured-items__inner ] [ flow ]">
+      <div class="[ featured-items__intro ] [ flow ]">
+        <h2>
+          {{ featuredClippings.title }}
+        </h2>
+        <p class="[ featured-items__summary ]">
+          {{ featuredClippings.summary }}
+        </p>
+      </div>
+      {% for item in collections.featuredClippings %}
+        <article>
+          <h3>
+            <a href="{{ item.data.source }}">
+              {{ item.data.title }}
+            </a>
+          </h3>
+          <p class="summary">
+            {{ item.data.summary }}
+          </p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
