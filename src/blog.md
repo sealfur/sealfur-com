@@ -8,6 +8,7 @@ intro:
 
 <!-- todo:
 - [ ] Set up layouts/feed.html
+- [ ] See [blog feeds lesson](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/11/)
 - [ ]  Set up partials/page-header.html
 - [ ]  Set up partials/post-list.html
 - [ ]  Pagination needs a partial

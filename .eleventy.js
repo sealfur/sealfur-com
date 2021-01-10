@@ -33,6 +33,10 @@ module.exports = (config) => {
     ).filter((x) => x.data.featured);
   });
 
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  // from [eleventy from scratch](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/19/)
+  config.setUseGitIgnore(false);
+
   // see 11ty from scratch lesson 8 for [creating "featured" collections with this kind of filter](hhttps://piccalil.li/course/learn-eleventy-from-scratch/lesson/8/#heading-refactoring-our-collections)
 
   return {
