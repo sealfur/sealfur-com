@@ -1,6 +1,6 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
+# [build]
+#   command = "npm run build"
+#   publish = "dist"
 
 [context.production]
   environment = { NODE_VERSION = "10.15.3", NODE_ENV = "production" }
@@ -12,6 +12,3 @@
   targetPort = 8181
   NODE_ENV = "development"
 
-# Using the `.toml` version of this config file as plugins don't seem to work with the .yml style.
-[[plugins]]
-  package = "/plugins/sass"
