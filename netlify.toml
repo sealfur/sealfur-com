@@ -1,6 +1,6 @@
-[build]
-  command = "npm run start"
-  publish = "dist"
+# [build]
+#   command = "npm run start"
+#   publish = "dist"
 
 [context.production]
   environment = { NODE_VERSION = "10.15.3", NODE_ENV = "production" }
