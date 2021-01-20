@@ -19,13 +19,20 @@ module.exports = (config) => {
   // ------Markdown overrides----
   config.setLibrary('md', markdownLib);
 
-  // Returns clippings, sorted by rating
+  // ===Collections=== //
+  // . => blog posts  … … … … see [eleventy from scratch lesson](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/11/)
+  // . . Returns a collection of blog posts in reverse date order
+  config.addCollection('blog', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
+
+  // . => clippings
+  // . . Returns clippings, sorted by rating
   config.addCollection('clippings', (collection) => {
     return sortByRatingOrder(
       collection.getFilteredByGlob('./src/clippings/*.md')
     );
   });
-
   // Returns clippings filtered by "featured: true"
   config.addCollection('featuredClippings', (collection) => {
     return sortByRatingOrder(

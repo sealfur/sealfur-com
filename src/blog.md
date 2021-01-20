@@ -1,10 +1,20 @@
 ---
 title: 'Thoughts & Opinions'
+layout: 'layouts/feed.html'
+pagination:
+  data: collections.blog
+  size: 5
 description: 'A blog by Joshua Kinal. Contains writing about design engineering, semantic code and web standards, and opinions about TV, film, music and books.'
-layout: 'layouts/home.html'
 intro:
   subtitle: 'You might call this a blog. It’s currently empty.'
+permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationPrevText: 'Newer posts'
+paginationNextText: 'Older posts'
+paginationAnchor: '#post-list'
 ---
+
+Firm views, loosely held
+: Based on the information I have at the time, this is my point of view. The great thing about continuously learning is that new information can change one's thinking on a topic.
 
 <!-- todo:
 - [ ] Set up layouts/feed.html

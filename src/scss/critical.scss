@@ -1,1 +1,10 @@
+// First up: config and functions
+@use 'colors' as c0l;
+// @use 'config';
 @use 'reset';
+
+body {
+  background-color: c0l.$darkest;
+  color: c0l.$lightest;
+  font-family: Inter, 'Courier New', Courier, monospace;
+}
