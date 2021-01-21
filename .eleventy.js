@@ -32,7 +32,9 @@ module.exports = (config) => {
   // . => blog posts  … … … … see [eleventy from scratch lesson](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/11/)
   // . . Returns a collection of blog posts in reverse date order
   config.addCollection('blog', (collection) => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/posts/*.md')]
+      .filter((post) => !post.data.draft)
+      .reverse();
   });
 
   // . => clippings

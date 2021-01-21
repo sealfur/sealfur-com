@@ -4,7 +4,7 @@ author: 'Joshua Kinal'
 date: '2021-01-21'
 tags: ['writing', 'editing', 'feedback', 'continuous improvement']
 lead: 'When giving someone a critique on their writing, think about which of these three levels of feedback best fits the scenario. What does the writer want from you? What is the most valuable kind of feedback you can give?'
-status: 'draft'
+draft: 'true'
 ---
 
 There are maybe three levels of editorial feedback:
