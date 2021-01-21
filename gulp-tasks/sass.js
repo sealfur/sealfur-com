@@ -33,7 +33,6 @@ const calculateOutput = ({ history }) => {
   if (criticalStyles.includes(sourceFileName)) {
     response = './src/_includes/css';
   }
-
   return response;
 };
 

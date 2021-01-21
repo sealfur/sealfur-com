@@ -1,9 +1,10 @@
 ---
-title: 'I’m learning so much'
+title: 'I am learning so much'
 author: 'Joshua Kinal'
 date: '2021-01-19'
 tags: ['web design', 'build in public', 'continuous improvement']
-summary: 'In which I write about the things I have learnt, up to this point, in building a brand new website.'
+lead: 'In which I write about the things I have learnt, up to this point, in building a brand new website.'
+status: 'publish'
 ---
 
 I’ve learnt so much in the past few weeks while trying to build this website. Here’s some nuggets.

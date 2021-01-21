@@ -12,6 +12,6 @@ Thumbs.db
 # Node modules and output
 node_modules
 dist
-src/_includes/css
+# I need these for codepen --- src/_includes/css
 # Local Netlify folder
 .netlify
