@@ -7,12 +7,20 @@
     <meta name="description" content="{{ description }}">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>{{ title }}</title>
+    <!-- === These are critical styles === -->
     <style>
       {% include "css/critical.css" %}
     </style>
+    <!-- end critical -->
+    <!-- === These are sealfur styles === -->
+    <style>
+      {% include "css/sealfur.css" %}
+    </style>
+    <!-- end sealfur -->
     {# Add facility for pages to declare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
+        <!-- these are page-critical styles -->
         <style>
           {% include item %}
         </style>

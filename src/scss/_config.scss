@@ -1,5 +1,9 @@
 @use 'colors' as c0l;
 
+:root {
+  --flow-space: 1.2em;
+}
+
 body {
   background-color: c0l.$darkest;
   color: c0l.$white;
