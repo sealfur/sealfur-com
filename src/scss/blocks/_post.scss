@@ -1,0 +1,35 @@
+// article
+main > article {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: inherit;
+  grid-template-columns: inherit;
+}
+
+article {
+  .page-header {
+    display: inherit;
+    grid-template-columns: inherit;
+    grid-column: inherit;
+    &__heading {
+      grid-column: 1 / 4;
+    }
+    &__summary {
+      grid-column: 3 / 5;
+      grid-template-columns: 1fr 1fr 1fr;
+      display: inherit;
+      --flow-space: 1em;
+      time {
+        grid-column: 2 / 3;
+      }
+      .tags-list {
+      }
+    }
+    .measure-long {
+      grid-column: 2 / 5;
+      p {
+        grid-column: inherit;
+      }
+    }
+  }
+}
