@@ -1,15 +1,7 @@
 // First up: config and functions
-@use 'colors' as c0l;
-// @use 'config';
+
+@use 'config';
 @use 'reset';
 
-body {
-  background-color: c0l.$darkest;
-  color: c0l.$white;
-  font-family: Inter, 'Courier New', Courier, monospace;
-}
-
-a {
-  color: c0l.$lightest;
-  border-bottom: dashed 1px c0l.$highlight;
-}
+// import the blocks
+@use 'blocks/header';
