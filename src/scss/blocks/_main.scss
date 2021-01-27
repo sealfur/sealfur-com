@@ -1,3 +1,4 @@
+@use 'featured-items';
 main {
   margin-inline-start: 3rem;
   margin-inline-end: 3rem;
@@ -25,5 +26,4 @@ main {
       grid-column: 2 / 5;
     }
   }
-  @extend 'featured-items';
 }
