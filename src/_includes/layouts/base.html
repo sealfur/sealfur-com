@@ -8,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>{{ title }}</title>
     <!-- === These are critical styles === -->
-    <style>
+    <style type="text/css">
       {% include "css/critical.css" %}
     </style>
     <!-- end critical -->
     <!-- === These are sealfur styles === -->
-    <style>
+    <style type="text/css">
       {% include "css/sealfur.css" %}
     </style>
     <!-- end sealfur -->
@@ -21,17 +21,17 @@
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
         <!-- these are page-critical styles -->
-        <style>
+        <style type="text/css">
           {% include item %}
         </style>
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'"/>
+    <link rel="stylesheet" type="text/css" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'"/>
 
     {# Add facility for pages to declare an array of stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
-        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
+        <link rel="stylesheet" type="text/css" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
       {% endfor %}
     {% endif %}
   </head>

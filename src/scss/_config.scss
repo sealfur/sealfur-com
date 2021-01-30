@@ -1,4 +1,5 @@
-@use 'colors' as c0l;
+@use 'utilities/colors' as c0l;
+@use 'utilities/type' as typ;
 
 :root {
   --flow-space: 1.2em;
@@ -7,10 +8,20 @@
 body {
   background-color: c0l.$darkest;
   color: c0l.$white;
-  font-family: Inter, 'Courier New', Courier, monospace;
+  font-family: typ.$text;
+  font-weight: typ.$bodcopy;
 }
 
 a {
   color: c0l.$lightest;
   border-bottom: dashed 1px c0l.$highlight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: typ.$display;
 }

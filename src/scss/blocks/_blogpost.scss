@@ -1,0 +1,36 @@
+// article
+main > article {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: inherit;
+  grid-template-columns: inherit;
+
+  .page-header {
+    display: inherit;
+    grid-template-columns: inherit;
+    grid-column: inherit;
+    &__heading {
+      grid-column: 1 / 4;
+    }
+    &__summary {
+      grid-column: 2 / 5;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      display: inherit;
+      --flow-space: 1em;
+      p {
+        grid-column-end: end;
+      }
+      time {
+        grid-column: 3 / 4;
+      }
+      .tags-list {
+      }
+    }
+    // .measure-long {
+    //   grid-column: 2 / 5;
+    //   p {
+    //     grid-column: inherit;
+    //   }
+    // }
+  }
+}

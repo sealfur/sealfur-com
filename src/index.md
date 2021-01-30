@@ -1,9 +1,9 @@
 ---
-title: 'Sealfur: soft to touch and smells like fish guts'
+title: 'Look at this! It’s got (some) styling.'
 description: 'Opinions about design (like web design, architecture and brands) and popular culture (like movies, music and books), by Joshua Kinal'
 layout: 'layouts/home.html'
 intro:
-  subtitle: 'This isn’t a thing yet. But it will be soon.'
+  subtitle: 'This isn’t a thing yet. But it will very be soon.'
 featuredClippings:
   title: 'selected clippings'
   summary: 'I collect articles to share with other people. Here’s just a few to give you a taste. (Actually, I’m just playing with 11ty’s “Collections” feature. This will probably be used for some featured blog posts or something.)'
@@ -13,7 +13,7 @@ My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can b
 
 ## Why does it look this way?
 
-There is no CSS defining the styles. Everything you see will be based on your own default preferences in your browser. It will be that way until I get things working properly in terms of templating for pages and blog posts.
+~~There is no CSS defining the styles. Everything you see will be based on your own default preferences in your browser. It will be that way until I get things working properly in terms of templating for pages and blog posts.~~
 
 ## Principals for this site
 
