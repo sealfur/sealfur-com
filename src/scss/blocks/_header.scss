@@ -14,10 +14,13 @@ body > header {
     display: block;
   }
   &__nav {
-    width: clamp(25rem, 36rem, 80vw);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    font-family: 'Sansita Swashed';
+    font-weight: 300;
+    font-size: clamp(0.5rem, 2.5vw, 2rem);
+    width: clamp(30rem, 50vw, 70vw);
     a {
       display: block;
       height: min(50vw, 2rem);
