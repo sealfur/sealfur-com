@@ -1,3 +1,5 @@
+@use '../utilities/type' as typ;
+
 // block => header
 body > header {
   margin-inline-start: 2rem;
@@ -17,7 +19,7 @@ body > header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    font-family: 'Sansita Swashed';
+    font-family: typ.$display;
     font-weight: 300;
     font-size: clamp(1.1rem, 2.2vw, 2.5rem);
     width: clamp(30rem, 40vw, 42vw);
