@@ -1,12 +1,12 @@
 ---
-title: 'Thoughts & Opinions'
+title: 'Writing'
 layout: 'layouts/feed.html'
 pagination:
   data: collections.blog
   size: 5
-description: 'A blog by Joshua Kinal. Contains writing about design engineering, semantic code and web standards, and opinions about TV, film, music and books.'
+description: 'Thoughts & opinions by Joshua Kinal. Contains writing about design engineering, semantic code and web standards, and opinions about TV, film, music and books.'
 intro:
-  subtitle: 'You might call this a blog. It’s currently empty.'
+  subtitle: 'Things I've written recently'
 permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'

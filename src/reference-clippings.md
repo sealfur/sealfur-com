@@ -1,5 +1,5 @@
 ---
-title: 'Clippings'
+title: 'References'
 description: 'News articles and other references, collected and tagged for future reference.'
 layout: 'layouts/home.html'
 intro:
