@@ -6,7 +6,7 @@ pagination:
   size: 5
 description: 'Thoughts & opinions by Joshua Kinal. Contains writing about design engineering, semantic code and web standards, and opinions about TV, film, music and books.'
 intro:
-  subtitle: 'Things I've written recently'
+  subtitle: 'Things I’ve written recently'
 permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'

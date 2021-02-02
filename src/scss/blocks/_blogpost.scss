@@ -34,3 +34,24 @@ main > article {
     // }
   }
 }
+
+#post-list {
+  grid-column: 2 / 4;
+  margin-block-start: 1rem;
+  ol.post-list {
+    li {
+      a {
+        font-weight: 600;
+        font-size: 1.4em;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.page-content {
+	grid-column: 2 /5;
+  margin-block-start: 1.5rem;
+  
+}
+
