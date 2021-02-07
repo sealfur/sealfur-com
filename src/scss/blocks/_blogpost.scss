@@ -1,42 +1,57 @@
 // article
 main > article {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  display: inherit;
-  grid-template-columns: inherit;
-
+  //   grid-column-start: 1;
+  //   grid-column-end: 5;
+  //   display: inherit;
+  //   grid-template-columns: inherit;
   .page-header {
-    display: inherit;
-    grid-template-columns: inherit;
-    grid-column: inherit;
-    &__heading {
-      grid-column: 1 / 4;
+    width: clamp(36ch, 80vw, 120ch);
+    // display: inherit;
+    // grid-template-columns: inherit;
+    // grid-column: inherit;
+    display: flex;
+    justify-content: space-between;
+    color: #d5f2e3;
+    flex-flow: row wrap;
+
+    h1 {
+      // grid-column: 1 / 4;
+      font-size: 2rem;
     }
-    &__summary {
-      grid-column: 2 / 5;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      display: inherit;
-      --flow-space: 1em;
-      p {
-        grid-column-end: end;
+
+    .page-header {
+      // display: inherit;
+      // grid-template-columns: inherit;
+      // grid-column: inherit;
+      &__heading {
+        // grid-column: 1 / 4;
       }
-      time {
-        grid-column: 3 / 4;
+      &__summary {
+        // grid-column: 2 / 5;
+        // grid-template-columns: 2fr 1fr 1fr 1fr;
+        // display: inherit;
+        margin-inline-start: 1rem;
+        --flow-space: 1em;
+        p {
+          // grid-column-end: end;
+        }
+        time {
+          // grid-column: 3 / 4;
+        }
+        .tags-list {
+        }
       }
-      .tags-list {
-      }
+      // .measure-long {
+      //   grid-column: 2 / 5;
+      //   p {
+      //     grid-column: inherit;
+      //   }
+      // }
     }
-    // .measure-long {
-    //   grid-column: 2 / 5;
-    //   p {
-    //     grid-column: inherit;
-    //   }
-    // }
   }
 }
-
 #post-list {
-  grid-column: 2 / 4;
+  // grid-column: 2 / 4;
   margin-block-start: 1rem;
   ol.post-list {
     li {
@@ -50,8 +65,7 @@ main > article {
 }
 
 .page-content {
-	grid-column: 2 /5;
+  width: clamp(36ch, 60vw, 80ch);
+  // grid-column: 2 /5;
   margin-block-start: 1.5rem;
-  
 }
-

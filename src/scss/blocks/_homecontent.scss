@@ -1,22 +1,30 @@
 @forward 'main';
 
 main > article {
-  display: inherit;
-  grid-column: 1 / 5;
-  grid-template-columns: inherit;
+  //   display: inherit;
+  //   grid-column: 1 / 5;
+  //   grid-template-columns: inherit;
 
   header {
-    display: inherit;
-    grid-template-columns: inherit;
-    grid-column: inherit;
+    width: clamp(36ch, 80vw, 120ch);
+    // display: inherit;
+    // grid-template-columns: inherit;
+    // grid-column: inherit;
+    display: flex;
+    justify-content: space-between;
+    color: #d5f2e3;
+    flex-flow: row wrap;
+
     h1 {
-      grid-column: 1 / 4;
+      // grid-column: 1 / 4;
+      font-size: 2rem;
     }
     p {
-      grid-column: 2 / 5;
+      // grid-column: 2 / 5;
     }
   }
   section {
-    grid-column: 2 / 5;
+    width: clamp(36ch, 60vw, 90ch);
+    // grid-column: 2 / 5;
   }
 }

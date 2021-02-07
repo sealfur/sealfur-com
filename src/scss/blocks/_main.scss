@@ -2,6 +2,11 @@ main {
   margin-inline-start: 3rem;
   margin-inline-end: 3rem;
   margin-inline: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
+  // display: grid;
+  // grid-template-columns: 1fr 2fr 2fr 1fr;
+  & > article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 }
