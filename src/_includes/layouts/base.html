@@ -4,9 +4,9 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="{{ description }}">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>{{ title }}</title>
+    {% include "partials/meta-info.html" %}
+
     <!-- === These are critical styles === -->
     <style type="text/css">
       {% include "css/critical.css" %}
@@ -34,6 +34,7 @@
         <link rel="stylesheet" type="text/css" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
       {% endfor %}
     {% endif %}
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
   </head>
   <body>
     {% include "partials/site-head.html" %}

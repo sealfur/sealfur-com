@@ -1,6 +1,7 @@
 ---
 title: 'Look at this! It’s got (some) styling.'
 description: 'Opinions about design (like web design, architecture and brands) and popular culture (like movies, music and books), by Joshua Kinal'
+metaDesc: 'Opinions about design and popular culture by Joshua Kinal'
 layout: 'layouts/home.html'
 intro:
   subtitle: 'This isn’t a thing yet. But it will very be soon.'

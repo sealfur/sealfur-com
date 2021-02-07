@@ -14,6 +14,9 @@ metaTitle and/or metaDesc items, switch to them. #}
   pageTitle = metaTitle %}
 {% endif %}
 {% if not metaDesc %}
+  {% set metaDesc = description %}
+{% endif %}
+{% if not description %}
   {% set metaDesc = summary %}
 {% endif %}
 
