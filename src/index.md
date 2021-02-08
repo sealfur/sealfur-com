@@ -17,6 +17,8 @@ My intention is to make it [an 11ty site](https://www.11ty.dev/) so that I can b
 ~~There is no CSS defining the styles. Everything you see will be based on your own default preferences in your browser. It will be that way until I get things working properly in terms of templating for pages and blog posts.~~
 It's just a very basic layout at the moment. I was playing around with learning some CSS grid for a bit, but realised that that can all wait. I prefer darker themes and one day you'll get a toggle option to go to light or dark, but that's a long time in the future. This site uses [variable fonts](https://rwt.io/blog/2018/07/evolution-typography-variable-fonts-introduction), but not well… yet[^2].
 
+Also, the site still needs some kind of footer.
+
 ## Principals for this site
 
 1. [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AA+](https://www.w3.org/WAI/WCAG21/quickref/) accessibility
