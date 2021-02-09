@@ -1,5 +1,5 @@
 ---
-title: 'Look at this! It’s got (some) styling.'
+title: 'Now with an RSS feed!'
 description: 'Opinions about design (like web design, architecture and brands) and popular culture (like movies, music and books), by Joshua Kinal'
 metaDesc: 'Opinions about design and popular culture by Joshua Kinal'
 layout: 'layouts/home.html'
