@@ -1,10 +1,9 @@
 ---
-title: 'RSS means it’s time to get writing'
+title: 'RSS means it is time to get writing'
 author: 'Joshua Kinal'
 date: '2021-02-09'
 tags: ['rss', 'web design', 'build in public']
-summary: 'xxxx'
-draft: 'true'
+summary: 'In which I’m proud of having made something I wanted'
 ---
 
 I made the website and got it working so that it is [properly responsive](https://alistapart.com/article/responsive-web-design/)[^1] and passes [automated accessibility tests](https://www.deque.com/axe/devtools/). Now it even has [an RSS feed](https://sealfur.com/feed.xml)[^2].
