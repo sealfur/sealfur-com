@@ -1,3 +1,5 @@
+@use '../utilities/type' as typ;
+
 // article
 main > article {
   //   grid-column-start: 1;
@@ -64,9 +66,11 @@ flex-grow: 1;
   ol.post-list {
     li {
       a {
-        font-weight: 600;
-        font-size: 1.4em;
+        font-weight: 300;
+        font-size: 1.6em;
         font-style: italic;
+        font-family: typ.$display;
+        letter-spacing: 0.03em;
       }
     }
   }
