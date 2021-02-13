@@ -78,21 +78,17 @@ main > article {
   }
 }
 
-#post-list {
-  // grid-column: 2 / 4;
-  margin-block-start: 1rem;
   ol.post-list {
     li {
       a {
         font-weight: 300;
         font-size: 1.6em;
-        font-style: italic;
         font-family: typ.$display;
         letter-spacing: 0.03em;
       }
     }
   }
-}
+
 
 .page-content {
   width: clamp(18ch, 90vw, 72ch);

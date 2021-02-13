@@ -14,6 +14,7 @@
 {% block content %}
   <article>
     {% include "partials/page-header.html" %}
+    <section class="[ page-content ]">
     {% include "partials/post-list.html" %}
 
     {# If we leave pagination in for tags, the next and prev links will
@@ -21,6 +22,7 @@
     {% if not tag %}
       {% include "partials/pagination.html" %}
     {% endif %}
+  </section>
   </article>
   {# === => I don't have a call to action ===
   {% include "partials/cta.html" %} #}
