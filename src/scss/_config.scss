@@ -3,18 +3,30 @@
 
 :root {
   --flow-space: 1.2em;
+
+  // colors
+  --sealblue: c0l.$sealblue
+  --whitefur: c0l.$whitefur;
+  --arcticnight: c0l.$arcticnight;
 }
 
 body {
-  background-color: c0l.$darkest;
-  color: c0l.$white;
+  background-color: c0l.$bgcol;
+  color: c0l.$fgcol;
   font-family: typ.$text;
   font-weight: typ.$bodcopy;
+  font-feature-settings: "ss02", "salt";
 }
 
 a {
-  color: c0l.$lightest;
-  // border-bottom: dashed 1px c0l.$highlight;
+  color: c0l.$fgcol;
+  text-decoration-color: c0l.$sealblue;
+  text-decoration-thickness: 0.01em;
+  text-underline-offset: 0.1em;
+  &:hover {
+    text-underline-offset: -0.02em;
+  }
+  
 }
 
 h1,
@@ -24,4 +36,8 @@ h4,
 h5,
 h6 {
   font-family: typ.$display;
+}
+
+sup {
+  font-feature-settings: "sups";
 }
