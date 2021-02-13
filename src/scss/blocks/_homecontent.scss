@@ -1,12 +1,10 @@
 @forward 'main';
 
-main > article {
-  //   display: inherit;
-  //   grid-column: 1 / 5;
-  //   grid-template-columns: inherit;
+main > .homecontent {
+  font-size: clamp(0.8em, 3.5vw, 1.2em);
 
   header {
-    width: clamp(36ch, 80vw, 120ch);
+    width: clamp(14ch, 90vw, 200ch);
     // display: inherit;
     // grid-template-columns: inherit;
     // grid-column: inherit;
@@ -17,14 +15,21 @@ main > article {
 
     h1 {
       // grid-column: 1 / 4;
+      margin-inline-end: clamp(0.2rem, 10%, 1rem);
+      margin-block-end: 0.5rem;
       font-size: 2rem;
+      line-height: 0.9em;
     }
     p {
       // grid-column: 2 / 5;
+      align-self: end;
+      margin-top: inherit;
+      font-style: italic;
+      font-weight: 500;
     }
   }
   section {
-    width: clamp(36ch, 60vw, 90ch);
+    width: clamp(18ch, 90vw, 72ch);
     // grid-column: 2 / 5;
   }
 }

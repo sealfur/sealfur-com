@@ -7,7 +7,7 @@ main > article {
   //   display: inherit;
   //   grid-template-columns: inherit;
   .page-header {
-    width: clamp(36ch, 80vw, 120ch);
+    width: clamp(30ch, 80vw, 120ch);
     // display: inherit;
     // grid-template-columns: inherit;
     // grid-column: inherit;
@@ -35,9 +35,9 @@ main > article {
         display: flex;
         margin-inline-start: 0.1rem;
         --flow-space: 1em;
-font-size: 0.8rem;
-justify-content: space-between;
-flex-grow: 1;
+        font-size: 0.8rem;
+        justify-content: space-between;
+        flex-grow: 1;
         p {
           // grid-column-end: end;
         }

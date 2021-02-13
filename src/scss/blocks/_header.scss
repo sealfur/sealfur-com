@@ -2,9 +2,8 @@
 
 // block => header
 body > header {
-  margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
-  margin-inline: 1rem;
+  margin-inline-start: clamp(0.3rem, 3%, 2rem);
+  margin-inline-end: clamp(0.3rem, 3%, 2rem);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -20,7 +19,7 @@ body > header {
     flex-flow: row wrap;
     justify-content: space-between;
     font-family: typ.$display;
-    font-weight: 300;
+    font-weight: 500;
     font-size: clamp(1.1rem, 2.2vw, 2.5rem);
     width: clamp(30rem, 40vw, 42vw);
     a {
