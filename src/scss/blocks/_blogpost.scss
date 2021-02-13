@@ -6,8 +6,9 @@ main > article {
   //   grid-column-end: 5;
   //   display: inherit;
   //   grid-template-columns: inherit;
+  font-size: clamp(.8em,2vw,1.2em);
   .page-header {
-    width: clamp(30ch, 80vw, 120ch);
+    width: clamp(14ch,90vw,200ch);
     // display: inherit;
     // grid-template-columns: inherit;
     // grid-column: inherit;
@@ -15,17 +16,16 @@ main > article {
     justify-content: space-between;
     color: #d5f2e3;
     flex-flow: row wrap;
+    margin-block-end: 1em;
 
-    h1 {
+    &__heading, h1 {
       // grid-column: 1 / 4;
       font-size: 2rem;
-    }
+      margin-inline-end: clamp(.2rem,10%,1rem);
+      line-height: 0.9;
+      align-self: flex-end;
 
-    .page-header {
-      // display: inherit;
-      // grid-template-columns: inherit;
-      // grid-column: inherit;
-      &__heading {
+      
         // grid-column: 1 / 4;
         flex-grow: 5;
       }
@@ -34,21 +34,30 @@ main > article {
         // grid-template-columns: 2fr 1fr 1fr 1fr;
         display: flex;
         margin-inline-start: 0.1rem;
-        --flow-space: 1em;
+        --flow-space: 0.5em;
         font-size: 0.8rem;
         justify-content: space-between;
         flex-grow: 1;
+align-content: flex-end;
+flex-flow: row wrap;
+align-self: flex-end;
         p {
-          // grid-column-end: end;
+          // grid-column-end: end; 
+           margin: 0;
+  align-self: center;
         }
         time {
           // grid-column: 3 / 4;
           font-weight: 500;
           color: #fff;
           font-style: italic;
+          flex-grow: 3;
+          align-self: flex-end;
+          line-height: 0.9;
         }
         .tags-list {
           text-align: end;
+          flex-grow: 1;
         }
       }
       // .measure-long {
@@ -59,7 +68,7 @@ main > article {
       // }
     }
   }
-}
+
 #post-list {
   // grid-column: 2 / 4;
   margin-block-start: 1rem;
@@ -77,7 +86,5 @@ main > article {
 }
 
 .page-content {
-  width: clamp(36ch, 60vw, 80ch);
-  // grid-column: 2 /5;
-  margin-block-start: 1.5rem;
+  width: clamp(18ch,90vw,72ch);
 }
