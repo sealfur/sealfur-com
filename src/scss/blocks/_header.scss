@@ -1,3 +1,4 @@
+@use '../utilities/colors' as c0l;
 @use '../utilities/type' as typ;
 
 // block => header
@@ -22,6 +23,7 @@ body > header {
     font-weight: 500;
     font-size: clamp(1.1rem, 2.2vw, 2.5rem);
     width: clamp(30rem, 40vw, 42vw);
+    text-shadow: 0.05em 0.05em c0l.$sealblue;
     a {
       display: block;
       height: min(50vw, 2rem);

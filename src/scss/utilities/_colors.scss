@@ -1,7 +1,25 @@
 // ===Colors===
-$darkest: #01110a !default;
-$lightest: #d5f2e3 !default;
-$highlight: #ba2d0b !default;
+$sealblue: rgb(66, 147, 211);
+$whitefur: rgb(237,242,239);
+$arcticnight: rgb(1,17,10);
+$royalsuede: rgb(111,80,96);
+$white: #eedddd;
+
+
+// ===Contrasts===
+$darkest: $arcticnight !default;
+$lightest: $whitefur !default;
+$highlight: $royalsuede !default;
 $oceangreen: #73ba9b;
 $racinggreen: #003e1f;
-$white: #ffffff;
+
+
+
+
+
+// === <- Dark Theme -> ===
+$bgcol: $darkest;
+$fgcol: $lightest;
+
+
+// === <- Light Theme -> ===

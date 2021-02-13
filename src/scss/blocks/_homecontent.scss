@@ -1,3 +1,4 @@
+@use '../utilities/colors' as c0l;
 @forward 'main';
 
 main > .homecontent {
@@ -10,22 +11,23 @@ main > .homecontent {
     // grid-column: inherit;
     display: flex;
     justify-content: space-between;
-    color: #d5f2e3;
+    color: c0l.$fgcol;
     flex-flow: row wrap;
 
     h1 {
       // grid-column: 1 / 4;
       margin-inline-end: clamp(0.2rem, 10%, 1rem);
       margin-block-end: 0.5rem;
-      font-size: 2rem;
+      font-size: 2.5rem;
       line-height: 0.9;
+      text-shadow: 0.05em 0.05em c0l.$highlight;
     }
     p {
       // grid-column: 2 / 5;
       align-self: end;
       margin-top: inherit;
-      font-style: italic;
-      font-weight: 500;
+      font-variant-caps: small-caps;
+      letter-spacing: -0.03em;
     }
   }
   section {
