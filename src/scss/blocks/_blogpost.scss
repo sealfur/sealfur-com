@@ -37,17 +37,27 @@ main > article {
       display: flex;
       margin-inline-start: 0.1rem;
       --flow-space: 0.5em;
-      font-size: 0.8rem;
+      
       justify-content: space-between;
       flex-grow: 1;
       align-content: flex-end;
       flex-flow: row wrap;
       align-self: flex-end;
       font-variant-caps: small-caps;
+      > *{
+        font-size: 0.8rem;
+      }
       p {
         // grid-column-end: end;
         margin: 0;
-        align-self: center;
+        align-self: flex-end;
+        margin-top: inherit;
+        letter-spacing: -.03em;
+        font-variation-settings: "wght" 215,"slnt" -3.51;
+        font-style: italic;
+        font-size: clamp(.9em,1.8vw,1.2em);
+        color: c0l.$sealblue;
+        font-variant-caps: normal;
       }
       time {
         // grid-column: 3 / 4;

@@ -1,0 +1,28 @@
+@use '../utilities/colors' as c0l;
+
+footer {
+  border-top: 2px solid c0l.$sealblue;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  margin-block-start: 1rem;
+  color: c0l.$sealblue;
+  font-variation-settings: "wght" 435;
+  .folio {
+    em {
+      font-variation-settings: "wght" 245;
+    }
+    a {
+      color: c0l.$sealblue;
+      text-decoration-color: c0l.$whitefur;
+      text-decoration-style: wavy;
+      &:hover {
+        text-decoration-style: double;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+}

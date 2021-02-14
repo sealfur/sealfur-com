@@ -14,8 +14,7 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-Firm views, loosely held
-: Based on the information I have at the time, this is my point of view. The great thing about continuously learning is that new information can change one's thinking on a topic.
+This is my point of view. It's ok if we disagree.
 
 <!-- todo:
 - [ ] Set up layouts/feed.html
