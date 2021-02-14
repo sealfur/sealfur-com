@@ -7,7 +7,7 @@ main > article {
   //   grid-column-end: 5;
   //   display: inherit;
   //   grid-template-columns: inherit;
-  font-size: clamp(0.8em, 2vw, 1.2em);
+  font-size: clamp(.9em,1.8vw,1.2em);
   .page-header {
     width: clamp(14ch, 90vw, 200ch);
     // display: inherit;
@@ -91,5 +91,5 @@ main > article {
 
 
 .page-content {
-  width: clamp(18ch, 90vw, 72ch);
+  width: clamp(18ch, 90vw, 60ch);
 }
