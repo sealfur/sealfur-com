@@ -3,7 +3,7 @@ title: 'Feedback for written pieces'
 author: 'Joshua Kinal'
 date: '2021-02-15'
 tags: ['writing', 'editing', 'feedback', 'continuous improvement']
-summary: '“Can you give me some feedback on something I've written?” Answering “Yes” to that needs some consideration.'
+summary: '“Can you give me some feedback on something I’ve written?” Answering “Yes” to that needs some consideration.'
 ---
 
 Sometimes a friend will ask me to review something they wrote and offer advice before they publish it.
