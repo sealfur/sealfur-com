@@ -1,9 +1,9 @@
 ---
-title: "Controlling the hounds of creativity"
-author: "Joshua Kinal"
-date: "2021-02-14"
-tags: ["creativity", "prioritisation", "build in public"]
-summary: "In which I rediscover the joy of making things amidst the self-critical thoughts and ever increasing lists of things to do."
+title: 'Controlling the hounds of creativity'
+author: 'Joshua Kinal'
+date: '2021-02-14'
+tags: ['creativity', 'prioritisation', 'build in public']
+summary: 'In which I rediscover the joy of making things amidst the self-critical thoughts and ever increasing lists of things to do.'
 ---
 
 Last Saturday night I stayed up until almost 2am, tweaking the appearance of my new website until I found it acceptable.
