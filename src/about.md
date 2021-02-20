@@ -1,10 +1,12 @@
 ---
-title: 'About Joshua Kinal'
-description: 'Find information about designer, writer, broadcaster, podcaster and eternal dilettante, Joshua Kinal.'
+title: 'About sealfur.com'
+description: 'This page should be about the site itself.'
 layout: 'layouts/home.html'
 intro:
-  subtitle: 'Designer, Writer, Broadcaster, Podcaster, Dilettante'
+  subtitle: 'An opportunity to think and to share.'
 ---
+
+<!-- Find information about designer, writer, broadcaster, podcaster and eternal dilettante, Joshua Kinal. -->
 
 I'll write something about myself here, including: My previous website was called [_Little Running Bear_](https://littlerunningbear.com) and it was built on WordPress[^1]. It's still there but I stopped writing on it.
 
