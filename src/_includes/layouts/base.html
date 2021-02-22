@@ -37,6 +37,7 @@
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
   </head>
   <body>
+    <!-- I really feel like I don't need a wrapper div. Maybe I will one day but let's start without it. -->
     {% include "partials/site-head.html" %}
     <main tabindex="-1" id="main-content" class="[ flow ]">
       {% block content %}{% endblock %}

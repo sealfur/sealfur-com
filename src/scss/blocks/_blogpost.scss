@@ -91,14 +91,16 @@ main > article {
   ol.post-list {
     li {
       a {
+        display: inline-block   ;
         font-weight: 300;
         font-size: 1.6em;
         font-family: typ.$display;
         letter-spacing: 0.03em;
+        line-height: 1.1;
+        margin-block-end: 0.5em;
       }
     }
   }
-
 
 .page-content {
   width: clamp(18ch, 90vw, 60ch);

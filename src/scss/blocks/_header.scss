@@ -3,8 +3,11 @@
 
 // block => header
 body > header {
-  margin-inline-start: clamp(0.3rem, 3%, 2rem);
-  margin-inline-end: clamp(0.3rem, 3%, 2rem);
+  padding-inline-start: clamp(0.3rem, 3%, 2rem);
+  padding-inline-end: clamp(0.3rem, 3%, 2rem);
+  padding-block-start: 0.3rem;
+  padding-block-end: clamp(.3rem,2%,2rem);
+  border-bottom: 1px solid c0l.$sealblue;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
