@@ -37,6 +37,23 @@ h5,
 h6 {
   font-family: typ.$display;
 }
+h2 {
+  // text-decoration: overline 1px dotted c0l.$royalsuede;
+  &::before{
+    height: 1em;
+    width: 1em;
+    /* background-color: white; */
+    content: "";
+    /* margin-inline-end: 0.2em; */
+    display: inline-block;
+    margin-inline-start: -1em;
+    border-top: 0.25em solid transparent;
+    border-left: 0.5em solid #6f5060;
+    border-bottom: 0.25em solid transparent;
+    border-radius: 0.2em;
+    margin-block-end: -0.15em;
+  }
+}
 
 sup {
   font-feature-settings: "sups";
