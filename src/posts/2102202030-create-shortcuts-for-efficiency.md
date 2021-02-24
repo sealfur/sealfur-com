@@ -29,10 +29,9 @@ title: 'Spending 90 minutes to save 2'
 author: 'Joshua Kinal'
 date: '2021-02-20'
 tags: ['command line', 'build in public', 'efficiency']
-summary: 'Working with technology can mean a lot of
-          repetitive tasks. Is the time taken to automate
-          them worth it? This is what it took to make
-          remove more barriers to blogging.'
+summary: 'Working with technology can mean a lot of repetitive tasks. Is
+          the time taken to automate them worth it? This is what it took
+          to make remove more barriers to blogging.'
 draft: 'true'
 ---
 ```
