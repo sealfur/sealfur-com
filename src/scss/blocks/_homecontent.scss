@@ -25,7 +25,7 @@ main > .homecontent {
     p {
       // grid-column: 2 / 5;
       align-self: flex-end;
-      margin-top: inherit;
+      margin-top: inherit; //need to override flow here, otherwise it pushes the subtitle down
       letter-spacing: -.03em;
       font-variation-settings: "wght" 215,"slnt" -3.51;
       font-style: italic;
