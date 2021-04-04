@@ -2,7 +2,7 @@
 title: '“Live and Let Die” by Ian Fleming: some notes'
 author: 'Joshua Kinal'
 date: '2021-02-22'
-tags: ['reviews', 'books', 'colonialism']
+tags: ['reviews', 'books', 'colonialism', 'racism']
 summary: 'Very slowly, I am reading Ian Fleming’s James Bond novels. They are fascinating and horrifying. These notes deal with the second book in the series.'
 draft: 'true'
 ---
