@@ -1,9 +1,9 @@
 ---
-title: 'Resistance to (everything?)'
+title: 'Resistance to writing'
 author: 'Joshua Kinal'
 date: '2021-04-04'
-tags: ['writing', 'procrastination', 'build in public', 'images']
-summary: 'xxxx'
+tags: 
+summary: 'I wanted to write and I don’t write. This is a complicated scenario that I face by myself, but in which I know I am not alone.'
 draft: 'true'
 ---
 
@@ -21,7 +21,7 @@ But there's a lot I need to do if I want to start including images in my blog po
 
 This is a tiny barrier to overcome. I could do the work to automate responsive inclusion of images. I could (as with this post) avoid the image altogether or work around it through links to the image in another context.
 
-The facts are less important than the reality of my excuses. They are, on the one hand, not literal excuses. Their reasoning is unacceptable and too many alternative options exist. I can not be excused for these reasons. They are more correctly written as ~~excuses~~. It is an acceptable term but invalidated through interrogation.
+The facts are less important than the reality of my excuses. They are, on the one hand, not literal excuses. Their reasoning is unacceptable and too many alternative options exist. I cannot be excused for these reasons. They are more correctly written as ~~excuses~~. It is an acceptable term but invalidated through interrogation.
 
 Viewing the other hand, they are the manifestation (*vocalisation*? *verbalisation*?) of a more visceral resistance to act. The resistance itself is mental but I feel it in my whole body. I physically cannot progress. My pancreas and liver pull me away from the keyboard and my trachea leads me to the couch so that my lungs will not be fooled into thinking there is any real danger and therefore be overworked.
 
