@@ -2,12 +2,11 @@
 title: 'Resistance to writing'
 author: 'Joshua Kinal'
 date: '2021-04-04'
-tags: 
+tags: ['writing', 'procrastination', 'build in public', 'images']
 summary: 'I wanted to write and I don’t write. This is a complicated scenario that I face by myself, but in which I know I am not alone.'
-draft: 'true'
 ---
 
-Sometimes, though, [no amount of automation](../spending-90-minutes-to-save-2/) is ever going to actually help the writing come.
+Sometimes, though, [no amount of automation](/../spending-90-minutes-to-save-2/) is ever going to actually help the writing come.
 
 The title of this post lies.
 
