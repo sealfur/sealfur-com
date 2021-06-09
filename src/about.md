@@ -3,7 +3,7 @@ title: 'About sealfur.com'
 description: 'This page should be about the site itself.'
 layout: 'layouts/home.html'
 intro:
-  subtitle: 'An opportunity to think and to share.'
+  subtitle: 'An opportunity to think and share.'
 ---
 
 <!-- Find information about designer, writer, broadcaster, podcaster and eternal dilettante, Joshua Kinal. -->
