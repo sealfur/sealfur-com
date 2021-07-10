@@ -3,11 +3,12 @@
 
 :root {
   --flow-space: 1.2em;
-
+/* color variables didn't work: stay tuned */
   // colors
-  --sealblue: c0l.$sealblue
-  --whitefur: c0l.$whitefur;
-  --arcticnight: c0l.$arcticnight;
+  // === UPDATE: Declaring them as root variables using Sass variables didn't work. I never actually used them, anyway.
+  // --sealblue: c0l.$sealblue
+  // --whitefur: c0l.$whitefur;
+  // --arcticnight: c0l.$arcticnight;
 }
 
 body {
