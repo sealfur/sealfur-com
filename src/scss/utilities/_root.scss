@@ -1,0 +1,10 @@
+@use 'colors' as c0l;
+
+// === <- Root --> ===
+:root {
+ // colours
+ /* colours are here */
+  --sealblue: #{c0l.$sealblue};
+  --fgcol: #{c0l.$fgcol};
+  --bgcol: #{c0l.$bgcol};
+}

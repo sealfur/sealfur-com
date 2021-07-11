@@ -1,27 +1,31 @@
-@use 'utilities/colors' as c0l;
+@use 'utilities/root';
 @use 'utilities/type' as typ;
+// @forward 'utilities/colors';
 
 :root {
   --flow-space: 1.2em;
 /* color variables didn't work: stay tuned */
   // colors
-  // === UPDATE: Declaring them as root variables using Sass variables didn't work. I never actually used them, anyway.
-  // --sealblue: c0l.$sealblue
-  // --whitefur: c0l.$whitefur;
+ /*  ===  UPDATE: Declaring them as root variables
+          using Sass variables didn't work. I never
+          actually used them, anyway. But then I found
+          this [Breaking Changes page on Sass](https://sass-lang.com/documentation/breaking-changes/css-vars) === */
+      //--sealblue: #{c0l.$sealblue};
+  //  --whitefur: c0l.$whitefur;
   // --arcticnight: c0l.$arcticnight;
 }
 
 body {
-  background-color: c0l.$bgcol;
-  color: c0l.$fgcol;
+  background-color: var(--bgcol);
+  color: var(--fgcol);
   font-family: typ.$text;
   font-weight: typ.$bodcopy;
   font-feature-settings: "ss02", "salt", "cv01", "cv02", "cv03", "cv04", "cv09", "cv10", "calt", "kern";
 }
 
 a {
-  color: c0l.$fgcol;
-  text-decoration-color: c0l.$sealblue;
+  color: var(--fgcol);
+  text-decoration-color: var(--sealblue);
   text-decoration-thickness: 0.01em;
   text-underline-offset: 0.1em;
   &:hover {
