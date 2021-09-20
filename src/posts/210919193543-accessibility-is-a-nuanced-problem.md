@@ -1,14 +1,16 @@
 ---
 title: 'Accessibility is a nuanced problem'
 author: 'Joshua Kinal'
-date: '2021-09-19'
+date: '2021-09-20'
 tags: ['accessibility', 'WCAG', 'web development']
-summary: 'Some notes about how I think about digital accessibility and how we can make it a more common practice in digital products. It’s everybody’s responsibility, it’s just that most people don’t know it, they don’t care and it sounds hard.'
+summary: 'Some notes about how I think about digital accessibility and how we can make it a more common practice in digital products. It’s everybody’s responsibility -> It’s just that most people don’t know that, they don’t care and it sounds hard.'
 ---
 
-“What do we need to do to make this site accessible?”
+I get this question about once a week:
 
-I get this question about once a week. People who aren’t familiar with it think accessibility is a binary situation: either a site is accessible or it isn’t. They often want a quick answer[^1] and there's none to be provided. Accessibility as a property of a website, is nuanced. It has a biased liminality.[^2] So, it sounds like a simple question but it has a very complicated answer.
+> “What do we need to do to make this site accessible?”
+
+People who aren’t familiar with it think accessibility is a binary situation: either a site is accessible or it isn’t. They often want a quick answer[^1] and there's none to be provided. Accessibility as a property of a website, is nuanced. It has a biased liminality.[^2] So, it sounds like a simple question but it has a very complicated answer.
 
 Like almost all design, accessibility comes down to understanding people. When assessing digital accessibility, I find it easiest to think about who is being excluded and how:
 
@@ -37,7 +39,7 @@ To make that a priority, though, we have to overcome the second problem.
 
 Anybody trying to convince others of the dangers of global warming or the value of wearing masks to avoid spreading disease will tell you that it’s almost impossible to get people to care.
 
-## Coda
+## So, what next?
 
 I intend to write about this some more. I want to go through all three of those roles (Designer, Developer, Content Creator) and what kind of understanding they need to have to build accessibility into the default practice of the web. I want to share examples the illustrate how something that doesn’t sound complicated actually needs a massive shift in mindset. Lastly, I plan on demonstrating how content and a content-first approach will overcome a lot of those complications.
 
