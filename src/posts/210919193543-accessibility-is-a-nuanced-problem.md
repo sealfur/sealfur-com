@@ -33,11 +33,11 @@ Bringing this back to accessibility on the web, there are two sets of problems w
 1. people fundamentally don’t yet understand how HTML relates to the nature of content and
 2. they are not practiced in thinking about other people’s experiences.
 
-The first problem seems relatively easy to deal with. We can help people in our sphere to better understand the benefits of well-coded websites and apps. If we can make sure the HTML relates to the purpose of the content and its interactivity, we get closer to building accessible web products.
+The first problem seems relatively easy to deal with. We can help people in our sphere to better understand the benefits of well-coded websites and apps. If we can make sure that the markup (as HTML) relates to the purpose of the content and its interactivity, we get closer to building accessible web products.
 
 To make that a priority, though, we have to overcome the second problem.
 
-Anybody trying to convince others of the dangers of global warming or the value of wearing masks to avoid spreading disease will tell you that it’s almost impossible to get people to care.
+Anybody trying to convince others of the dangers of global warming, or the value of wearing masks to avoid spreading disease, will tell you that it’s almost impossible to get people to care.
 
 ## So, what next?
 
