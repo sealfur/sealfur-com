@@ -12,14 +12,13 @@ const sortByRatingOrder = require('./src/utils/sort-by-rating.js');
 //Markdown-it features
 const markdownIt = require('markdown-it');
 const markdownItFootnote = require('markdown-it-footnote');
-const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAnchor = require('markdown-it-anchor');
 const options = {
   html: true,
   //breaks: true,
   //linkify: true,
-  typographer: true
+  typographer: true,
 };
-const markdownLib = markdownIt(options).use(markdownItFootnote);
 
 module.exports = (config) => {
   // Add filters
@@ -33,15 +32,8 @@ module.exports = (config) => {
   config.addPassthroughCopy('.src/images/');
 
   // ------Markdown overrides----
-  let markdownLib = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
-  });
+  const markdownLib = markdownIt(options).use(markdownItFootnote).use(markdownItAnchor);
+
   config.setLibrary('md', markdownLib);
 
   // ===Collections=== //
