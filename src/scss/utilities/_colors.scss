@@ -2,7 +2,7 @@
 /* the colours are defined here*/
 $sealblue: rgb(66, 147, 211);
 $whitefur: rgb(237,242,239);
-$arcticnight: rgb(1,17,10);
+$arcticnight: hsl(154, 88.9%, 3.5%);
 $royalsuede: rgb(111,80,96);
 $white: #eedddd;
 
@@ -11,8 +11,9 @@ $white: #eedddd;
 $darkest: $arcticnight !default;
 $lightest: $whitefur !default;
 $highlight: $royalsuede !default;
-$oceangreen: #73ba9b;
-$racinggreen: #003e1f;
+$oceangreen: hsl(154, 34.0%, 59.0%);
+$racinggreen: hsl(150, 100%, 12.2%);
+$mintgreen: hsl(154, 42.2%, 83.7%);
 
 
 
