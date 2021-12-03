@@ -4,7 +4,6 @@ author: 'Joshua Kinal'
 date: '2021-12-03'
 tags: ['accessibility', 'CMS', 'content architecture']
 summary: 'Many accessibility problems stem from content creators using headings inappropriately. I look at how headings are part of a webpage’s structure and where mistakes happen.'
-draft: "true"
 ---
 In “[Accessibility is a nuanced problem](/blog/accessibility-is-a-nuanced-problem/)” I wrote:
 
