@@ -1,7 +1,7 @@
 ---
 title: 'Content creators, meet HTML'
 author: 'Joshua Kinal'
-date: '2021-12-02'
+date: '2021-12-03'
 tags: ['accessibility', 'CMS', 'content management']
 summary: 'The more people who can add content to a website, the greater the chances for accessibility issues. You might say that accessibility is inversely proportional to creator access.'
 draft: "true"
@@ -17,7 +17,7 @@ One set of those people were “content creators”. Many of the accessibility i
 
 ## Why accessibility mistakes happen
 
-There is a fundamental mismatch between what people see when they create website content and what actually appears on someone else’s device. That’s part of the very nature of HTML.
+There is a fundamental mismatch we have to accept with the web: What people see when they create website content is different how it appears for someone else. That’s part of the very nature of HTML. It’s a markup language that uses simple tags around some content to add meaningful structure to that content.[^2]
 
 ## The curse of the <abbr title = "content management system">CMS</abbr>
 
@@ -32,3 +32,5 @@ Unfortunately, that's also where the problems start to come in.
 “Content creators, meet HTML” is the second post in a series about our common responsibility to build accessible digital products. The first was called [“Accessibility is a nuanced problem”](/blog/accessibility-is-a-nuanced-problem/).
 
 [^1]: And, chances are, if you use a CMS, it’s WordPress. A site called [*W<sup>3</sup>Techs* has a regular report on the most popular web technologies](https://w3techs.com/technologies/overview/content_management) in use. But you might use Squarespace or Joomla or Adobe Experience Manager or Sitecore or any of the other hundreds of content management systems out there.
+
+[^2]: If you want to start learning about HTML, try [Mozilla’s HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). If you learn by watching more than reading, [Aaron Jack explains HTML](https://youtu.be/salY_Sm6mv4) in 5 minute video.
