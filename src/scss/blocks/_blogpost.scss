@@ -105,3 +105,8 @@ main > article {
 .page-content {
   width: clamp(18ch, 90vw, 60ch);
 }
+
+p > code {
+  background-color: c0l.$chocolatewine;
+  font-size: 0.9em;
+}
