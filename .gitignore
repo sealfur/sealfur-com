@@ -9,6 +9,7 @@ Thumbs.db
 .env
 .cache
 .vscode
+.markdownlint.json
 # Node modules and output
 node_modules
 dist
