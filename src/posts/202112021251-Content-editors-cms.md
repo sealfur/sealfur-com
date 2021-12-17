@@ -90,13 +90,13 @@ Sometimes people will just add a blank line into the text to create space beneat
 
 This is something else that confuses computers. They think there’s a heading there, but it has no text inside it. The computer will still tell someone there’s a heading there. That’s its job.
 
-You end up with something like this:
+You end up with something like this:[^4]
 
 ```html
 <h2>A section heading</h2>
-<h2></h2>
+<h2>&nbsp;</h2>
 <p>Can you see that there’s an empty level 2 heading tag
-  just above this paragraph?</p>
+  just above this paragraph? It has a non-breaking space in it.</p>
 ```
 ## What you can do to stop this
 
@@ -113,6 +113,7 @@ There are some links in the footnotes to resources that will help you understand
 
 “Content creators, meet HTML headings” is the second post in a series about our common responsibility to build accessible digital products. The first was [“Accessibility is a nuanced problem”](/blog/accessibility-is-a-nuanced-problem/).
 
+[^4]: The [non-breaking space](https://en.wikipedia.org/wiki/Non-breaking_space), `&nbsp;`, is one really useful entity. Rich text editors add it by default to an ‘empty’ tag. That allows the spacing of a heading or paragraph to create a block without displaying any text visually.
 
 [^2]: If you want to start learning about HTML, try [Mozilla’s HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). If you learn by watching more than reading, [Aaron Jack explains HTML](https://youtu.be/salY_Sm6mv4) in 5 minute video.
 
