@@ -12,7 +12,7 @@
     publish = "dist/"
 
   # build command       
-    command = "eleventy"
+    command = "npx eleventy --serve"
 
 [context.production]
   environment = { NODE_VERSION = "16", NODE_ENV = "production" }
