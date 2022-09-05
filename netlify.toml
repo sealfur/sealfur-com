@@ -12,14 +12,14 @@
     publish = "dist/"
 
   # build command       
-    command = "eleventy"
+    command = "npx eleventy"
 
 [context.production]
-  environment = { NODE_VERSION = "16"}
+  environment = { NODE_VERSION = "16" }
 
 [dev]
   command = "npm run start"
-  publish = "dist"
+  publish = "dist/"
   port = 3000
   targetPort = 8181
   NODE_ENV = "development"
