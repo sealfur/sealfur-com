@@ -26,7 +26,7 @@
     "get-google-fonts": "^1.2.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "markdown-it-anchor": "^8.6.5",
     "markdown-it-footnote": "^3.0.3",
