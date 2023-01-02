@@ -10,7 +10,8 @@
     },
     {
       "text": "About",
-      "url": "/about/"
+      "url": "/about/",
+      "arialabel": "About seal fur dot com"
     }
   ]
 }
