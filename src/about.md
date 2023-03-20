@@ -33,17 +33,22 @@ sealfur.com exists to move my web-content practice towards having a lot more con
 
 Often, before committing an idea onto this site, [I’ll fumble around on CodePen](https://codepen.io/sealfur). I also use it as a quick way to explain a web-based concept to someone. It’s very handy.
 
-## Principals for this site
+## Principles for this site
 
 I believe that principles guide actions and actions reveal principles. The principles I list here are a reminder to me (and maybe a nudge for you). I hope that my actions do not contradict what I call out as important to me.
 
 1. [<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 AA+](https://www.w3.org/WAI/WCAG21/quickref/) accessibility
-2. [Rule of least power](https://www.w3.org/2001/tag/doc/leastPower.html) (described by Tim Berners-Lee and Noah Mendelsohn)[^1]
+2. [Rule of least power](https://www.w3.org/2001/tag/doc/leastPower.html) (described by Tim Berners-Lee and Noah Mendelsohn)[^2]
 3. Function over form
 4. Keep learning
 5. Low barrier to contribution
 6. Build in public
 
+### Markdown as default "word processing"
+
+Principle 5 exists to make it as easy as possible for me to add things to this site. I started to find the WYSIWYG interface of [WordPress](https://wordpress.org/) too frustrating for me. In my every day work I write in [Markdown](https://daringfireball.net/projects/markdown/) if I'm not writing in longhand.
+
+11ty uses [markdown-it](https://markdown-it.github.io/) as its default Markdown parser. So I make use of it to save me some time and help me with some shortcuts like the footnotes you see on this page.
 ## Colophon
 
 This version of the website (_Sealfur_) was first created in late 2020, and built with [Eleventy](https://www.11ty.dev/). 
@@ -55,3 +60,5 @@ The display font is [Sansita Swashed from Omnibus-Type](https://www.omnibus-type
 
 
 [^1]: WordPress is a very good content management system and I highly recommend it. It was much more than I need but you could do a lot worse than use WordPress for your own website.
+
+[^2]: Even though I'm using 11ty and github to build this website, the pages served to browsers will be HTML, CSS and Javascript in that order. If only the HTML loads, then all the information on the site should still be usable.
