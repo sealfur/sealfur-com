@@ -27,5 +27,3 @@ There’s more to come. I’ll mention new things on the [Updates section](#upda
 5 March 2023  
 : Freshened the content on home page and “About” so that it was actually meaningful  
 : discovered that markdown description lists are not converting to html properly
-
-
