@@ -1,9 +1,9 @@
 ---
-title: 'Interogating my semantic tendencies'
+title: 'Interrogating my semantic tendencies'
 author: 'Joshua Kinal'
-date: '2023-03-18'
+date: '2023-03-21'
 tags: ['html', 'css', 'beliefs']
-summary: 'We all (should) know that introspection drives improvement and growth. But what if we believe something so intensely that it seems beyond conscious analysis? This is about semantic HTML and whether generic elements should even exist. Climb on board and strap in for the intersection of existensialism and web development that no one asked for.'
+summary: 'We all (should) know that introspection drives improvement and growth. But what if we believe something so intensely that it seems beyond conscious analysis? This is about semantic HTML and whether generic elements should even exist. Climb on board and strap in for the intersection of existentialism and web development that no one asked for.'
 ---
 
 ## Introduction: A deeply held belief
@@ -24,7 +24,7 @@ Every morning, as I eat my breakfast, I read through my RSS feeds. Rik Schennink
 
 > We can see that we lose contrast depending on the colors of the image near the border.
 > 
-> The border looks nice when it’s near a contrasting area, but it kind of dissapears when near colors of the same brightness.
+> The border looks nice when it’s near a contrasting area, but it kind of disappears when near colors of the same brightness.
 
 He’s correct, of course. He shows us a picture of a cat (on the internet!) and the standard semi-transparent 1px border. Then he shows the same picture with his special treatment and the border *does* make the image feature more on the white background.[^2]
 
@@ -57,19 +57,19 @@ This belief comes from years of experiencing pain (mine, my colleagues’, my cl
 
 ## Learning from a belief, challenged
 
-Prioritising semantic markup does not discount utilising generic elements like `div` and `span`. If everyone thought about code the way Rik Schennink does, our future selves would be fine, because we could target only the semantic elements and dispose of the rest when transfering the content to a different platform. His use of a `div` does not intend any meaning to the content. The meaning exists in the `img` element that tells us (or really, computers) that something is an image.
+Prioritising semantic markup does not discount utilising generic elements like `div` and `span`. If everyone thought about code the way Rik Schennink does, our future selves would be fine, because we could target only the semantic elements and dispose of the rest when transferring the content to a different platform. His use of a `div` does not intend any meaning to the content. The meaning exists in the `img` element that tells us (or really, computers) that something is an image.
 
 In fact, the more I think about it now, the more I understand how elegant this solution is to his problem. By employing `div` for this purpose, he declares that anything within that label that does not have its own semantic label is fundamentally meaningless. If he used `figure` instead, that would not be the case because [it has a specific purpose](https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element) and the images might not fit that purpose.[^d]
 
-The image might be, for example, a picutre of a very relaxed and happy cat. The intention behind including it on the page might be filfilled with no reference elsewhere: It might be the pure intention of letting someone else see that picture and maybe strive to be more like the cat. The border around the image is not important to that intention but it is important to someone who wants their images to pop a little more on the page.
+The image might be, for example, a picture of a very relaxed and happy cat. The intention behind including it on the page might be fulfilled with no reference elsewhere: It might be the pure intention of letting someone else see that picture and maybe strive to be more like the cat. The border around the image is not important to that intention but it is important to someone who wants their images to pop a little more on the page.
 
 It wasn’t until looking deeper into my response to my response to Rik’s code that I truly understood the value of generic HTML elements. My understanding was clouded by the way some (many) developers abuse these elements to build websites that pass the QA criteria with as little friction as possible.
 
 ## Introspection roars
 
-I noticed a reaction in my body and investigated it further. I used introspection to undertstand more about the world and other people, as well as understanding myself better. I engaged with the content in a manner that seems like a luxury now.
+I noticed a reaction in my body and investigated it further. I used introspection to understand more about the world and other people, as well as understanding myself better. I engaged with the content in a manner that seems like a luxury now.
 
-Most importantly, I was able to challenge on of my own deeply integrated beliefs and develop a more mature and nuanced expression of it: leveling it up so that it is ready to face its next challenge.
+Most importantly, I was able to challenge on of my own deeply integrated beliefs and develop a more mature and nuanced expression of it: levelling it up so that it is ready to face its next challenge.
 
 [^1]: A perfect example comes from [Tailwind’s own “Customizing Colors” page](https://tailwindcss.com/docs/customizing-colors). The vast array of hues and shades on offer in their palette appears, visually, as a table (in various configurations, depending on your screen size). In the code, though, it does not appear in a `table` element, but a series of nested `div`s. Given the difficulty in producing effectively responsive tables, this information could also be provided in nested lists. When Tailwind does make use of a simple table, they still include a `div` inside each cell to style the content.
 
