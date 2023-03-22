@@ -65,6 +65,12 @@ module.exports = (config) => {
 
   // see 11ty from scratch lesson 8 for [creating "featured" collections with this kind of filter](hhttps://piccalil.li/course/learn-eleventy-from-scratch/lesson/8/#heading-refactoring-our-collections)
 
+  // Creating redirect string parsing see [Setting up page redirects with 11ty and Netlify](https://willvincent.com/2022/07/27/redirects-with-11ty-and-netlify/)
+
+  config.addFilter('is_string', function(obj) {
+    return typeof obj == 'string'
+  });
+
   return {
     markdownTemplateEngine: 'njk', //using nunjucks as templating engine
     dataTemplateEngine: 'njk',

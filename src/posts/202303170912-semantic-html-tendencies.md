@@ -4,11 +4,12 @@ author: 'Joshua Kinal'
 date: '2023-03-21'
 tags: ['html', 'css', 'beliefs']
 summary: 'We all (should) know that introspection drives improvement and growth. But what if we believe something so intensely that it seems beyond conscious analysis? This is about semantic HTML and whether generic elements should even exist. Climb on board and strap in for the intersection of existentialism and web development that no one asked for.'
+redirectFrom: /blog/interogating-my-semantic-tendencies/
 ---
 
 ## Introduction: A deeply held belief
 
-My dev collaborators all know that I have a strong bias towards semantic HTML. You might have observed that [I hold a passionate belief](https://littlerunningbear.com/10322/css-in-js/) in the [separation of concerns](https://www.w3.org/TR/html-design-principles/#separation-of-concerns) when it comes to web development. “Function over form” is the [number-three design principle](../../about) for this site, directly after “rule of the least power”. Being explicit and aware of a piece of content’s purpose is a fundamental tenet of my own design practice.[^b] Utilising [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML) is one of the ways I express that tenet.
+My dev collaborators all know that I have a strong bias towards semantic HTML. You might have observed that [I hold a passionate belief](https://littlerunningbear.com/10322/css-in-js/) in the [separation of concerns](https://www.w3.org/TR/html-design-principles/#separation-of-concerns) when it comes to web development. “Function over form” is the [number-three design principle](/about) for this site, directly after “rule of the least power”. Being explicit and aware of a piece of content’s purpose is a fundamental tenet of my own design practice.[^b] Utilising [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML) is one of the ways I express that tenet.
 
 ## The belief in practice
 
