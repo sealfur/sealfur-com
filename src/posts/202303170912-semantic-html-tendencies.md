@@ -21,10 +21,10 @@ I bring this all up, (mostly) not to point out the flaws of various frameworks, 
 
 ## My bias exposed by my peripheral nervous system
 
-Every morning, as I eat my breakfast, I read through my RSS feeds. Rik Schennink’s [“Create Crisp Image Borders With CSS Pseudo Elements”](https://pqina.nl/blog/crisp-image-borders-with-css-pseudo-elements/) came up and I appreciated his attention to detail: 
+Every morning, as I eat my breakfast, I read through my RSS feeds. Rik Schennink’s [“Create Crisp Image Borders With CSS Pseudo Elements”](https://pqina.nl/blog/crisp-image-borders-with-css-pseudo-elements/) came up and I appreciated his attention to detail:
 
 > We can see that we lose contrast depending on the colors of the image near the border.
-> 
+>
 > The border looks nice when it’s near a contrasting area, but it kind of disappears when near colors of the same brightness.
 
 He’s correct, of course. He shows us a picture of a cat (on the internet!) and the standard semi-transparent 1px border. Then he shows the same picture with his special treatment and the border *does* make the image feature more on the white background.[^2]
