@@ -1,16 +1,17 @@
 // ===Colors===
 /* the colours are defined here*/
-$sealblue: rgb(66, 147, 211);
-$whitefur: rgb(237,242,239);
-$arcticnight: hsl(154, 88.9%, 3.5%);
-$royalsuede: rgb(111,80,96);
-$newbruise: hsl(329, 40.2%, 20.5%);
-$chocolatewine: hsl(328, 27.0%, 12.4%);
+$sealblue: #4293d3;
+$whitefur: #edf2ef;
+$arcticnight: #00120a;
+$royalsuede: #6e4f5f;
+$newbruise: #4a1f35;
+$chocolatewine: #291720;
+$oceanfloor: #010f11;
 $white: #eedddd;
 
 
 // ===Contrasts===
-$darkest: $arcticnight !default;
+$darkest: $oceanfloor !default;
 $lightest: $whitefur !default;
 $highlight: $royalsuede !default;
 $oceangreen: hsl(154, 34.0%, 59.0%);

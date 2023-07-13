@@ -20,7 +20,7 @@ const watcher = function () {
   watch('./src/scss/**/*.scss', { ignoreInitial: true }, css);
 };
 
-// The default (if someone just runs `gulp`) is to run each task in parrallel
+// The default (if someone just runs `gulp`) is to run each task in parallel
 exports.default = parallel(fonts, images, css);
 
 // This is our watcher task that instructs gulp to watch directories and
