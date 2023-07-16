@@ -1,5 +1,6 @@
 {
   "name": "sealfur-com",
+  "packageManager": "yarn@3.6.1",
   "version": "1.0.0",
   "description": "Sealfur.com built on 11ty",
   "main": ".eleventy.js",

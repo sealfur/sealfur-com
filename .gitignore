@@ -11,7 +11,7 @@ Thumbs.db
 .vscode
 .markdownlint.json
 # Node modules and output
-node_modules
+**/node_modules/**
 dist
 src/_includes/css
 # Local Netlify folder
