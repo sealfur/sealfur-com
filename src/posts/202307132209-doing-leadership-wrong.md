@@ -1,5 +1,5 @@
 ---
-title: 'You’re doing leadership wrong'
+title: 'You are doing leadership wrong'
 author: 'Joshua Kinal'
 date: '2023-07-13'
 tags: ['xxxx', 'xxxx', 'xxxx']
