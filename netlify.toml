@@ -12,7 +12,7 @@
     publish = "dist/"
 
   # build command       
-    command = "eleventy"
+    command = "yarn run production"
 
 [context.production]
   environment = { NODE_VERSION = "16" }

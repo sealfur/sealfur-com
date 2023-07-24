@@ -15,7 +15,8 @@ Thumbs.db
 # ## Node modules and output
 **/node_modules/**
 dist
-# %% why did I ignore "src/_includes/css"? %%
+# %% why did I ignore the following inlcude css
+src/_includes/css
 
 # ## Local Netlify folder
 .netlify
