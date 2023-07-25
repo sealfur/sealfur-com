@@ -9,7 +9,7 @@
           </a>
         {% endif %}
         {% if pagination.href.next %}
-          <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
+        &nbsp;|&nbsp;<a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
             <span>{{ paginationNextText if paginationNextText else 'Next' }}</span>
           </a>
         {% endif %}
