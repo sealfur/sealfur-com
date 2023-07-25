@@ -2,8 +2,8 @@
 title: "A cup of tea, not a piece of cake"
 author: "Joshua Kinal"
 date: "2023-07-24"
-tags: ["eleventy", "build in public", "netlify"]
-summary: "xxxx"
+tags: ["build in public", "problem-solving", "netlify", "eleventy"]
+summary: "The website wasn’t working. This website you’re reading now: It wasn’t working. Could I fix it by busying myself in a comfortable panic loop?"
 ---
 
 One of the problems with my [principles for this site](/about#principles-for-this-site) is that I’m not as technically adept as the environment I’m working in requires of me.
