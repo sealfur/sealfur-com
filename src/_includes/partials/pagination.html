@@ -1,19 +1,35 @@
-{# Only renders this section if there are links to render #}
-{% if pagination.href.next or pagination.href.previous %}
-  <footer class="[ pagination ] [ dot-shadow panel ] [ bg-light-glare font-sans weight-bold ]">
-    <div class="wrapper">
-      <nav class="pagination__inner" aria-label="Pagination links">
-        {% if pagination.href.previous %}
-          <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
-            <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>
-          </a>
-        {% endif %}
-        {% if pagination.href.next %}
-        &nbsp;|&nbsp;<a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
-            <span>{{ paginationNextText if paginationNextText else 'Next' }}</span>
-          </a>
-        {% endif %}
-      </nav>
-    </div>
-  </footer>
+{# Only renders this section if there are links to render #} {% if
+pagination.href.next or pagination.href.previous %}
+<footer
+  class="[ pagination ] [ dot-shadow panel ] [ bg-light-glare font-sans weight-bold ]"
+>
+  <div class="wrapper">
+    <nav class="pagination__inner" aria-label="Pagination links">
+      {% if pagination.href.next %}
+      <a
+        href="{{ pagination.href.next }}{{ paginationAnchor }}"
+        data-direction="forwards"
+      >
+        <span
+          ><span class="navArrow">&xlArr;</span>{{ paginationNextText if
+          paginationNextText else 'Next' }}</span
+        >
+      </a>
+      {% endif %} {% if pagination.href.next and pagination.href.previous %}
+      &nbsp;&ofcir;&nbsp; {% endif %} {% if pagination.href.previous %}
+      <a
+        href="{{ pagination.href.previous }}{{ paginationAnchor }}"
+        data-direction="backwards"
+      >
+        <span
+          >{{ paginationPrevText if paginationPrevText else 'Previous' }}<span
+            class="navArrow"
+            >&xrArr;</span
+          ></span
+        >
+      </a>
+      {% endif %}
+    </nav>
+  </div>
+</footer>
 {% endif %}

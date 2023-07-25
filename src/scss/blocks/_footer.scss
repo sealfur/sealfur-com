@@ -1,4 +1,4 @@
-@use '../utilities/colors' as c0l;
+@use "../utilities/colors" as c0l;
 
 footer {
   border-top: 2px solid c0l.$sealblue;
@@ -22,6 +22,17 @@ footer {
       &:hover {
         text-decoration-style: double;
         text-underline-offset: 0.2em;
+      }
+    }
+  }
+  span.navArrow {
+    font-variation-settings: "wght" 245;
+  }
+  a:has(.navArrow) {
+    &:hover {
+      text-decoration: none;
+      .navArrow {
+        color: c0l.$sealblue;
       }
     }
   }
