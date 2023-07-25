@@ -1,5 +1,7 @@
 # # Ignore List
+
 # ## Misc
+
 *.log
 npm-debug.*
 *.scssc
@@ -16,7 +18,7 @@ Thumbs.db
 **/node_modules/**
 dist
 # %% why did I ignore the following inlcude css
-src/_includes/css/**
+src/_includes/css/
 
 # ## Local Netlify folder
 .netlify
