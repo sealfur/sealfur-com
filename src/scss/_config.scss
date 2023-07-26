@@ -2,18 +2,7 @@
 @use 'utilities/type' as typ;
 // @forward 'utilities/colors';
 
-:root {
-  --flow-space: 1.2em;
-/* color variables didn't work: stay tuned */
-  // colors
- /*  ===  UPDATE: Declaring them as root variables
-          using Sass variables didn't work. I never
-          actually used them, anyway. But then I found
-          this [Breaking Changes page on Sass](https://sass-lang.com/documentation/breaking-changes/css-vars) === */
-      //--sealblue: #{c0l.$sealblue};
-  //  --whitefur: c0l.$whitefur;
-  // --arcticnight: c0l.$arcticnight;
-}
+
 
 body {
   background-color: var(--bgcol);

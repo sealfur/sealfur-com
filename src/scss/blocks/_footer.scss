@@ -1,4 +1,5 @@
 @use "../utilities/colors" as c0l;
+@use "utilities/type" as typ;
 
 footer {
   border-top: 2px solid c0l.$sealblue;
@@ -26,14 +27,35 @@ footer {
     }
   }
   span.navArrow {
-    font-variation-settings: "wght" 245;
+    //this is in the footer of the blog index page for the "older · newer" navigation
+    font-variation-settings: "wght" typ.$semilight;
+    color: c0l.$royalsuede;
   }
   a:has(.navArrow) {
+    font-family: typ.$display;
+    text-decoration: none;
+    padding-inline: 0.5em;
+    // border: solid 1px rgba(74, 31, 53, 0.3);
+    background-color: rgba(41, 23, 32, 0.3);
     &:hover {
-      text-decoration: none;
+      background-color: rgba(41, 23, 32, 0.7);
+      // border: solid 1px rgba(74, 31, 53, 0.5);
       .navArrow {
-        color: c0l.$sealblue;
+        color: revert;
       }
     }
+  }
+}
+:is(section, aside) footer {
+  border-block: 2px double c0l.$chocolatewine;
+  // border-block: 2px double c0l.$chocolatewine;
+  margin-block-start: 1.15ex;
+  padding-block: 0.85ex;
+  font-size: 0.85em;
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
   }
 }

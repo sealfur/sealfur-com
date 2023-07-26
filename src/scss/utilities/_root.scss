@@ -1,12 +1,18 @@
-@use 'colors' as c0l;
+@use "colors" as c0l;
+@use "utilities/type" as typ;
 
 // === <- Root --> ===
 :root {
- // colours
- /* colours are here */
-  --sealblue: #{c0l.$sealblue};
+  // variables
+  --flow-space: 1.2em;
   --fgcol: #{c0l.$fgcol};
   --bgcol: #{c0l.$bgcol};
+  // colors
+  --sealblue: #{c0l.$sealblue};
+  --royalsuede: #{c0l.$royalsuede};
+  //fonts
+  --text: typ.$text;
+  --display: typ.$display;
 }
 
 // I think I have these backwards. Need to look more into coding themes with CSS variables
