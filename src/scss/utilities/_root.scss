@@ -9,10 +9,20 @@
   --bgcol: #{c0l.$bgcol};
   // colors
   --sealblue: #{c0l.$sealblue};
+  --whitefur: #{c0l.$whitefur};
+  --arcticnight: #{c0l.$arcticnight};
   --royalsuede: #{c0l.$royalsuede};
+  --newbruise: #{c0l.$newbruise};
+  --chocolatewine: #{c0l.$chocolatewine};
+  --oceanfloor: #{c0l.$oceanfloor};
+  --white: #{c0l.$white};
   //fonts
-  --text: typ.$text;
-  --display: typ.$display;
+  --text: #{typ.$text};
+  --display: #{typ.$display};
+  --bodcopy: #{typ.$bodcopy};
+  --semibold: #{typ.$semibold};
+  --bold: #{typ.$bold};
+  --semilight: #{typ.$semilight};
 }
 
 // I think I have these backwards. Need to look more into coding themes with CSS variables
