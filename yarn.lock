@@ -9713,6 +9713,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it-deflist@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "markdown-it-deflist@npm:2.1.0"
+  checksum: 6d5b0cc8c0e729cb8d0add4cbfa98cc39bf3cbc8aa33a8bd7dab50da10273aac834b5fc85a36985235ff945048a246ec3688ecaf5469e64668e94b4449f79531
+  languageName: node
+  linkType: hard
+
 "markdown-it-footnote@npm:^3.0.3":
   version: 3.0.3
   resolution: "markdown-it-footnote@npm:3.0.3"
@@ -13251,6 +13258,7 @@ __metadata:
     gulp-sass: ^5.1.0
     markdown-it: ^13.0.1
     markdown-it-anchor: ^8.6.5
+    markdown-it-deflist: ^2.1.0
     markdown-it-footnote: ^3.0.3
     moment: ^2.29.4
     netlify-cli: ^11.8.3
