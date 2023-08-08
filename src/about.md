@@ -1,9 +1,9 @@
 ---
-title: 'About Sealfur'
-description: 'About Sealfur (the website) and Joshua Kinal (its author).'
-layout: 'layouts/home.html'
+title: "About Sealfur"
+description: "About Sealfur (the website) and Joshua Kinal (its author)."
+layout: "layouts/home.html"
 intro:
-  subtitle: 'The domain was short and available.'
+  subtitle: "The domain was short and available."
 ---
 
 <!-- Find information about designer, writer, broadcaster, podcaster and eternal dilettante, Joshua Kinal. -->
@@ -18,6 +18,8 @@ Joshua Kinal is a design engineer with a diverse background: biomedical
 science, journalism and broadcasting, digital product design and
 development. His work focuses on how digital products impact the world;
 from the way they are constructed to the way they are used.
+
+You might enjoy perusing [a collection of my profiles on more social services](/me).
 
 ### First-person, approachable version
 
@@ -49,16 +51,16 @@ I believe that principles guide actions and actions reveal principles. The princ
 Principle 5 exists to make it as easy as possible for me to add things to this site. I started to find the WYSIWYG interface of [WordPress](https://wordpress.org/) too frustrating for me. In my every day work I write in [Markdown](https://daringfireball.net/projects/markdown/) if I'm not writing in longhand.
 
 11ty uses [markdown-it](https://markdown-it.github.io/) as its default Markdown parser. So I make use of it to save me some time and help me with some shortcuts like the footnotes you see on this page.
+
 ## Colophon
 
-This version of the website (_Sealfur_) was first created in late 2020, and built with [Eleventy](https://www.11ty.dev/). 
+This version of the website (_Sealfur_) was first created in late 2020, and built with [Eleventy](https://www.11ty.dev/).
 
 This site is hosted on [Netlify](https://www.netlify.com/) which, if I've set this up correctly, will automatically build the site when I push changes to my git repository.
 
 ### Fonts
+
 The display font is [Sansita Swashed from Omnibus-Type](https://www.omnibus-type.com/fonts/sansita-swashed/) and the body copy is in [Inter by Rasmus Andersson](https://rsms.me/inter/) (with many of the [fancy features](https://rsms.me/inter/#features) turned on, because I can).
 
-
 [^1]: WordPress is a very good content management system and I highly recommend it. It was much more than I need but you could do a lot worse than use WordPress for your own website.
-
 [^2]: Even though I'm using 11ty and github to build this website, the pages served to browsers will be HTML, CSS and Javascript in that order. If only the HTML loads, then all the information on the site should still be usable.
