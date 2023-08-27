@@ -62,6 +62,9 @@ module.exports = (config) => {
       collection.getFilteredByGlob("./src/clippings/*.md")
     ).filter((x) => x.data.featured);
   });
+  config.addCollection("forms", (collection) => {
+    return [...collection.getFilteredByGlob("./src/forms/*.md")];
+  });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   // from [eleventy from scratch](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/19/)
