@@ -1,9 +1,9 @@
 ---
-title: 'References'
-description: 'News articles and other references, collected and tagged for future reference.'
-layout: 'layouts/home.html'
+title: "References"
+description: "News articles and other references, collected and tagged for future reference."
+layout: "layouts/bookmarks.html"
 intro:
-  subtitle: 'Things I’ve found around the web that might be referred to from time-to-time'
+  subtitle: "Things I’ve found around the web that might be referred to from time-to-time"
 ---
 
 For example
