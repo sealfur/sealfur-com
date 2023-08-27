@@ -4,7 +4,6 @@ author: "Joshua Kinal"
 date: "2023-08-25"
 tags: ["leadership", "technology", "society", "LLM", "language"]
 summary: "Earlier this week, as part of the first of a series of talks to a group of product creators, I referenced a list of characteristics of good leadership that was produced by ChatGPT. The use of this controversial technology seems to have upstaged my intention."
-draft: "true"
 ---
 
 “Leadership” is referenced a lot in business, but in a way that seems to have lost meaning. The language describing the practice of leadership lacks clear definition but comes with expectations.
