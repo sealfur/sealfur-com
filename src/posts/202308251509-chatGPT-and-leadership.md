@@ -1,7 +1,7 @@
 ---
 title: "Using ChatGPT as a Proxy for Common Thought"
 author: "Joshua Kinal"
-date: "2023-08-25"
+date: "2023-08-27"
 tags: ["leadership", "technology", "society", "LLM", "language"]
 summary: "Earlier this week, as part of the first of a series of talks to a group of product creators, I referenced a list of characteristics of good leadership that was produced by ChatGPT. The use of this controversial technology seems to have upstaged my intention."
 ---
