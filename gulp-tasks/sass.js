@@ -1,22 +1,23 @@
 // see [learn eleventy from scratch article](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/19/)
 
-const { dest, src } = require('gulp');
-const cleanCSS = require('gulp-clean-css');
-const sass = require('gulp-sass')(require('sass'));
+const { dest, src } = require("gulp");
+const cleanCSS = require("gulp-clean-css");
+const sass = require("gulp-sass")(require("sass"));
 
 // We want to be using canonical Sass rather than node-sass
 // sass.compiler = require('sass');
 
 // Flags whether we compress the output etc
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.NODE_ENV === "production";
 
 // An array of outputs that should be sent over to includes
 const criticalStyles = [
-  'critical.scss',
-  'sealfur.scss',
-  'home.scss',
-  'page.scss',
-  'post.scss',
+  "critical.scss",
+  "sealfur.scss",
+  "home.scss",
+  "page.scss",
+  "post.scss",
+  "forms.scss",
   // 'work-item.scss',
 ];
 
@@ -24,7 +25,7 @@ const criticalStyles = [
 const calculateOutput = ({ history }) => {
   // By default, we want a CSS file in our dist directory, so the
   // HTML can grab it with a <link />
-  let response = './dist/css';
+  let response = "./dist/css";
 
   // Get everything after the last slash
   const sourceFileName = /[^/]*$/.exec(history[0])[0];
@@ -33,7 +34,7 @@ const calculateOutput = ({ history }) => {
   // to the _includes directory, so nunjucks can include it
   // directly in a <style>
   if (criticalStyles.includes(sourceFileName)) {
-    response = './src/_includes/css';
+    response = "./src/_includes/css";
   }
   return response;
 };
@@ -41,8 +42,8 @@ const calculateOutput = ({ history }) => {
 // The main Sass method grabs all root Sass files,
 // processes them, then sends them to the output calculator
 const styles = () => {
-  return src('./src/scss/*.scss')
-    .pipe(sass().on('error', sass.logError))
+  return src("./src/scss/*.scss")
+    .pipe(sass().on("error", sass.logError))
     .pipe(
       cleanCSS(
         isProduction

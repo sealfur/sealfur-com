@@ -32,5 +32,10 @@ body > header {
       height: min(50vw, 2rem);
       flex-basis: auto;
     }
-  }
+  }&-minimal {
+    &__brand {
+      width: max(20%, 12rem);
+      display: block;
+    }
+}
 }

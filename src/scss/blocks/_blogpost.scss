@@ -103,3 +103,30 @@ ol.post-list {
 .page-content {
   width: clamp(18ch, 90vw, 60ch);
 }
+
+.supplementary-material {
+  font-size: 0.8em;
+  background-color: c0l.$chocolatewine;
+  padding-inline-start: 1em;
+  padding-inline-end: 0.5em;
+  h2::before {
+    margin-inline-start: -2.1em;
+  }
+  & > p {
+    margin-inline-start: 1em;
+  }
+  .conversation-icon {
+    display: inline-block;
+    margin-inline-start: -1.5em;
+    font-style: initial;
+    background-color: c0l.$chocolatewine;
+    &.opening-icon {
+      margin-inline-start: initial;
+    }
+  }
+  blockquote {
+    width: clamp(30ch, 90%, 70ch);
+    border-color: c0l.$sealblue;
+    font-family: "Fira Code", "Courier New", Courier, monospace;
+  }
+}
