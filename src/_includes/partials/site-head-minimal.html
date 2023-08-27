@@ -1,0 +1,15 @@
+<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
+<header role="banner" class="[ site-head-minimal ]">
+  <a
+    href="/"
+    aria-label="{{ site.name }} home page"
+    class="[ site-head-minimal__brand ]"
+  >
+    {% include "partials/sealfur-brand.svg" %}
+  </a>
+  {% if specialPageType %} 
+  <span class="site-head-minimal_specialType">
+    {{ specialPageType | safe }}
+  </span>
+  {% endif %}
+</header>

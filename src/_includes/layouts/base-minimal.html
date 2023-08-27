@@ -1,0 +1,59 @@
+{% set assetHash = global.random() %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/meta-info.html" %}
+
+    <!-- === These are critical styles === -->
+    <style type="text/css">
+      {% include "css/critical.css" %}
+    </style>
+    <!-- end critical -->
+    <!-- === These are sealfur styles === -->
+    <style type="text/css">
+      {% include "css/sealfur.css" %}
+    </style>
+    <!-- end sealfur -->
+    {# Add facility for pages to declare an array of critical styles #} {% if
+    pageCriticalStyles %} {% for item in pageCriticalStyles %}
+    <!-- these are page-critical styles -->
+    <style type="text/css">
+      {% include item %}
+    </style>
+    {% endfor %} {% endif %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+      href="/fonts/fonts.css?{{ assetHash }}"
+      onload="this.media='all'"
+    />
+
+    {# Add facility for pages to declare an array of stylesheet paths #} {% if
+    pageStylesheets %} {% for item in pageStylesheets %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+      href="{{ item }}?{{ assetHash }}"
+      onload="this.media='all'"
+    />
+    {% endfor %} {% endif %}
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="{{ site.url }}/feed.xml"
+    />
+  </head>
+  <body>
+    <!-- I really feel like I don't need a wrapper div. Maybe I will one day but let's start without it. -->
+    {% include "partials/site-head-minimal.html" %}
+    <main tabindex="-1" id="main-content" class="[ flow ]">
+      {% block content %} {% endblock %}
+    </main>
+    {% include "partials/footer.html" %}
+  </body>
+</html>

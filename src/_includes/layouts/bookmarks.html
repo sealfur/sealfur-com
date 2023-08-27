@@ -1,17 +1,13 @@
-{% extends "layouts/base.html" %}
-{% set pageCriticalStyles = ['css/post.css'] %}
+{% extends "layouts/base-minimal.html" %} {% set pageCriticalStyles =
+['css/post.css'] %} {% set pageHeaderTitle = title %} {% block content %}
+<article class="[ flow ]">
+  {% include "partials/page-header.html" %}
 
-{% set pageHeaderTitle = title %}
+  <section
+    class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]"
+  >
+    {{ content | safe }}
+  </section>
+</article>
 
-
-{% block content %}
-  <article class="[ flow ]">
-    {% include "partials/page-header.html" %}
-
-    <section class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
-      {{ content | safe }}
-    </section>
-  </article>
-
-  {% include "partials/a11ytutorials.html" %}
-{% endblock %}
+{% include "partials/a11ytutorials.html" %} {% endblock %}
