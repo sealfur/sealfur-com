@@ -27,10 +27,10 @@ p > code {
   font-size: 0.9em;
 }
 
-pre {
-  font-size: clamp(0.7rem, 2vw, 1rem);
+pre[class*="language-"] {
+  font-size: clamp(0.75rem, 0.7vw, 1.2rem);
   overflow: auto;
-  background-color: c0l.$racinggreen;
+  background-color: c0l.$chocolatewine;
   color: c0l.$whitefur;
   padding-inline-end: 0.5rem;
   padding-inline-start: 0.5rem;
