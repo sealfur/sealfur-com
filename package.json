@@ -23,6 +23,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@types/markdown-it": "^13.0.4",
     "concurrently": "^7.5.0",
     "get-google-fonts": "^1.2.2",
     "gulp": "^4.0.2",
@@ -40,6 +42,7 @@
     "sass": "^1.55.0"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.1",
     "markdown-it-deflist": "^2.1.0"
   }
 }
