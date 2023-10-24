@@ -70,7 +70,7 @@ I had also recently changed my environment from using NPM to [Yarn](https://yarn
 
 I followed the clues back to how I was building locally and the commands I was using. I actually needed to change the build command to:
 
-```toml
+```sh
 yarn run production
 ```
 

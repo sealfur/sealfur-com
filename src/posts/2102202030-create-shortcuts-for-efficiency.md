@@ -1,15 +1,17 @@
 ---
-title: 'Spending 90 minutes to save 2'
-author: 'Joshua Kinal'
-date: '2021-02-20'
-tags: ['command line', 'build in public', 'efficiency']
-summary: 'Working with technology can mean a lot of repetitive tasks. Is the time taken to automate them worth it? This is what it took to make remove more barriers to blogging.'
+title: "Spending 90 minutes to save 2"
+author: "Joshua Kinal"
+date: "2021-02-20"
+tags: ["command line", "build in public", "efficiency"]
+summary: "Working with technology can mean a lot of repetitive tasks. Is the time taken to automate them worth it? This is what it took to make remove more barriers to blogging."
 ---
 
 ## tl;dr
+
 I go to a lot of trouble to make things easier for myself. Sometimes this means spending hours doing some very nerdy stuff to automate processes. I know that, even with this amount of effort, I'm not automating as much as I could, but it’s enough for now. There are always improvements to be made but there’s a great satisfaction in creating efficiencies through technology.
 
 ## Longer version with lots of detail
+
 This morning I spent about 90 minutes working out a way to create a basic template for my blog posts.
 
 If I was using WordPress, like I did up until now, it wouldn’t be a problem. WordPress lays everything out nicely in a graphical user interface and it’s basically like filling out a form. There's an area for adding tags and one for putting in the post’s title, another for a precis and a great big area for typing the post itself.
@@ -23,23 +25,23 @@ If I was using WordPress, like I did up until now, it wouldn’t be a problem. W
 
 To give you an idea of what I'm talking about, this is what the front matter looks like for this post:
 
-```
+```yaml
 ---
-title: 'Spending 90 minutes to save 2'
-author: 'Joshua Kinal'
-date: '2021-02-20'
-tags: ['command line', 'build in public', 'efficiency']
-summary: 'Working with technology can mean a lot of repetitive tasks. Is
-          the time taken to automate them worth it? This is what it took
-          to make remove more barriers to blogging.'
-draft: 'true'
+title: "Spending 90 minutes to save 2"
+author: "Joshua Kinal"
+date: "2021-02-20"
+tags: ["command line", "build in public", "efficiency"]
+summary: "Working with technology can mean a lot of repetitive tasks. Is
+  the time taken to automate them worth it? This is what it took
+  to make remove more barriers to blogging."
+draft: "true"
 ---
 ```
 
 Most of that isn’t a problem except for a couple of things that are truly tedious:
 
-* I keep getting the path to my blog post directory wrong. Is it “post” or “posts”? Even if I try to remember it, next time I’ll second-guess myself and get it wrong. Then I have to move it from a folder that never existed to the one that does exist and then delete the folder I created erroneously.
-* I can’t remember what front matter goes into the start of a post.
+- I keep getting the path to my blog post directory wrong. Is it “post” or “posts”? Even if I try to remember it, next time I’ll second-guess myself and get it wrong. Then I have to move it from a folder that never existed to the one that does exist and then delete the folder I created erroneously.
+- I can’t remember what front matter goes into the start of a post.
 
 Title, author, date, tags, summary, draft. Six things should be easy to remember. It's not.
 
@@ -86,8 +88,6 @@ In 50 blog posts’ time, I'll have made all of that time back. Every post after
 
 That’s worth it for me, but I know it’s not for most.
 
-[^1]: Branding is really important. Earlier this century I worked at a web design company that built sites using [Microsoft .Net C#](https://dotnet.microsoft.com/learn/csharp). They used an <abbr title="integrated development environment">IDE</abbr> called _Visual Studio_ and it was this weird thing that looked like a text editor but the coders would drag and drop bits of code from a small window into a larger window. I did not like using that <abbr>IDE</abbr>, I did not like working with .Net and I did not like that job. It took **a lot** of convincing by colleagues more recently to use _Visual Studio Code_. It is nothing like that traumatic tool I was exposed to. Now I rely on it for almost all the work I do. It’s versatile and extensible and saves me lots of time. 
-
+[^1]: Branding is really important. Earlier this century I worked at a web design company that built sites using [Microsoft .Net C#](https://dotnet.microsoft.com/learn/csharp). They used an <abbr title="integrated development environment">IDE</abbr> called _Visual Studio_ and it was this weird thing that looked like a text editor but the coders would drag and drop bits of code from a small window into a larger window. I did not like using that <abbr>IDE</abbr>, I did not like working with .Net and I did not like that job. It took **a lot** of convincing by colleagues more recently to use _Visual Studio Code_. It is nothing like that traumatic tool I was exposed to. Now I rely on it for almost all the work I do. It’s versatile and extensible and saves me lots of time.
 [^2]: I highly recommend [a little book called _Working the Command Line_ by Remy Sharp](https://abookapart.com/products/working-the-command-line?_pos=1&_sid=1317c873c&_ss=r). The terminal can seem really scary because we’re conditioned to just point and click our way through our computer life. But working on the command line can save a whole bunch of time and help someone understand more about the machine they’re working with every day.
-
 [^3]: I am always happy to pay for software that that creates so much utility for me. Unfortunately, a few years ago Smile Software decided that _Text Expander_ would be better as a subscription model rather than buying a licence for each major release. To their credit, they still support the prior version I paid for.

@@ -1,6 +1,8 @@
 //=====This is the eleventy config file==========
-// RSS Plugin
+// Eleventy (11ty) Plugins
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const Image = require("@11ty/eleventy-img");
 
 // Filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -28,6 +30,27 @@ module.exports = (config) => {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(syntaxHighlight);
+
+  //Eleventy Image plugin
+  config.addAsyncShortcode("image", async function (src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [300, 600],
+      formats: ["jpg", "png"],
+      outputDir: "./dist/images/content/img/",
+      urlPath: "/images/content/img/",
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+
+    // You bet we throw an error on a missing alt (alt="" works okay)
+    return Image.generateHTML(metadata, imageAttributes);
+  });
 
   // ----Set directories to pass through to the dist folder
   config.addPassthroughCopy(".src/images/");
