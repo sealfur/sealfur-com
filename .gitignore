@@ -25,3 +25,13 @@ src/_includes/css/
 
 # ## Documents and notes
 docs
+
+## Yarn files see [Questions & Answers | Yarn](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+
+.yarn/*
+.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
