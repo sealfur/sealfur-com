@@ -72,3 +72,7 @@ dd {
   }
   margin-block-start: 1ex;
 }
+
+picture > img {
+  height: unset;
+}
