@@ -1,5 +1,5 @@
 ---
-title: "It’s pretty great when life isn’t “complete”"
+title: "There are still amazing things out there"
 author: "Joshua Kinal"
 date: "2023-11-19"
 tags: ["movies", "music", "philosophy"]
