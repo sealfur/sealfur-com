@@ -4,7 +4,7 @@ author: 'Joshua Kinal'
 date: '2024-01-16'
 tags: ['craft', 'culture', 'comedy']
 summary: 'Trying to share the sheer joy I derive from watching Stewart Lee's comedy, I found it easier to describe the experience of watching another expert practitioner.'
-draft: 'true'
+draft: 'false'
 ---
 
 My favourite standup is still Stewart Lee. He's the best practitioner of the craft. Having watched him for almost three decades, I really appreciate how he keeps challenging himself. But he's not bang bang bang with the jokes, if that's what you're expecting from a comedian.
