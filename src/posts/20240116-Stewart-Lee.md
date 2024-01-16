@@ -3,7 +3,7 @@ title: 'On the joy of watching experts work'
 author: 'Joshua Kinal'
 date: '2024-01-16'
 tags: ['craft', 'culture', 'comedy']
-summary: 'Trying to share the sheer joy I derive from watching Stewart Lee's comedy, I found it easier to describe the experience of watching another expert practitioner.'
+summary: 'Trying to share the sheer joy I derive from watching Stewart Lee’s comedy, I found it easier to describe the experience of watching another expert practitioner.'
 draft: 'false'
 ---
 
