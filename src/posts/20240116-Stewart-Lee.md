@@ -1,9 +1,9 @@
 ---
-title: 'On the joy of watching experts work'
-author: 'Joshua Kinal'
-date: '2024-01-16'
-tags: ['craft', 'culture', 'comedy']
-summary: 'Trying to share the sheer joy I derive from watching Stewart Lee’s comedy, I found it easier to describe the experience of watching another expert practitioner.'
+title: "On the joy of watching experts work"
+author: "Joshua Kinal"
+date: "2024-01-16"
+tags: ["craft", "culture", "comedy"]
+summary: "Trying to share the sheer joy I derive from watching Stewart Lee’s comedy, I found it easier to describe the experience of watching another expert practitioner."
 ---
 
 My favourite standup is still Stewart Lee. He's the best practitioner of the craft. Having watched him for almost three decades, I really appreciate how he keeps challenging himself. But he's not bang bang bang with the jokes, if that's what you're expecting from a comedian.
@@ -14,4 +14,4 @@ But those ingredients are in the wok and you're dazzled by the flames and the ar
 
 To be honest, you've entirely forgotten about the magic he weaved with the noodles just moments before, until he pulls them out of the water, bangs the strainer and you see them jump a little before they're also in the wok.
 
-A few seconds later, it's all in front of you in a bowl. The smell hits you, you stick your chopsticks in, bring the noodles to your mouth and that's when it all comes together for you; appreciating what he's done but not really understanding how anyone could have done all of that right in front of you without you preëmpting the outcome.
+A few seconds later, it's all in front of you in a bowl. The smell hits you, you stick your chopsticks in, bring the noodles to your mouth and that's when it all comes together for you; appreciating what he's done but not really understanding how anyone could have done all of that right before your eyes without you preëmpting the outcome.
