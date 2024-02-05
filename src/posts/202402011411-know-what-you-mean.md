@@ -1,10 +1,9 @@
 ---
 title: "Human-centred design might destroy us"
 author: "Joshua Kinal"
-date: "2024-02-02"
-tags: ["language", "values", "communication"]
-summary: "xxxx"
-draft: "true"
+date: "2024-02-05"
+tags: ["design", "responsibility", "human-centred"]
+summary: "Human-centred design seems wonderful on paper. It’s helped lots of people and its benefits are so easy to see. Unfortunately, its popularity and wide-spread practice might lead to our extinction."
 ---
 
 No doubt you’ve seen the term ‘human-centred’ used in relation to design, engineering or creation of technology. It turns up everywhere from [job ads](https://www.seek.com.au/%22human-centred%22-jobs) to relevancy-hungry [corporate rhetoric](https://www.mckinsey.com/search?q=human+centered&pageFilter=all&sort=default&start=1). Stanford University, where the term ‘human-centred design’ first came to prominence in the late 1950s now boasts an [Institute for Human-Centered Artificial Intelligence](https://hai.stanford.edu/navigate/welcome) [sic]. This concept has helped many people in their day-to-day lives. It sounds like a good thing, but it is slowly destroying us. Human-centred design largely ignores our responsibility to the future, favouring more immediate perceived benefits.
