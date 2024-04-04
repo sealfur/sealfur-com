@@ -18,7 +18,7 @@ Some pictures
 
 Toots and whatnot
 : Marvel at my very [limited interaction with _Mastadon_](https://indieweb.social/@sealfur).
-: Also, I’m now also [barely engaging with _Bluesky_](https://bsky.app/profile/sealfur.bsky.social)
+: I’m now also [barely engaging with _Bluesky_](https://bsky.app/profile/sealfur.bsky.social)
 
 Film diaries
 : I was an early adopter of _Letterboxd_ (February 2012!) but it didn’t take at the time. But now you can [see all the films I’ve watched since July 2019](https://letterboxd.com/sealfur/).
