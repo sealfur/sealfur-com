@@ -29,6 +29,7 @@ docs
 ## Yarn files see [Questions & Answers | Yarn](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
 
 .yarn/*
+.yarn/install*.gz
 .yarn/cache
 !.yarn/patches
 !.yarn/plugins
