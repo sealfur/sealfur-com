@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/sealfur/sealfur-com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@types/markdown-it": "^13.0.4",
@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^3.1.1",
+    "liquidjs": "^10.10.2",
     "markdown-it-deflist": "^2.1.0"
   }
 }
