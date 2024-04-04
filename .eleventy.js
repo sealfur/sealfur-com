@@ -1,4 +1,5 @@
 //=====This is the eleventy config file==========
+
 // Eleventy (11ty) Plugins
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -23,17 +24,17 @@ const options = {
   typographer: true,
 };
 
-module.exports = (config) => {
+module.exports = (eleventyConfig) => {
   // Add filters
-  config.addFilter("dateFilter", dateFilter);
-  config.addFilter("w3DateFilter", w3DateFilter);
+  eleventyConfig.addFilter("dateFilter", dateFilter);
+  eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 
   // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   //Eleventy Image plugin
-  config.addAsyncShortcode("image", async function (src, alt, sizes) {
+  eleventyConfig.addAsyncShortcode("image", async function (src, alt, sizes) {
     let metadata = await Image(src, {
       widths: [300, 600],
       formats: ["jpg", "png"],
@@ -53,7 +54,7 @@ module.exports = (config) => {
   });
 
   // ----Set directories to pass through to the dist folder
-  config.addPassthroughCopy(".src/images/");
+  eleventyConfig.addPassthroughCopy(".src/images/");
 
   // ------Markdown overrides----
   const markdownLib = markdownIt(options)
@@ -61,12 +62,12 @@ module.exports = (config) => {
     .use(markdownitDeflist)
     .use(markdownItAnchor);
 
-  config.setLibrary("md", markdownLib);
+  eleventyConfig.setLibrary("md", markdownLib);
 
   // ===Collections=== //
   // . => blog posts  … … … … see [eleventy from scratch lesson](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/11/)
   // . . Returns a collection of blog posts in reverse date order
-  config.addCollection("blog", (collection) => {
+  eleventyConfig.addCollection("blog", (collection) => {
     return [...collection.getFilteredByGlob("./src/posts/*.md")]
       .filter((post) => !post.data.draft)
       .reverse();
@@ -74,30 +75,30 @@ module.exports = (config) => {
 
   // . => clippings
   // . . Returns clippings, sorted by rating
-  config.addCollection("clippings", (collection) => {
+  eleventyConfig.addCollection("clippings", (collection) => {
     return sortByRatingOrder(
       collection.getFilteredByGlob("./src/clippings/*.md")
     );
   });
   // Returns clippings filtered by "featured: true"
-  config.addCollection("featuredClippings", (collection) => {
+  eleventyConfig.addCollection("featuredClippings", (collection) => {
     return sortByRatingOrder(
       collection.getFilteredByGlob("./src/clippings/*.md")
     ).filter((x) => x.data.featured);
   });
-  config.addCollection("forms", (collection) => {
+  eleventyConfig.addCollection("forms", (collection) => {
     return [...collection.getFilteredByGlob("./src/forms/*.md")];
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   // from [eleventy from scratch](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/19/)
-  config.setUseGitIgnore(false);
+  eleventyConfig.setUseGitIgnore(false);
 
   // see 11ty from scratch lesson 8 for [creating "featured" collections with this kind of filter](hhttps://piccalil.li/course/learn-eleventy-from-scratch/lesson/8/#heading-refactoring-our-collections)
 
   // Creating redirect string parsing see [Setting up page redirects with 11ty and Netlify](https://willvincent.com/2022/07/27/redirects-with-11ty-and-netlify/)
 
-  config.addFilter("is_string", function (obj) {
+  eleventyConfig.addFilter("is_string", function (obj) {
     return typeof obj == "string";
   });
 
