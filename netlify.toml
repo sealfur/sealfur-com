@@ -15,10 +15,10 @@
     command = "yarn run production"
 
 [context.production]
-  environment = { NODE_VERSION = "16" }
+  environment = { NODE_VERSION = "18" }
 
 [dev]
-  environment = { NODE_VERSION = "16" }
+  environment = { NODE_VERSION = "18" }
   command = "yarn run start"
   publish = "dist/"
   port = 3000
