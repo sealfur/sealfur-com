@@ -21,7 +21,7 @@
   environment = { NODE_VERSION = "18" }
   command = "yarn run start"
   publish = "dist/"
-  port = 3000
+  port = 3030
   targetPort = 8080
   NODE_ENV = "development"
   framework = "#custom"
