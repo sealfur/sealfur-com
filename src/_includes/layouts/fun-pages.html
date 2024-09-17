@@ -1,0 +1,11 @@
+{% extends "layouts/base-minimal.html" %} {% set
+pageCriticalStyles=['css/forms.css'] %} {% set specialPageType = 'for fun' %} {%
+set pageHeaderTitle = title %} {% block content %}
+<article class="[ flow ] [ formcontent ] spaghetti">
+  <header class="[ flow ]">
+    <h1>{{ title }}</h1>
+    <p>{{ intro.subtitle }}</p>
+  </header>
+  <section class="[ flow ]">{{ content | safe }}</section>
+</article>
+{% endblock %}

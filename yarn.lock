@@ -11471,9 +11471,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cli@npm:^17.34.3":
-  version: 17.34.3
-  resolution: "netlify-cli@npm:17.34.3"
+"netlify-cli@npm:^17.36.0":
+  version: 17.36.0
+  resolution: "netlify-cli@npm:17.36.0"
   dependencies:
     "@bugsnag/js": "npm:7.25.0"
     "@fastify/static": "npm:7.0.4"
@@ -11591,7 +11591,7 @@ __metadata:
   bin:
     netlify: bin/run.js
     ntl: bin/run.js
-  checksum: 10/d83c185ee78e4df587938eb18d74c3bd0bd3528229dbae5932ede3c91a43f574e147639dafd052541b34f468f0d3cf016308093ab9bfd5a5bc7b0239806419c1
+  checksum: 10/8f02d3b67fd803aeab117ff2388ce2f0d3bc3e0414621319fcc176af3c369dc7d32e9b1043abdaab740235ff2c4f204cc02bc07b6c5427c176b9ce88aa4a8786
   languageName: node
   linkType: hard
 
@@ -14432,7 +14432,7 @@ __metadata:
     markdown-it-deflist: "npm:^2.1.0"
     markdown-it-footnote: "npm:^3.0.3"
     moment: "npm:^2.29.4"
-    netlify-cli: "npm:^17.34.3"
+    netlify-cli: "npm:^17.36.0"
     netlify-plugin-webmentions: "npm:^1.1.1"
     node-fetch: "npm:^3.2.10"
     rss-parser: "npm:^3.12.0"
