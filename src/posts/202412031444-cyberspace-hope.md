@@ -4,7 +4,6 @@ author: "Joshua Kinal"
 date: "2024-12-03"
 tags: ["philosophy", "internet", "politics"]
 summary: "In February 1996, John Perry Barlow read his “Declaration of the Independence of Cyberspace” to the World Economic Forum. It’s time to look at how that turned out."
-draft: "false"
 ---
 
 > Your legal concepts of property, expression, identity, movement, and context do not apply to us. They are all based on matter, and there is no matter here.
