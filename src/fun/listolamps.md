@@ -1,5 +1,5 @@
 ---
-title: "List O' Lamps"
+title: "List O’ Lamps"
 description: "Some touch lamps that aren’t ugly?"
 ---
 
