@@ -6,7 +6,7 @@ description: "For Lyndal and Josh to follow"
 Lunch
 : Saturday, 17 May 2025 from 12:00 PM
 
-[**Google Maps walking plan**](https://maps.app.goo.gl/R43FRVmBBcn5jyXr6): We (Josh & Lyndal) begin corner Acland & Fitzroy and eat our way up to Harvey’s on Fitzroy & Princes. (We could also [start at Harvey’s and eat our way back home](./fitzroystfood2025-backwards.md).)
+[**Google Maps walking plan**](https://maps.app.goo.gl/R43FRVmBBcn5jyXr6): We (Josh & Lyndal) begin corner Acland & Fitzroy and eat our way up to Harvey’s on Fitzroy & Princes. (We could also [start at Harvey’s and eat our way back home](../fitzroystfood2025-backwards).)
 
 ## Little Prince
 

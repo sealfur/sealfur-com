@@ -6,7 +6,7 @@ description: "For Lyndal and Josh to follow"
 Lunch
 : Saturday, 17 May 2025 from 12:00 PM
 
-[**Google Maps walking plan**](https://maps.app.goo.gl/RV9EqAKGaZvNwTQ56): In this reality, we start at Harvey’s and eat our way back home. ([_There is also the reverse option._](./fitzroystfood2025.md))
+[**Google Maps walking plan**](https://maps.app.goo.gl/RV9EqAKGaZvNwTQ56): In this reality, we start at Harvey’s and eat our way back home. ([_There is also the reverse option._](../fitzroystfood2025))
 
 ## Harvey's (Sports Bar & Grill)
 
