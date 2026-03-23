@@ -1,11 +1,10 @@
 // see [learn eleventy from scratch article](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/19/)
+import { dest, src } from "gulp";
+import cleanCSS from "gulp-clean-css";
+import gulpSass from "gulp-sass";
+import * as sassCompiler from "sass";
 
-const { dest, src } = require("gulp");
-const cleanCSS = require("gulp-clean-css");
-const sass = require("gulp-sass")(require("sass"));
-
-// We want to be using canonical Sass rather than node-sass
-// sass.compiler = require('sass');
+const sass = gulpSass(sassCompiler);
 
 // Flags whether we compress the output etc
 const isProduction = process.env.NODE_ENV === "production";
@@ -56,4 +55,4 @@ const styles = () => {
     .pipe(dest(calculateOutput, { sourceMaps: !isProduction }));
 };
 
-module.exports = styles;
+export default styles;

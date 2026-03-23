@@ -1,12 +1,3 @@
-{% if a11ytutorials.length %}
-{% for item in a11ytutorials %}
-<p> {{ entry.title }} </p>
-{% endfor %}
-
-something
-
-{% else %}
-
-nothing
-
-{% endif %}
+{% if a11ytutorials.items.length %} {% for item in a11ytutorials.items %}
+<p>{{ item.title }}</p>
+{% endfor %} something {% else %} nothing {% endif %}
