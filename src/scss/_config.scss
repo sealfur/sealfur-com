@@ -5,8 +5,8 @@
 body {
   background-color: var(--bgcol);
   color: var(--fgcol);
-  font-family: typ.$text;
-  font-weight: typ.$bodcopy;
+  font-family: var(--text);
+  font-weight: var(--bodcopy);
   font-feature-settings: "ss02", "salt", "cv01", "cv02", "cv03", "cv04", "cv09",
     "cv10", "calt", "kern";
 }

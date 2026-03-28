@@ -1,9 +1,22 @@
 // First up: reset, then config and functions
 @use 'reset';
 @use 'config';
+@use "utilities/type" as typ;
 
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html { --text: #{typ.$text};
+--display: #{typ.$display};
+  //fontweights
+  --bodcopy: #{typ.$bodcopy};
+  --semibold: #{typ.$semibold};
+  --bold: #{typ.$bold};
+  --semilight: #{typ.$semilight};
+font-family: var(--text);
+   }
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html { --text: #{typ.$textvar};
+--bodcopy: #{typ.$bodcopyvar};
+  --semibold: #{typ.$semiboldvar};
+  --bold: #{typ.$boldvar};
+  --semilight: #{typ.$semilightvar}; }
 }

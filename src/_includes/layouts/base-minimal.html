@@ -7,19 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
 
-    <!-- === These are critical styles === -->
+    <!-- === These are (base-minimal) critical styles === -->
     <style type="text/css">
       {% include "css/critical.css" %}
     </style>
     <!-- end critical -->
-    <!-- === These are sealfur styles === -->
+    <!-- === These are (base-minimal) sealfur styles === -->
     <style type="text/css">
       {% include "css/sealfur.css" %}
     </style>
     <!-- end sealfur -->
     {# Add facility for pages to declare an array of critical styles #} {% if
     pageCriticalStyles %} {% for item in pageCriticalStyles %}
-    <!-- these are page-critical styles -->
+    <!-- these are (base-minimal) page-critical styles -->
     <style type="text/css">
       {% include item %}
     </style>

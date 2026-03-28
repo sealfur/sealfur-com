@@ -1,11 +1,15 @@
 // === Font faces ===
-$text: "Inter var experimental", "Inter var", "Inter", "Courier New", Courier,
-  monospace;
+$text: "Inter", "Courier New", Courier, monospace;
+$textvar: "InterVariable", Futura, sanserif;
 $display: "Sansita Swashed", "Baskerville", serif;
 
 // ===Weights===
 
-$bodcopy: 335 !default;
-$semibold: 525 !default;
-$bold: 690 !default;
-$semilight: 245;
+$bodcopy: 300 !default;
+$semibold: 500 !default;
+$bold: 700 !default;
+$semilight: 200;
+$bodcopyvar: 335 !default;
+$semiboldvar: 525 !default;
+$boldvar: 690 !default;
+$semilightvar: 245;

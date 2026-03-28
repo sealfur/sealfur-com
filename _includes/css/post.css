@@ -1,0 +1,99 @@
+/* the colours are defined here*/
+main > article {
+  font-size: clamp(0.9em, 1.8vw, 1.2em);
+}
+main > article .page-header {
+  width: clamp(14ch, 90vw, 200ch);
+  display: flex;
+  justify-content: space-between;
+  color: #edf2ef;
+  flex-flow: row wrap;
+  margin-block-end: 1em;
+}
+main > article .page-header__heading,
+main > article .page-header h1 {
+  font-size: 2.5rem;
+  margin-inline-end: clamp(0.2rem, 10%, 1rem);
+  line-height: 0.9;
+  align-self: flex-end;
+  text-shadow: 0.05em 0.05em #6e4f5f;
+  flex-grow: 5;
+}
+main > article .page-header__summary {
+  display: flex;
+  margin-inline-start: 0.1rem;
+  --flow-space: 0.5em;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-content: flex-end;
+  flex-flow: row wrap;
+  align-self: flex-end;
+  font-variant-caps: small-caps;
+}
+main > article .page-header__summary > * {
+  font-size: 0.8rem;
+}
+main > article .page-header__summary p {
+  margin: 0;
+  align-self: flex-end;
+  margin-top: inherit;
+  letter-spacing: -0.03em;
+  font-variation-settings: "wght" 245, "slnt" -5.51;
+  font-size: clamp(0.9em, 1.8vw, 1.2em);
+  color: #4293d3;
+  font-variant-caps: normal;
+}
+main > article .page-header__summary time {
+  font-weight: 690;
+  color: #edf2ef;
+  flex-grow: 3;
+  align-self: flex-end;
+}
+main > article .page-header__summary .tags-list {
+  text-align: end;
+  flex-grow: 1;
+}
+main > article .page-header__summary .tags-list a {
+  text-decoration-color: #6e4f5f;
+  text-decoration-thickness: 0.2em;
+}
+ol.post-list li a {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.6em;
+  font-family: "Sansita Swashed", "Baskerville", serif;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+  margin-block-end: 0.5em;
+}
+
+.page-content {
+  width: clamp(18ch, 90vw, 60ch);
+}
+
+.supplementary-material {
+  font-size: 0.8em;
+  background-color: #291720;
+  padding-inline-start: 1em;
+  padding-inline-end: 0.5em;
+}
+.supplementary-material h2::before {
+  margin-inline-start: -2.1em;
+}
+.supplementary-material > p {
+  margin-inline-start: 1em;
+}
+.supplementary-material .conversation-icon {
+  display: inline-block;
+  margin-inline-start: -1.5em;
+  font-style: initial;
+  background-color: #291720;
+}
+.supplementary-material .conversation-icon.opening-icon {
+  margin-inline-start: initial;
+}
+.supplementary-material blockquote {
+  width: clamp(30ch, 90%, 70ch);
+  border-color: #4293d3;
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+}

@@ -6,7 +6,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+li.fake {
+  display: none;
+}
 /* Remove default padding */
 ul[class],
 ol[class] {

@@ -2,7 +2,7 @@
 @use "utilities/type" as typ;
 
 // === <- Root --> ===
-:root {
+html {
   // variables
   --flow-space: 1.2em;
   --fgcol: #{c0l.$fgcol};
@@ -23,7 +23,6 @@
   --racinggreen: #{c0l.$racinggreen};
   --mintgreen: #{c0l.$mintgreen};
   //fonts
-  --text: #{typ.$text};
   --display: #{typ.$display};
   --bodcopy: #{typ.$bodcopy};
   --semibold: #{typ.$semibold};
