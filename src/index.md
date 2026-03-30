@@ -24,6 +24,10 @@ There’s more to come. I’ll mention new things on the [Updates section](#upda
 
 ## Updates
 
+30 Mar 2026
+: I have this great resource/opportunity here and I don’t use it nearly enough. I’ve now updated this site to use Eleventy v3.1.5 (but I honestly am not sure if I can call it by [it’s impending new name](https://www.11ty.dev/blog/build-awesome/).) I want to use it to do more interesting things.
+: The first of those “interesting things” will be a simple, easily updateable reference for TV shows I recommend.
+
 23 March 2026
 : Was I ever really going to keep an "updates" section current?
 

@@ -47,7 +47,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  //Sass config
+  //Sass and CSS config
   
   const criticalStyles = [
     "critical",
@@ -56,7 +56,7 @@ module.exports = (eleventyConfig) => {
     "post",
     "forms",
   ];
-
+// ---> because the templates use the css in _includes, we need to build that directory
   eleventyConfig.on("eleventy.before", async () => {
   fs.mkdirSync("src/_includes/css", { recursive: true });
   
