@@ -4,6 +4,7 @@
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
+const fs = require("fs");
 
 // Sass processing
 const path = require("node:path");
@@ -47,7 +48,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   //Sass config
-  const fs = require("fs");
   
   const criticalStyles = [
     "critical",
@@ -58,13 +58,15 @@ module.exports = (eleventyConfig) => {
   ];
 
   eleventyConfig.on("eleventy.before", async () => {
-    criticalStyles.forEach((name) => {
-      const result = sass.compile(`src/scss/${name}.scss`, {
-        loadPaths: ["src/scss"],
-      });
-      fs.writeFileSync(`src/_includes/css/${name}.css`, result.css);
+  fs.mkdirSync("src/_includes/css", { recursive: true });
+  
+  criticalStyles.forEach((name) => {
+    const result = sass.compile(`src/scss/${name}.scss`, {
+      loadPaths: ["src/scss"],
     });
+    fs.writeFileSync(`src/_includes/css/${name}.css`, result.css);
   });
+});
 
   eleventyConfig.addExtension("scss", {
     outputFileExtension: "css",

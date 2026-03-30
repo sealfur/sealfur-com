@@ -12,14 +12,14 @@
     publish = "dist/"
 
   # build command       
-    command = "yarn run production"
+    command = "yarn production"
 
 [context.production]
   environment = { NODE_VERSION = "24" }
 
 [dev]
   environment = { NODE_VERSION = "24" }
-  command = "yarn run start"
+  command = "yarn start"
   publish = "dist/"
   port = 3030
   targetPort = 8080
