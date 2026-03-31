@@ -3,11 +3,12 @@
 
 // === <- Root --> ===
 html {
-  // variables
+  /* // variables */
   --flow-space: 1.2em;
   --fgcol: #{c0l.$fgcol};
   --bgcol: #{c0l.$bgcol};
-  // colors
+  --highlight: #{c0l.$highlight};
+  /* // colors */
   --sealblue: #{c0l.$sealblue};
   --whitefur: #{c0l.$whitefur};
   --arcticnight: #{c0l.$arcticnight};
@@ -22,9 +23,9 @@ html {
   --oceangreen: #{c0l.$oceangreen};
   --racinggreen: #{c0l.$racinggreen};
   --mintgreen: #{c0l.$mintgreen};
-  //fonts
+  /* //fonts */
   --display: #{typ.$display};
-  --bodcopy: #{typ.$bodcopy};
+  --bodycopy: #{typ.$bodcopy};
   --semibold: #{typ.$semibold};
   --bold: #{typ.$bold};
   --semilight: #{typ.$semilight};

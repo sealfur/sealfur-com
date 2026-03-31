@@ -7,7 +7,7 @@
 html { --text: #{typ.$text};
 --display: #{typ.$display};
   //fontweights
-  --bodcopy: #{typ.$bodcopy};
+  --bodycopy: #{typ.$bodcopy};
   --semibold: #{typ.$semibold};
   --bold: #{typ.$bold};
   --semilight: #{typ.$semilight};
@@ -15,7 +15,7 @@ font-family: var(--text);
    }
 @supports (font-variation-settings: normal) {
   html { --text: #{typ.$textvar};
---bodcopy: #{typ.$bodcopyvar};
+--bodycopy: #{typ.$bodcopyvar};
   --semibold: #{typ.$semiboldvar};
   --bold: #{typ.$boldvar};
   --semilight: #{typ.$semilightvar}; }
