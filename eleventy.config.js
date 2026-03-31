@@ -61,10 +61,10 @@ module.exports = (eleventyConfig) => {
   fs.mkdirSync("src/_includes/css", { recursive: true });
   
   criticalStyles.forEach((name) => {
-    const result = sass.compile(`src/scss/${name}.scss`, {
+    const result = sass.compile(`./src/scss/${name}.scss`, {
       loadPaths: ["src/scss"],
     });
-    fs.writeFileSync(`src/_includes/css/${name}.css`, result.css);
+    fs.writeFileSync(`./src/_includes/css/${name}.css`, result.css);
   });
 });
 
