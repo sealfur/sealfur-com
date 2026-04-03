@@ -1,5 +1,9 @@
 # # Ignore List
 
+# ## Unpublished TV reviews
+
+src/tv/*
+
 # ## Misc
 
 *.log
