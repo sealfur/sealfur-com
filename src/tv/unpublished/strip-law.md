@@ -1,22 +1,21 @@
 ---
-title: "Small Prophets"
+title: "Strip Law"
 yearPremiered: 2026
-originalCountry: "United Kingdom"
+originalCountry: "United States"
 originalLanguage: "eng"
 firstAdded: "2026-04-03"
 date: "2026-04-03"
 author: "Joshua Kinal"
-network: "BBC Two"
-rating: 9
+network: "Netflix"
+rating:
 allTimeRecommendation: false
 ongoing: true
 currentSeason: 1
 currentSeasonYear: 2026
-thetvdbID: 464815
-draft: false
-summary: "McKenzie Crook makes us sympathise with the people we never try to meet."
+thetvdbID: 466887
+draft: true
+summary: ""
 layout: "layouts/tv-show.html"
 ---
 
 <!-- Your review goes here -->
-They’re called “homunculi”
