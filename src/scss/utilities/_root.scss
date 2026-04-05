@@ -1,27 +1,27 @@
-@use "colors" as c0l;
+@use "colors" as clr;
 @use "utilities/type" as typ;
 
 // === <- Root --> ===
 html {
   /* // variables */
   --flow-space: 1.2em;
-  --fgcol: #{c0l.$fgcol};
-  --bgcol: #{c0l.$bgcol};
-  --highlight: #{c0l.$highlight};
+  --fgcol: #{clr.$fgcol};
+  --bgcol: #{clr.$bgcol};
+  --highlight: #{clr.$highlight};
   /* // colors */
-  --sealblue: #{c0l.$sealblue};
-  --whitefur: #{c0l.$whitefur};
-  --arcticnight: #{c0l.$arcticnight};
-  --royalsuede: #{c0l.$royalsuede};
-  --newbruise: #{c0l.$newbruise};
-  --chocolatewine: #{c0l.$chocolatewine};
-  --oceanfloor: #{c0l.$oceanfloor};
-  --white: #{c0l.$white};
-  --darkest: #{c0l.$darkest};
-  --lightest: #{c0l.$lightest};
-  --oceangreen: #{c0l.$oceangreen};
-  --racinggreen: #{c0l.$racinggreen};
-  --mintgreen: #{c0l.$mintgreen};
+  --sealblue: #{clr.$sealblue};
+  --whitefur: #{clr.$whitefur};
+  --arcticnight: #{clr.$arcticnight};
+  --royalsuede: #{clr.$royalsuede};
+  --newbruise: #{clr.$newbruise};
+  --chocolatewine: #{clr.$chocolatewine};
+  --oceanfloor: #{clr.$oceanfloor};
+  --white: #{clr.$white};
+  --darkest: #{clr.$darkest};
+  --lightest: #{clr.$lightest};
+  --oceangreen: #{clr.$oceangreen};
+  --racinggreen: #{clr.$racinggreen};
+  --mintgreen: #{clr.$mintgreen};
   /* //fonts */
   --display: #{typ.$display};
   --bodycopy: #{typ.$bodcopy};

@@ -1,8 +1,8 @@
-@use "../utilities/colors" as c0l;
+@use "../utilities/colors" as clr;
 @use "utilities/type" as typ;
 
 footer {
-  border-top: 2px solid c0l.$sealblue;
+  border-top: 2px solid clr.$sealblue;
   text-align: center;
   display: flex;
   flex-flow: row wrap;
@@ -10,15 +10,15 @@ footer {
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   margin-block-start: auto;
-  color: c0l.$sealblue;
+  color: clr.$sealblue;
   font-variation-settings: "wght" 435;
   .folio {
     em {
       font-variation-settings: "wght" 245;
     }
     a {
-      color: c0l.$sealblue;
-      text-decoration-color: c0l.$whitefur;
+      color: clr.$sealblue;
+      text-decoration-color: clr.$whitefur;
       text-decoration-style: wavy;
       &:hover {
         text-decoration-style: double;
@@ -29,7 +29,7 @@ footer {
   span.navArrow {
     //this is in the footer of the blog index page for the "older · newer" navigation
     font-variation-settings: "wght" typ.$semilight;
-    color: c0l.$royalsuede;
+    color: clr.$royalsuede;
   }
   a:has(.navArrow) {
     font-family: typ.$display;
@@ -45,7 +45,7 @@ footer {
   }
 }
 :is(section, aside) footer {
-  border-block: 2px double c0l.$chocolatewine;
+  border-block: 2px double clr.$chocolatewine;
   margin-block-start: 1.15ex;
   padding-block: 0.85ex;
   font-size: 0.85em;

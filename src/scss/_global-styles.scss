@@ -1,4 +1,4 @@
-@use "utilities/colors" as c0l;
+@use "utilities/colors" as clr;
 @use "utilities/type" as typ;
 
 h2 {
@@ -11,7 +11,7 @@ h2 {
     margin-block-end: -0.5em;
     margin-inline-start: -1.1em;
     margin-inline-end: -0.5em;
-    border-top: 0.25em double transparentize(c0l.$sealblue, $amount: 0.4);
+    border-top: 0.25em double transparentize(clr.$sealblue, $amount: 0.4);
     border-right: 0.5em double #6f5060;
     border-radius: 1.5em;
     transform: scale(0.8) rotate(45deg);
@@ -21,32 +21,32 @@ h2 {
 }
 
 p > code {
-  background-color: c0l.$chocolatewine;
+  background-color: clr.$chocolatewine;
   font-size: 0.9em;
 }
 
 pre[class*="language-"] {
   font-size: clamp(0.75rem, 0.7vw, 1.2rem);
   overflow: auto;
-  background-color: c0l.$chocolatewine;
-  color: c0l.$whitefur;
+  background-color: clr.$chocolatewine;
+  color: clr.$whitefur;
   padding-inline-end: 0.5rem;
   padding-inline-start: 0.5rem;
   border-radius: 0.75rem;
 }
 
 blockquote {
-  color: c0l.$mintgreen;
+  color: clr.$mintgreen;
   font-size: 0.9em;
   font-weight: 150;
   margin-inline-start: 3ch;
   padding-block-start: 0.25em;
   padding-block-end: 0.25em;
   padding-inline-start: 1ch;
-  border-inline-start: 0.3em solid c0l.$royalsuede;
+  border-inline-start: 0.3em solid clr.$royalsuede;
   line-height: 1.3;
   letter-spacing: -0.04ch;
-  text-shadow: c0l.$royalsuede 2px 1px 2px;
+  text-shadow: clr.$royalsuede 2px 1px 2px;
   width: clamp(14ch, 80%, 55ch);
   > p {
     margin-block-end: 0.5em;
@@ -57,7 +57,7 @@ dt {
   font-size: 1.15em;
   margin-block-start: 1.75ex;
   line-height: 1;
-  background-color: rgba(c0l.$sealblue, 0.05);
+  background-color: rgba(clr.$sealblue, 0.05);
 }
 dd {
   margin-inline-start: 4ch;
@@ -67,7 +67,7 @@ dd {
   &::before {
     content: "\22EE\00A0";
     font-weight: 100;
-    color: rgba(c0l.$sealblue, 0.3);
+    color: rgba(clr.$sealblue, 0.3);
     margin-inline-start: -1.2ch;
   }
   margin-block-start: 1ex;

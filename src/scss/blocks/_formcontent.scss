@@ -1,4 +1,4 @@
-@use "../utilities/colors" as c0l;
+@use "../utilities/colors" as clr;
 
 
 main > .formcontent {
@@ -9,7 +9,7 @@ main > .formcontent {
     // grid-column: inherit;
     display: flex;
     justify-content: space-between;
-    color: c0l.$fgcol;
+    color: clr.$fgcol;
     flex-flow: row wrap;
     h1 {
       // grid-column: 1 / 4;
@@ -17,7 +17,7 @@ main > .formcontent {
       margin-block-end: 0.5rem;
       font-size: 2.5rem;
       line-height: 0.9;
-      text-shadow: 0.05em 0.05em c0l.$highlight;
+      text-shadow: 0.05em 0.05em clr.$highlight;
     }
   }
   section {
@@ -78,7 +78,7 @@ main > .formcontent {
             height: auto;
             display: block;
             background: white;
-            border: 1px solid c0l.$sealblue;
+            border: 1px solid clr.$sealblue;
             border-radius: 20px;
             padding: 1rem 0.3rem 0.3rem;
             color: black;
