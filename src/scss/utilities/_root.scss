@@ -17,22 +17,30 @@ html {
   --clr-oceangreen: #{clr.$oceangreen};
   --clr-racinggreen: #{clr.$racinggreen};
   --clr-mintgreen: #{clr.$mintgreen};
-  
+
   /* // Semantic definitions */
   --color-darkest: #{clr.$darkest};
   --color-lightest: #{clr.$lightest};
   --color-fg: #{clr.$fgcol};
   --color-bg: #{clr.$bgcol};
   --color-highlight: #{clr.$highlight};
-  
-  
+
   /* //fonts */
+  --font-body: #{typ.$text};
   --font-display: #{typ.$display};
+  //fontweights
   --w-bodycopy: #{typ.$bodcopy};
   --w-semibold: #{typ.$semibold};
   --w-bold: #{typ.$bold};
   --w-semilight: #{typ.$semilight};
 }
-
-// I think I have these backwards. Need to look more into coding themes with CSS variables
-
+@supports (font-variation-settings: normal) {
+  html {
+    /* // fonts & weights */
+    --font-body: #{typ.$textvar};
+    --w-bodycopy: #{typ.$bodcopyvar};
+    --w-semibold: #{typ.$semiboldvar};
+    --w-bold: #{typ.$boldvar};
+    --w-semilight: #{typ.$semilightvar};
+  }
+}

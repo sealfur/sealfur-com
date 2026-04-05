@@ -1,22 +1,6 @@
 // First up: reset, then config and functions
 @use 'reset';
 @use 'config';
-@use "utilities/type" as typ;
+@use "utilities/root";
 
 
-html { --font-body: #{typ.$text};
---font-display: #{typ.$display};
-  //fontweights
-  --w-bodycopy: #{typ.$bodcopy};
-  --w-semibold: #{typ.$semibold};
-  --w-bold: #{typ.$bold};
-  --w-semilight: #{typ.$semilight};
-font-family: var(--font-body);
-   }
-@supports (font-variation-settings: normal) {
-  html { --font-body: #{typ.$textvar};
---w-bodycopy: #{typ.$bodcopyvar};
-  --w-semibold: #{typ.$semiboldvar};
-  --w-bold: #{typ.$boldvar};
-  --w-semilight: #{typ.$semilightvar}; }
-}
