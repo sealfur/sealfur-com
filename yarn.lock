@@ -5012,7 +5012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^3.0.1, entities@npm:~3.0.1":
+"entities@npm:^3.0.1":
   version: 3.0.1
   resolution: "entities@npm:3.0.1"
   checksum: 10/3706e0292ea3f3679720b3d3b1ed6290b164aaeb11116691a922a3acea144503871e0de2170b47671c3b735549b8b7f4741d0d3c2987e8f985ccaa0dd3762eba
@@ -8131,15 +8131,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-it@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "linkify-it@npm:4.0.1"
-  dependencies:
-    uc.micro: "npm:^1.0.1"
-  checksum: 10/d0a786d2e3f02f46b6f4a9b466af9eb936fb68e86b7cd305933d5457b12fdc53a4d0e0b697b02dc2e7d84a51d2425d719598bb7b47af7e01911e492e07a97957
-  languageName: node
-  linkType: hard
-
 "linkify-it@npm:^5.0.0":
   version: 5.0.0
   resolution: "linkify-it@npm:5.0.0"
@@ -8149,19 +8140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^10.10.2":
-  version: 10.12.0
-  resolution: "liquidjs@npm:10.12.0"
-  dependencies:
-    commander: "npm:^10.0.0"
-  bin:
-    liquid: bin/liquid.js
-    liquidjs: bin/liquid.js
-  checksum: 10/025f5b137f3651d995ac065ccfc695056dfe6e678e8cdae1416aed8b6e804f021b06135fd6537c0bc7eb1fb40a9c345fe9cda1486c5fca92b12ba3745cc54e73
-  languageName: node
-  linkType: hard
-
-"liquidjs@npm:^10.25.0":
+"liquidjs@npm:^10.25.0, liquidjs@npm:^10.25.2":
   version: 10.25.2
   resolution: "liquidjs@npm:10.25.2"
   dependencies:
@@ -8557,21 +8536,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:^13.0.2":
-  version: 13.0.2
-  resolution: "markdown-it@npm:13.0.2"
-  dependencies:
-    argparse: "npm:^2.0.1"
-    entities: "npm:~3.0.1"
-    linkify-it: "npm:^4.0.1"
-    mdurl: "npm:^1.0.1"
-    uc.micro: "npm:^1.0.5"
-  bin:
-    markdown-it: bin/markdown-it.js
-  checksum: 10/4f48271bbd44d16502efd4148d7c05ca1fb4b50719a07d34c91e8d16f8d065c558fed0fafe07cd13ca5958096bfe295b37cd4f042add7ec49f73c70154e75f58
-  languageName: node
-  linkType: hard
-
 "markdown-it@npm:^14.1.1":
   version: 14.1.1
   resolution: "markdown-it@npm:14.1.1"
@@ -8625,13 +8589,6 @@ __metadata:
   version: 2.27.1
   resolution: "mdn-data@npm:2.27.1"
   checksum: 10/5046dc83a961b8ea82a5d6d8331d07df6b15faec61519ce2f83e49766702358e7e6af96413be977ff89080534be6762c1d5963b5dd1180c208a47c0a663226b2
-  languageName: node
-  linkType: hard
-
-"mdurl@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "mdurl@npm:1.0.1"
-  checksum: 10/ada367d01c9e81d07328101f187d5bd8641b71f33eab075df4caed935a24fa679e625f07108801d8250a5e4a99e5cd4be7679957a11424a3aa3e740d2bb2d5cb
   languageName: node
   linkType: hard
 
@@ -11453,8 +11410,8 @@ __metadata:
     "@types/markdown-it": "npm:^13.0.8"
     dotenv: "npm:^17.3.1"
     get-google-fonts: "npm:^1.2.2"
-    liquidjs: "npm:^10.10.2"
-    markdown-it: "npm:^13.0.2"
+    liquidjs: "npm:^10.25.2"
+    markdown-it: "npm:^14.1.1"
     markdown-it-anchor: "npm:^8.6.7"
     markdown-it-deflist: "npm:^2.1.0"
     markdown-it-footnote: "npm:^3.0.3"
@@ -12845,13 +12802,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10/5d416ad4f2ea564f515a3f919e901edbfa4b497cc17dd325c5726046c3eef7ed22d1f59c787267d478311f6f0a265ff790f8a6c7e9df3ea3471458f5ec81e8b7
-  languageName: node
-  linkType: hard
-
-"uc.micro@npm:^1.0.1, uc.micro@npm:^1.0.5":
-  version: 1.0.6
-  resolution: "uc.micro@npm:1.0.6"
-  checksum: 10/6898bb556319a38e9cf175e3628689347bd26fec15fc6b29fa38e0045af63075ff3fea4cf1fdba9db46c9f0cbf07f2348cd8844889dd31ebd288c29fe0d27e7a
   languageName: node
   linkType: hard
 
