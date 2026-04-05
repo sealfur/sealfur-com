@@ -7,7 +7,7 @@ body > header {
   padding-inline-end: clamp(0.3rem, 3%, 2rem);
   padding-block-start: 0.3rem;
   padding-block-end: clamp(.3rem,2%,2rem);
-  border-bottom: 1px solid clr.$sealblue;
+  border-bottom: 1px solid var(--clr-sealblue);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -26,7 +26,7 @@ body > header {
     font-weight: 500;
     font-size: clamp(1.1rem, 2.2vw, 2.5rem);
     width: clamp(30rem, 40vw, 42vw);
-    text-shadow: 0.05em 0.05em clr.$sealblue;
+    text-shadow: 0.05em 0.05em var(--clr-sealblue);
     a {
       display: block;
       height: min(50vw, 2rem);
