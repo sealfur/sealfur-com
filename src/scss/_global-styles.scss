@@ -13,8 +13,6 @@ h2 {
     margin-inline-end: -0.5em;
     border-top: 0.25em double transparentize(c0l.$sealblue, $amount: 0.4);
     border-right: 0.5em double #6f5060;
-    // border-left: 0.5em dotted rgba(111, 80, 96, 0.667);
-    // border-bottom: 0.75em dotted rgba(66, 147, 211, 0.6);
     border-radius: 1.5em;
     transform: scale(0.8) rotate(45deg);
     position: relative;
@@ -57,7 +55,6 @@ blockquote {
 
 dt {
   font-size: 1.15em;
-  // text-shadow: 0px 0px 3px c0l.$white;
   margin-block-start: 1.75ex;
   line-height: 1;
   background-color: rgba(c0l.$sealblue, 0.05);

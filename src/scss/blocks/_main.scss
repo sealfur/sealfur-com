@@ -1,15 +1,10 @@
-@use '../utilities/colors' as c0l;
+@use "../utilities/colors" as c0l;
 
 main {
   margin-block-end: 1.5rem;
-  // margin-inline-start:clamp(0.3rem,3%,2rem);
-  // margin-inline-end:clamp(0.3rem,3%,2rem);
-  
   padding-block-start: 0.8rem;
-  // display: grid;
-  // grid-template-columns: 1fr 2fr 2fr 1fr;
   & > article {
-    font-size: clamp(.9em,1.8vw,1.2em);
+    font-size: clamp(0.9em, 1.8vw, 1.2em);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
