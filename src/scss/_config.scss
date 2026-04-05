@@ -1,19 +1,19 @@
 @use "utilities/root";
 @use "utilities/type" as typ;
-// @forward 'utilities/colors';
+
 
 body {
-  background-color: var(--bgcol);
-  color: var(--fgcol);
-  font-family: var(--text);
-  font-weight: var(--bodycopy);
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+  font-weight: var(--w-bodycopy);
   font-feature-settings: "ss02", "salt", "cv01", "cv02", "cv03", "cv04", "cv09",
     "cv10", "calt", "kern";
 }
 
 a {
-  color: var(--fgcol);
-  text-decoration-color: var(--sealblue);
+  color: var(--color-fg);
+  text-decoration-color: var(--clr-sealblue);
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
   &:hover {

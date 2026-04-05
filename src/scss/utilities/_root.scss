@@ -5,29 +5,34 @@
 html {
   /* // variables */
   --flow-space: 1.2em;
-  --fgcol: #{clr.$fgcol};
-  --bgcol: #{clr.$bgcol};
-  --highlight: #{clr.$highlight};
-  /* // colors */
-  --sealblue: #{clr.$sealblue};
-  --whitefur: #{clr.$whitefur};
-  --arcticnight: #{clr.$arcticnight};
-  --royalsuede: #{clr.$royalsuede};
-  --newbruise: #{clr.$newbruise};
-  --chocolatewine: #{clr.$chocolatewine};
-  --oceanfloor: #{clr.$oceanfloor};
-  --white: #{clr.$white};
-  --darkest: #{clr.$darkest};
-  --lightest: #{clr.$lightest};
-  --oceangreen: #{clr.$oceangreen};
-  --racinggreen: #{clr.$racinggreen};
-  --mintgreen: #{clr.$mintgreen};
+  /* // raw palette color(u)s */
+  --clr-sealblue: #{clr.$sealblue};
+  --clr-whitefur: #{clr.$whitefur};
+  --clr-arcticnight: #{clr.$arcticnight};
+  --clr-royalsuede: #{clr.$royalsuede};
+  --clr-newbruise: #{clr.$newbruise};
+  --clr-chocolatewine: #{clr.$chocolatewine};
+  --clr-oceanfloor: #{clr.$oceanfloor};
+  --clr-white: #{clr.$white};
+  --clr-oceangreen: #{clr.$oceangreen};
+  --clr-racinggreen: #{clr.$racinggreen};
+  --clr-mintgreen: #{clr.$mintgreen};
+  
+  /* // Semantic definitions */
+  --color-darkest: #{clr.$darkest};
+  --color-lightest: #{clr.$lightest};
+  --color-fg: #{clr.$fgcol};
+  --color-bg: #{clr.$bgcol};
+  --color-highlight: #{clr.$highlight};
+  
+  
   /* //fonts */
-  --display: #{typ.$display};
-  --bodycopy: #{typ.$bodcopy};
-  --semibold: #{typ.$semibold};
-  --bold: #{typ.$bold};
-  --semilight: #{typ.$semilight};
+  --font-display: #{typ.$display};
+  --w-bodycopy: #{typ.$bodcopy};
+  --w-semibold: #{typ.$semibold};
+  --w-bold: #{typ.$bold};
+  --w-semilight: #{typ.$semilight};
 }
 
 // I think I have these backwards. Need to look more into coding themes with CSS variables
+

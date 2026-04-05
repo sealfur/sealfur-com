@@ -4,19 +4,19 @@
 @use "utilities/type" as typ;
 
 
-html { --text: #{typ.$text};
---display: #{typ.$display};
+html { --font-body: #{typ.$text};
+--font-display: #{typ.$display};
   //fontweights
-  --bodycopy: #{typ.$bodcopy};
-  --semibold: #{typ.$semibold};
-  --bold: #{typ.$bold};
-  --semilight: #{typ.$semilight};
-font-family: var(--text);
+  --w-bodycopy: #{typ.$bodcopy};
+  --w-semibold: #{typ.$semibold};
+  --w-bold: #{typ.$bold};
+  --w-semilight: #{typ.$semilight};
+font-family: var(--font-body);
    }
 @supports (font-variation-settings: normal) {
-  html { --text: #{typ.$textvar};
---bodycopy: #{typ.$bodcopyvar};
-  --semibold: #{typ.$semiboldvar};
-  --bold: #{typ.$boldvar};
-  --semilight: #{typ.$semilightvar}; }
+  html { --font-body: #{typ.$textvar};
+--w-bodycopy: #{typ.$bodcopyvar};
+  --w-semibold: #{typ.$semiboldvar};
+  --w-bold: #{typ.$boldvar};
+  --w-semilight: #{typ.$semilightvar}; }
 }
