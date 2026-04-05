@@ -1,9 +1,5 @@
 # # Ignore List
 
-# ## Unpublished TV reviews
-
-src/tv/*
-
 # ## Misc
 
 *.log
@@ -39,4 +35,3 @@ docs
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-xxgulpfile.js
