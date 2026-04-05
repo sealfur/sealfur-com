@@ -57,7 +57,7 @@ dt {
   font-size: 1.15em;
   margin-block-start: 1.75ex;
   line-height: 1;
-  background-color: rgba(var(--clr-sealblue), 0.05);
+  background-color: color-mix(in srgb, var(--clr-sealblue) 5%, transparent);
 }
 dd {
   margin-inline-start: 4ch;
@@ -67,7 +67,7 @@ dd {
   &::before {
     content: "\22EE\00A0";
     font-weight: 100;
-    color: rgba(var(--clr-sealblue), 0.3);
+    color: color-mix(in srgb, var(--clr-sealblue) 40%, transparent);
     margin-inline-start: -1.2ch;
   }
   margin-block-start: 1ex;
