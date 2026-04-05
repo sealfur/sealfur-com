@@ -1,0 +1,47 @@
+{% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['css/post.css'] %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary %}
+  <p>What I've been watching lately.</p>
+{% endset %}
+
+{% block content %}
+<article class="[ flow ]">
+  {% include "partials/page-header.html" %}
+
+  <section class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
+
+    {% set recentShows = [] %}
+    {% for show in collections.tv %}
+      {% if show.data.date >= computed.tvCutoffDate() %}
+        {% set recentShows = recentShows.concat([show]) %}
+      {% endif %}
+    {% endfor %}
+
+    {% if recentShows.length %}
+      <ol class="[ post-list ] [ flow ]">
+        {% for show in recentShows %}
+          <li class="[ post-list__item ] [ leading-tight measure-long ]">
+            <a href="{{ show.url }}" class="post-list__link">{{ show.data.title }}</a>
+            {% if show.data.originalTitle %}
+              <span class="show-index__originaltitle"> ({{ show.data.originalTitle }})</span>
+            {% endif %}
+            {% if show.data.rating %}
+              <span class="show-index__rating"> — {{ show.data.rating }}/10</span>
+            {% endif %}
+            {% if show.data.summary %}
+              <br>{{ show.data.summary }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p>Nothing recent to show yet — check back soon.</p>
+    {% endif %}
+
+    <p><a href="/tv/timeless/">All-time recommendations &rarr;</a></p>
+
+  </section>
+</article>
+{% endblock %}

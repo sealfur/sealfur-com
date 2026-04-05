@@ -1,0 +1,40 @@
+{% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['css/post.css'] %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary %}
+  <p>Shows I'd recommend to anyone, any time.</p>
+{% endset %}
+
+{% block content %}
+<article class="[ flow ]">
+  {% include "partials/page-header.html" %}
+
+  <section class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
+
+    {% if collections.tvAllTime.length %}
+      <ol class="[ post-list ] [ flow ]">
+        {% for show in collections.tvAllTime %}
+          <li class="[ post-list__item ] [ leading-tight measure-long ]">
+            <a href="{{ show.url }}" class="post-list__link">{{ show.data.title }}</a>
+            {% if show.data.originalTitle %}
+              <span class="show-index__originaltitle"> ({{ show.data.originalTitle }})</span>
+            {% endif %}
+            {% if show.data.rating %}
+              <span class="show-index__rating"> — {{ show.data.rating }}/10</span>
+            {% endif %}
+            {% if show.data.summary %}
+              <br>{{ show.data.summary }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p>Nothing here yet — check back soon.</p>
+    {% endif %}
+
+    <p><a href="/tv/">&larr; Recently watched</a></p>
+
+  </section>
+</article>
+{% endblock %}
