@@ -5,7 +5,7 @@ main > .homecontent {
     width: clamp(14ch, 90vw, 200ch);
     display: flex;
     justify-content: space-between;
-    color: var(--color-fgcol);
+    color: var(--color-fg);
     flex-flow: row wrap;
 
     h1 {
