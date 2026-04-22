@@ -3,7 +3,7 @@
 
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary %}
-  <p>Shows I'd recommend to anyone, any time.</p>
+  <p>What I'm watching right now.</p>
 {% endset %}
 
 {% block content %}
@@ -12,9 +12,9 @@
 
   <section class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
 
-    {% if collections.tvAllTime.length %}
+    {% if collections.tvWatching.length %}
       <ol class="show-card-list">
-        {% for show in collections.tvAllTime %}
+        {% for show in collections.tvWatching %}
           <li class="show-card">
             <a href="{{ show.url }}" class="show-card__title">{{ show.data.title }}</a>
             {% if show.data.originalTitle %}
@@ -23,14 +23,13 @@
             <div class="show-card__meta">
               {% if show.data.network %}<span class="show-card__network">{{ show.data.network }}</span>{% endif %}
               {% if show.data.currentSeason %}<span class="show-card__season">Season {{ show.data.currentSeason }}</span>{% endif %}
-              {% if show.data.rating %}<span class="show-card__rating">{{ show.data.rating }}/10</span>{% endif %}
             </div>
             {% if show.data.summary %}<p class="show-card__summary">{{ show.data.summary }}</p>{% endif %}
           </li>
         {% endfor %}
       </ol>
     {% else %}
-      <p>Nothing here yet — check back soon.</p>
+      <p>Nothing on the go right now — check back soon.</p>
     {% endif %}
 
     <p><a href="/tv/">&larr; Recently watched</a></p>

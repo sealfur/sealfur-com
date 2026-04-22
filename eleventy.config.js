@@ -159,19 +159,26 @@ module.exports = (eleventyConfig) => {
   });
 
   // === TV Collections ===
-// All published shows, sorted by rating descending
-eleventyConfig.addCollection("tv", (collection) => {
-  return collection.getFilteredByGlob("./src/tv/*.md")
-    .filter(show => !show.data.draft)
-    .sort((a, b) => b.data.rating - a.data.rating);
-});
+  // Shows I'm actively watching right now
+  eleventyConfig.addCollection("tvWatching", (collection) => {
+    return collection.getFilteredByGlob("./src/tv/*.md")
+      .filter(show => !show.data.draft && show.data.currentlyWatching)
+      .sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
+  });
 
-// All-time recommendations: published, flagged, sorted by rating descending
-eleventyConfig.addCollection("tvAllTime", (collection) => {
-  return collection.getFilteredByGlob("./src/tv/*.md")
-    .filter(show => !show.data.draft && show.data.allTimeRecommendation)
-    .sort((a, b) => b.data.rating - a.data.rating);
-});
+  // Finished shows, sorted by rating descending
+  eleventyConfig.addCollection("tv", (collection) => {
+    return collection.getFilteredByGlob("./src/tv/*.md")
+      .filter(show => !show.data.draft && !show.data.currentlyWatching)
+      .sort((a, b) => b.data.rating - a.data.rating);
+  });
+
+  // All-time recommendations: published, flagged, sorted by rating descending
+  eleventyConfig.addCollection("tvAllTime", (collection) => {
+    return collection.getFilteredByGlob("./src/tv/*.md")
+      .filter(show => !show.data.draft && show.data.allTimeRecommendation)
+      .sort((a, b) => b.data.rating - a.data.rating);
+  });
 
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

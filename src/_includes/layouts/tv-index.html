@@ -12,6 +12,25 @@
 
   <section class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
 
+    {% if collections.tvWatching.length %}
+      <h2>Currently watching</h2>
+      <ol class="show-card-list">
+        {% for show in collections.tvWatching %}
+          <li class="show-card">
+            <a href="{{ show.url }}" class="show-card__title">{{ show.data.title }}</a>
+            {% if show.data.originalTitle %}
+              <span class="show-card__original-title"> ({{ show.data.originalTitle }})</span>
+            {% endif %}
+            <div class="show-card__meta">
+              {% if show.data.network %}<span class="show-card__network">{{ show.data.network }}</span>{% endif %}
+              {% if show.data.currentSeason %}<span class="show-card__season">Season {{ show.data.currentSeason }}</span>{% endif %}
+            </div>
+            {% if show.data.summary %}<p class="show-card__summary">{{ show.data.summary }}</p>{% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+
     {% set recentShows = [] %}
     {% for show in collections.tv %}
       {% if show.data.date >= computed.tvCutoffDate() %}
@@ -20,27 +39,30 @@
     {% endfor %}
 
     {% if recentShows.length %}
-      <ol class="[ post-list ] [ flow ]">
+      <h2>Recent recommendations</h2>
+      <ol class="show-card-list">
         {% for show in recentShows %}
-          <li class="[ post-list__item ] [ leading-tight measure-long ]">
-            <a href="{{ show.url }}" class="post-list__link">{{ show.data.title }}</a>
+          <li class="show-card">
+            <a href="{{ show.url }}" class="show-card__title">{{ show.data.title }}</a>
             {% if show.data.originalTitle %}
-              <span class="show-index__originaltitle"> ({{ show.data.originalTitle }})</span>
+              <span class="show-card__original-title"> ({{ show.data.originalTitle }})</span>
             {% endif %}
-            {% if show.data.rating %}
-              <span class="show-index__rating"> — {{ show.data.rating }}/10</span>
-            {% endif %}
-            {% if show.data.summary %}
-              <br>{{ show.data.summary }}
-            {% endif %}
+            <div class="show-card__meta">
+              {% if show.data.network %}<span class="show-card__network">{{ show.data.network }}</span>{% endif %}
+              {% if show.data.currentSeason %}<span class="show-card__season">Season {{ show.data.currentSeason }}</span>{% endif %}
+              {% if show.data.rating %}<span class="show-card__rating">{{ show.data.rating }}/10</span>{% endif %}
+            </div>
+            {% if show.data.summary %}<p class="show-card__summary">{{ show.data.summary }}</p>{% endif %}
           </li>
         {% endfor %}
       </ol>
-    {% else %}
+    {% endif %}
+
+    {% if not collections.tvWatching.length and not recentShows.length %}
       <p>Nothing recent to show yet — check back soon.</p>
     {% endif %}
 
-    <p><a href="/tv/timeless/">All-time recommendations &rarr;</a></p>
+    <p><a href="/tv/watching/">Currently watching &rarr;</a> &middot; <a href="/tv/timeless/">All-time recommendations &rarr;</a></p>
 
   </section>
 </article>

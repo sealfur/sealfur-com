@@ -13,7 +13,10 @@ ongoing: true
 currentSeason: 2
 currentSeasonYear: 2026
 thetvdbID: 399838
-draft: true
+themoviedbID: 154385
+currentlyWatching: true
+creator: "Lee Sung Jin"
+actors: ["Steven Yeun", "Ali Wong", "Joseph Lee"]
 summary: ""
 layout: "layouts/tv-show.html"
 ---

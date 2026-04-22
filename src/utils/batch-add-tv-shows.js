@@ -12,9 +12,19 @@
 // Input file format (one show per line):
 //   * Show Title {tvdb-123456}
 
+require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
+
+if (!process.env.TVDB_API_KEY) {
+  console.error("Error: TVDB_API_KEY is not set in your .env file.");
+  process.exit(1);
+}
+if (!process.env.TMDB_API_KEY) {
+  console.error("Error: TMDB_API_KEY is not set in your .env file.");
+  process.exit(1);
+}
 
 // --- Argument parsing ---
 const args = process.argv.slice(2);

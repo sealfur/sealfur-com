@@ -13,8 +13,11 @@ ongoing: true
 currentSeason: 3
 currentSeasonYear: 2026
 thetvdbID: 430543
-draft: false
-summary: ""
+themoviedbID: 226285
+currentlyWatching: true
+creator: "Robert King, Michelle King"
+actors: ["Carrie Preston", "Wendell Pierce", "Carra Patterson"]
+summary: "This used to be pure pleasure. Now I want to know why we are still watching this insult to our very being. Have alien ants replaced Michelle & Robert King?"
 layout: "layouts/tv-show.html"
 ---
 

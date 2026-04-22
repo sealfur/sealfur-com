@@ -14,7 +14,10 @@ ongoing: false
 currentSeason: 3
 currentSeasonYear: 2022
 thetvdbID: 79137
-draft: false
+themoviedbID: 4267
+currentlyWatching: false
+creator: "Lars von Trier"
+actors: ["Søren Pilmark", "Ghita Nørby", "Birgitte Raaberg"]
 summary: "Lars Von Trier does weird things with a hospital"
 layout: "layouts/tv-show.html"
 ---

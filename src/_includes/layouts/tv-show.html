@@ -10,31 +10,61 @@
       <dd>{{ originalTitle }}</dd>
     {% endif %}
 
-    <dt>Country</dt>
-    <dd>{{ originalCountry }}</dd>
+    {% if currentlyWatching %}
 
-    {% if originalLanguage and originalLanguage !== "eng" %}
-      <dt>Language</dt>
-      <dd>{{ languages[originalLanguage] if languages[originalLanguage] else originalLanguage }}</dd>
-    {% endif %}
+      <dt>Network</dt>
+      <dd>{{ network }}</dd>
 
-    <dt>Network</dt>
-    <dd>{{ network }}</dd>
+      <dt>Premiered</dt>
+      <dd>{{ yearPremiered }}</dd>
 
-    <dt>Premiered</dt>
-    <dd>{{ yearPremiered }}</dd>
+      <dt>Status</dt>
+      <dd>{{ "Currently airing" if ongoing else "Ended" }}</dd>
 
-    <dt>{{ "Latest season" if ongoing else "Seasons" }}</dt>
-    <dd>{{ currentSeason }}{% if currentSeasonYear %} <span class="show-meta__year">({{ currentSeasonYear }})</span>{% endif %}</dd>
+      {% if creator %}
+        <dt>Creator</dt>
+        <dd>{{ creator }}</dd>
+      {% endif %}
 
-    {% if rating %}
-      <dt>Rating</dt>
-      <dd class="show-meta__rating">{{ rating }}<span class="show-meta__rating-max">/10</span></dd>
-    {% endif %}
+      {% if actors and actors.length %}
+        <dt>Starring</dt>
+        <dd>{{ actors | join(", ") }}</dd>
+      {% endif %}
 
-    {% if allTimeRecommendation %}
-      <dt>Recommendation</dt>
-      <dd class="show-meta__alltime">All-time pick</dd>
+      {% if thetvdbID %}
+        <dt>More info</dt>
+        <dd><a href="https://www.thetvdb.com/?tab=series&id={{ thetvdbID }}">theTVDB</a></dd>
+      {% endif %}
+
+    {% else %}
+
+      <dt>Country</dt>
+      <dd>{{ originalCountry }}</dd>
+
+      {% if originalLanguage and originalLanguage !== "eng" %}
+        <dt>Language</dt>
+        <dd>{{ languages[originalLanguage] if languages[originalLanguage] else originalLanguage }}</dd>
+      {% endif %}
+
+      <dt>Network</dt>
+      <dd>{{ network }}</dd>
+
+      <dt>Premiered</dt>
+      <dd>{{ yearPremiered }}</dd>
+
+      <dt>{{ "Latest season" if ongoing else "Seasons" }}</dt>
+      <dd>{{ currentSeason }}{% if currentSeasonYear %} <span class="show-meta__year">({{ currentSeasonYear }})</span>{% endif %}</dd>
+
+      {% if rating %}
+        <dt>Rating</dt>
+        <dd class="show-meta__rating">{{ rating }}<span class="show-meta__rating-max">/10</span></dd>
+      {% endif %}
+
+      {% if allTimeRecommendation %}
+        <dt>Recommendation</dt>
+        <dd class="show-meta__alltime">All-time pick</dd>
+      {% endif %}
+
     {% endif %}
   </dl>
 {% endset %}

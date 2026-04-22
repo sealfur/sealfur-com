@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 
 const TVDB_API_KEY = process.env.TVDB_API_KEY;
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const COUNTRIES_FILE = path.join(__dirname, "../_data/countries.json");
 
 // --- Argument parsing ---
@@ -37,6 +38,10 @@ if (!TVDB_API_KEY) {
   console.error("Error: TVDB_API_KEY is not set in your .env file.");
   process.exit(1);
 }
+if (!TMDB_API_KEY) {
+  console.error("Error: TMDB_API_KEY is not set in your .env file.");
+  process.exit(1);
+}
 
 if (!seriesId) {
   console.error("Error: Please provide a TVDB series ID.");
@@ -45,6 +50,31 @@ if (!seriesId) {
 }
 
 // --- Helpers ---
+async function tmdbFetch(endpoint) {
+  const sep = endpoint.includes("?") ? "&" : "?";
+  const response = await fetch(
+    `https://api.themoviedb.org/3${endpoint}${sep}api_key=${TMDB_API_KEY}`
+  );
+  return response.json();
+}
+
+async function getTmdbShow(tvdbId) {
+  const findData = await tmdbFetch(`/find/${tvdbId}?external_source=tvdb_id`);
+  const tmdbId = findData.tv_results?.[0]?.id;
+  if (!tmdbId) return null;
+
+  const [details, credits] = await Promise.all([
+    tmdbFetch(`/tv/${tmdbId}`),
+    tmdbFetch(`/tv/${tmdbId}/aggregate_credits`),
+  ]);
+
+  return {
+    tmdbId,
+    creator: (details.created_by || []).map((c) => c.name).join(", "),
+    actors: (credits.cast || []).slice(0, 3).map((c) => c.name),
+  };
+}
+
 async function resolveCountryName(code) {
   if (!code) return "";
 
@@ -150,7 +180,10 @@ async function main() {
   }
 
   const token = await getToken();
-  const series = await getSeries(token, seriesId);
+  const [series, tmdb] = await Promise.all([
+    getSeries(token, seriesId),
+    getTmdbShow(seriesId),
+  ]);
 
   const latestSeason = getCurrentSeason(series.seasons || []);
   const currentSeason = latestSeason?.number ?? "";
@@ -185,6 +218,17 @@ async function main() {
     ? `title: "${englishTitle.replace(/"/g, '\\"')}"\noriginalTitle: "${originalTitle.replace(/"/g, '\\"')}"`
     : `title: "${englishTitle.replace(/"/g, '\\"')}"`;
 
+  const tmdbId = tmdb?.tmdbId ?? "";
+  const creator = tmdb?.creator ?? "";
+  const actors = tmdb?.actors ?? [];
+  const actorsYaml = actors.length
+    ? `[${actors.map((a) => `"${a}"`).join(", ")}]`
+    : "[]";
+
+  if (!tmdb) {
+    console.warn("  ⚠ Not found on TMDB — creator and actors left blank.");
+  }
+
   const frontmatter = `---
 ${titleLines}
 yearPremiered: ${yearPremiered}
@@ -200,7 +244,11 @@ ongoing: ${ongoing}
 currentSeason: ${currentSeason}
 currentSeasonYear: ${currentSeasonYear}
 thetvdbID: ${seriesId}
+themoviedbID: ${tmdbId}
 draft: true
+currentlyWatching: false
+creator: "${creator}"
+actors: ${actorsYaml}
 summary: ""
 layout: "layouts/tv-show.html"
 ---
