@@ -8140,7 +8140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^10.25.0, liquidjs@npm:^10.25.2":
+"liquidjs@npm:^10.25.0":
   version: 10.25.2
   resolution: "liquidjs@npm:10.25.2"
   dependencies:
@@ -8149,6 +8149,18 @@ __metadata:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
   checksum: 10/0e1f28b522c8ca3b9d00969d1021db6e6927011d948e057084c91a5e271fa1e63d39195c30ca8b96cbab1b473614f2fdc510496046b39522a98b89a183bf5f7c
+  languageName: node
+  linkType: hard
+
+"liquidjs@npm:^10.25.5":
+  version: 10.25.7
+  resolution: "liquidjs@npm:10.25.7"
+  dependencies:
+    commander: "npm:^10.0.0"
+  bin:
+    liquid: bin/liquid.js
+    liquidjs: bin/liquid.js
+  checksum: 10/6e4ef03bb24a808a3174120394fe03116ed8160c67db1a043bc012562dc179c00e30a9f6bc7733806c874eb8cc139ea7bff804525d13197cf506a88611c776aa
   languageName: node
   linkType: hard
 
@@ -11410,7 +11422,7 @@ __metadata:
     "@types/markdown-it": "npm:^13.0.8"
     dotenv: "npm:^17.3.1"
     get-google-fonts: "npm:^1.2.2"
-    liquidjs: "npm:^10.25.2"
+    liquidjs: "npm:^10.25.5"
     markdown-it: "npm:^14.1.1"
     markdown-it-anchor: "npm:^8.6.7"
     markdown-it-deflist: "npm:^2.1.0"
