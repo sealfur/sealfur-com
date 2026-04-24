@@ -1,12 +1,17 @@
 @use "../utilities/colors" as clr;
 
-ol, ul {
+.tvindex .page-content {
+  width: clamp(30ch, 90vw, 125ch);
+}
+
+ol,
+ul {
   &.show-card-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: inherit;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20ch), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30ch), 1fr));
     gap: 0.75em;
   }
 }
