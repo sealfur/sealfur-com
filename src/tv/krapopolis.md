@@ -17,7 +17,7 @@ themoviedbID: 131033
 currentlyWatching: true
 creator: "Dan Harmon"
 actors: ["Richard Ayoade", "Hannah Waddingham", "Matt Berry"]
-summary: ""
+summary: "An animated series about establishing a ‘modern’ society in Greco-Roman empire times. It is very funny, even after a million episodes in only three years."
 layout: "layouts/tv-show.html"
 ---
 

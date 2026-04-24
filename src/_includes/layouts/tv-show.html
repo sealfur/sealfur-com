@@ -31,9 +31,13 @@
         <dd>{{ actors | join(", ") }}</dd>
       {% endif %}
 
-      {% if thetvdbID %}
+      {% if thetvdbID or themoviedbID %}
         <dt>More info</dt>
-        <dd><a href="https://www.thetvdb.com/?tab=series&id={{ thetvdbID }}">theTVDB</a></dd>
+        <dd>
+          {% if thetvdbID %}<a href="https://www.thetvdb.com/?tab=series&id={{ thetvdbID }}">theTVDB</a>{% endif %}
+          {% if thetvdbID and themoviedbID %} &middot; {% endif %}
+          {% if themoviedbID %}<a href="https://www.themoviedb.org/tv/{{ themoviedbID }}">TMDB</a>{% endif %}
+        </dd>
       {% endif %}
 
     {% else %}

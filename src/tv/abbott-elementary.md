@@ -17,7 +17,7 @@ themoviedbID: 125935
 currentlyWatching: true
 creator: "Quinta Brunson"
 actors: ["Quinta Brunson", "Tyler James Williams", "Sheryl Lee Ralph"]
-summary: "A mockumentatry set in a Philadelphia primary school"
+summary: "A mockumentatry set in a Philadelphia primary school, created by Quinta Brunson. Standout performance by Janelle James. Season 3 includes an impressive Philadelphia-based cross-over with ‘Always Sunny’."
 layout: "layouts/tv-show.html"
 ---
 

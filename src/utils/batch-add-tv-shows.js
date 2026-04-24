@@ -7,10 +7,13 @@
 //
 // Example:
 //   node src/utils/batch-add-tv-shows.js seriesIndexSonarr.md
-//   node src/utils/batch-add-tv-shows.js seriesIndexSonarr.md --output-dir src/tv/unpublished
+//   node src/utils/batch-add-tv-shows.js _notes-resources/seriesIndexSonarr.md --output-dir src/tv/unpublished
 //
-// Input file format (one show per line):
+// 1. copy paths of recently added shows from sonarr
+// 2. reconfigure for one show per line format
+// 3. input file format (one show per line):
 //   * Show Title {tvdb-123456}
+// 4. save as _notes-resources/seriesIndexSonarr.md
 
 require("dotenv").config();
 const fs = require("fs");
