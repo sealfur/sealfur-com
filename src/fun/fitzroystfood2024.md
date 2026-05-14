@@ -1,6 +1,7 @@
 ---
-title: "Eating tour of Fitzroy Street"
+title: "Eating tour of Fitzroy Street (2024)"
 description: "For mel and josh to follow"
+redirectFrom: /fun/wednesdayeating
 ---
 
 Dinner
