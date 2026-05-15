@@ -1,7 +1,13 @@
 @use "../utilities/colors" as clr;
 
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 main > .food-walk {
-  // width: clamp(18ch, 90vw, 72ch);
+  width: clamp(18ch, 90vw, 95ch);
   display: grid;
   // grid-template-columns: 1fr 8fr 3fr;
   grid-template-columns: 1fr minmax(18ch, 8fr) 3fr;
@@ -38,8 +44,9 @@ main > .food-walk {
     }
     h3 + p {
       font-size: 0.875em;
-      opacity: 0.7;
       margin-block-start: 0;
+      margin-inline-start: 2ch;
+      font-style: italic;
     }
 
     ol {
