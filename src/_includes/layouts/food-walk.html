@@ -1,0 +1,25 @@
+{% extends "layouts/base-minimal.html" %}
+{% set pageCriticalStyles = ['css/foodwalk.css'] %}
+{% set specialPageType = 'for fun' %}
+
+{% block content %}
+<article class="food-walk flow">
+  <header class="flow">
+    <h1>{{ title }}</h1>
+    {% if description %}<p>{{ description }}</p>{% endif %}
+  </header>
+  <section class="stationlist flow">
+    {{ content | safe }}
+  </section>
+  {% if previousYears %}
+  <section class="sidebar previous">
+    <h2>Previous years</h2>
+    <ul>
+      {% for year in previousYears %}
+      <li><a href="{{ year.url }}">{{ year.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

@@ -55,6 +55,7 @@ module.exports = (eleventyConfig) => {
     "home",
     "post",
     "forms",
+    "foodwalk",
   ];
 // ---> because the templates use the css in _includes, we need to build that directory
   eleventyConfig.on("eleventy.before", async () => {
