@@ -59,3 +59,11 @@ Lunch
 
 1. BBQ Tasting Plate @ 5.00 (×1)
 1. Vegetarian Tasting Plate @ 5.00 (×1)
+
+## Notes
+
+Harvey’s (Sports Bar & Grill) was an awful experience. It took about 15 minutes for the food to come out and the atmosphere was only improved by a large bulldog vomiting on the floor.
+
+Little Prince was a delight.
+
+The standout was Babu Ji. Such a relief. We had been wanting a new Indian restaurant.
