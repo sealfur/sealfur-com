@@ -74,21 +74,22 @@ main > .food-walk {
     }
   }
 
-.previous {
-  grid-area: sidebar;
+  .previous {
+    grid-area: sidebar;
+    justify-self: self-end;
     h2 {
-    font-size: 1.1rem;
-    margin-block-end: 0.75rem;
-  }
+      font-size: 1.1rem;
+      margin-block-end: 0.75rem;
+    }
 
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 0.75rem 1.5rem;
-    flex-wrap: wrap;
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 0.75rem 1.5rem;
+      flex-wrap: wrap;
+    }
   }
-}
 }
 
 @media (width <= 500px) {
@@ -106,9 +107,13 @@ main > .food-walk {
       }
     }
     .sidebar {
+      grid-area: sidebar;
       justify-self: center;
       h2 {
-        font-size: revert;
+      }
+      ul {
+        gap: 0.75rem 1rem;
+        justify-content: center;
       }
     }
   }

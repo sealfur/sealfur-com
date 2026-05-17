@@ -1,0 +1,213 @@
+{
+  "akwaaba": {
+    "name": "Akwaaba",
+    "locations": [
+      {
+        "address": "29 Fitzroy Street",
+        "coords": [
+          -37.8620339,
+          144.9743061
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "babu-ji": {
+    "name": "Babu Ji",
+    "locations": [
+      {
+        "address": "4/6 Grey Street",
+        "coords": [
+          -37.859855,
+          144.977861
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "bang-bang": {
+    "name": "Bang Bang",
+    "locations": [
+      {
+        "address": "2/157 Fitzroy Street",
+        "coords": [
+          -37.8589302,
+          144.9795341
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "bistro-voliere": {
+    "name": "Bistro Voliere",
+    "locations": [
+      {
+        "address": "The George, 129 Fitzroy Street",
+        "coords": [
+          -37.8596147,
+          144.9780007
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "buba": {
+    "name": "Buba",
+    "locations": [
+      {
+        "address": "83 Fitzroy Street",
+        "coords": [
+          -37.8605998,
+          144.9764468
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "derby-thai": {
+    "name": "Derby Thai",
+    "locations": [
+      {
+        "address": "Shop 2/52 Fitzroy Street",
+        "coords": [
+          -37.8598029,
+          144.9765436
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "ellora": {
+    "name": "Ellora",
+    "locations": [
+      {
+        "address": "1 Fitzroy Street",
+        "coords": [
+          -37.862743,
+          144.972902
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "harveys": {
+    "name": "Harvey\u2019s (Sports Bar & Grill)",
+    "locations": [
+      {
+        "address": "169 Fitzroy Street",
+        "coords": [
+          -37.858072,
+          144.980763
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "la-bodega": {
+    "name": "La Bodega",
+    "locations": [
+      {
+        "address": "12 Fitzroy Street",
+        "coords": [
+          -37.8613334,
+          144.9739619
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "little-prince": {
+    "name": "Little Prince",
+    "locations": [
+      {
+        "address": "Ground Floor, The Prince Hotel, 2 Acland Street",
+        "coords": [
+          -37.8622125,
+          144.9740264
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "lucien": {
+    "name": "Lucien",
+    "locations": [
+      {
+        "address": "1/157 Fitzroy Street",
+        "coords": [
+          -37.8588534,
+          144.9793198
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "mama-raes": {
+    "name": "Mama Rae\u2019  s",
+    "locations": [
+      {
+        "address": "137 Fitzroy Street",
+        "coords": [
+          -37.859456,
+          144.978428
+        ],
+        "from": null,
+        "to": null,
+        "closed": 2025
+      }
+    ]
+  },
+  "taqueria": {
+    "name": "Taqueria",
+    "locations": [
+      {
+        "address": "2/155 Fitzroy Street",
+        "coords": [
+          -37.859082,
+          144.979415
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "the-cross": {
+    "name": "The Cross",
+    "locations": [
+      {
+        "address": "14 Fitzroy Street",
+        "coords": [
+          -37.8612329,
+          144.9742678
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "three-elephants": {
+    "name": "Three Elephants",
+    "locations": [
+      {
+        "address": "97 Fitzroy Street",
+        "coords": [
+          -37.8602763,
+          144.9769883
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  }
+}

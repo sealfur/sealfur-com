@@ -133,6 +133,42 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
+  // Food walk filters
+  eleventyConfig.addFilter("markdownify", (str) => markdownLib.render(str || ""));
+  eleventyConfig.addFilter("walkForYear", (walks, year) =>
+    walks.find(w => w.year === Number(year))
+  );
+  eleventyConfig.addFilter("locationForYear", (restaurant, year) =>
+    restaurant.locations.find(loc =>
+      (loc.from === null || loc.from <= Number(year)) &&
+      (loc.to === null || loc.to >= Number(year))
+    ) || restaurant.locations[0]
+  );
+  eleventyConfig.addFilter("newerLocation", (restaurant, year) =>
+    restaurant.locations.find(loc => loc.from !== null && loc.from > Number(year)) || null
+  );
+  eleventyConfig.addFilter("mapUrl", (location) => {
+    if (location && location.coords) {
+      const [lat, lng] = location.coords;
+      return `https://www.google.com/maps?q=${lat},${lng}`;
+    }
+    return null;
+  });
+  eleventyConfig.addFilter("walkDateStr", (isoStr) => {
+    const d = new Date(isoStr);
+    const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const hours = d.getHours();
+    const mins = d.getMinutes().toString().padStart(2, "0");
+    const ampm = hours >= 12 ? "PM" : "AM";
+    const hour12 = hours % 12 || 12;
+    return `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} from ${hour12}:${mins} ${ampm}`;
+  });
+  eleventyConfig.addFilter("otherWalks", (walks, year) =>
+    walks.filter(w => w.year !== Number(year)).sort((a, b) => b.year - a.year)
+  );
+  eleventyConfig.addFilter("formatPrice", (price) => Number(price).toFixed(2));
+
   // ===Collections=== //
   // . => blog posts  … … … … see [eleventy from scratch lesson](https://piccalil.li/course/learn-eleventy-from-scratch/lesson/11/)
   // . . Returns a collection of blog posts in reverse date order

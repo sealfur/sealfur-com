@@ -1,0 +1,378 @@
+[
+  {
+    "year": 2024,
+    "slug": "fitzroystfood2024",
+    "title": "Eating tour of Fitzroy Street (2024)",
+    "description": "For Mel and Josh to follow",
+    "meal": "Dinner",
+    "date": "2024-09-18T18:00:00",
+    "participants": [
+      "Josh",
+      "Mel"
+    ],
+    "stops": [
+      {
+        "restaurant": "derby-thai",
+        "stop": 1,
+        "items": [
+          {
+            "name": "Pad Grapow gai sub",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Chive dumplings",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "mama-raes",
+        "stop": 2,
+        "items": [
+          {
+            "name": "Hot dawg",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Louisiana fried chicken",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "three-elephants",
+        "stop": 3,
+        "items": [
+          {
+            "name": "Vegetarian Pan Roll",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Potato lamb tacos",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "akwaaba",
+        "stop": 4,
+        "items": [
+          {
+            "name": "Plantain with crushed peanuts",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "African spiced wings",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "la-bodega",
+        "stop": 5,
+        "items": [
+          {
+            "name": "Tostone",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Empanada",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "the-cross",
+        "stop": 6,
+        "items": [
+          {
+            "name": "Haggis, neeps and tatties",
+            "price": 5.0,
+            "qty": 2
+          },
+          {
+            "name": "Scallop & black pudding",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "slug": "fitzroystfood2025",
+    "title": "Eating Fitzroy Street 2025",
+    "description": "For Lyndal and Josh to follow",
+    "meal": "Lunch",
+    "date": "2025-05-17T12:00:00",
+    "participants": [
+      "Josh",
+      "Lyndal"
+    ],
+    "stops": [
+      {
+        "restaurant": "little-prince",
+        "stop": 1,
+        "items": [
+          {
+            "name": "Grilled pepper tuna",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Pistachio & taleggio arancini",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "akwaaba",
+        "stop": 2,
+        "items": [
+          {
+            "name": "Jollof rice",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Chicken giblet",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "three-elephants",
+        "stop": 3,
+        "items": [
+          {
+            "name": "Vegetarian pan roll",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "babu-ji",
+        "stop": 4,
+        "items": [
+          {
+            "name": "Samosa chat",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "bistro-voliere",
+        "stop": 5,
+        "items": [
+          {
+            "name": "Blanquette de Veau",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "bang-bang",
+        "stop": 6,
+        "items": [
+          {
+            "name": "Cheung fun",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Karaage squid",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "harveys",
+        "stop": 7,
+        "items": [
+          {
+            "name": "BBQ Tasting Plate",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Vegetarian Tasting Plate",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "slug": "fitzroystfood2026",
+    "title": "Eating Fitzroy Street 2026",
+    "description": "For Lyndal, Josh & Melanie to follow",
+    "meal": "Lunch",
+    "date": "2026-05-23T12:00:00",
+    "participants": [
+      "Josh",
+      "Lyndal",
+      "Melanie"
+    ],
+    "stops": [
+      {
+        "restaurant": "little-prince",
+        "stop": 1,
+        "items": [
+          {
+            "name": "Crispy zucchini chip",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Woodfired salami skewer",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "akwaaba",
+        "stop": 2,
+        "items": [
+          {
+            "name": "Chicken giblet",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "buba",
+        "stop": 3,
+        "items": [
+          {
+            "name": "Fried cauliflower",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Lamb kebab",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "babu-ji",
+        "stop": 4,
+        "items": [
+          {
+            "name": "Carrot and kale tikki",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "bistro-voliere",
+        "stop": 5,
+        "items": [
+          {
+            "name": "Boeuf Bourguignon",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "taqueria",
+        "stop": 6,
+        "items": [
+          {
+            "name": "Al Pastor cauliflower tacos",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Suadero tacos",
+            "price": 5.0,
+            "qty": 2
+          }
+        ]
+      },
+      {
+        "restaurant": "lucien",
+        "stop": 7,
+        "items": [
+          {
+            "name": "Goats cheese & pesto on toast",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Golden potatoes & chorizo",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "la-bodega",
+        "stop": 8,
+        "items": [
+          {
+            "name": "Beef empanada",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Tostones",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "the-cross",
+        "stop": 9,
+        "items": [
+          {
+            "name": "Scottish rarebit croquette",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "ellora",
+        "stop": 10,
+        "items": [
+          {
+            "name": "Chargrilled corn ribs",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Hot honey fried chicken",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      }
+    ]
+  }
+]

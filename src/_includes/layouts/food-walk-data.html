@@ -1,0 +1,61 @@
+{% extends "layouts/base-minimal.html" %}
+{% set pageCriticalStyles = ['css/foodwalk.css'] %}
+{% set specialPageType = 'for fun' %}
+
+{% block content %}
+{% set walk = foodwalks | walkForYear(year) %}
+<article class="food-walk flow">
+  <header class="flow">
+    <h1>{{ walk.title }}</h1>
+    {% if walk.description %}<p>{{ walk.description }}</p>{% endif %}
+  </header>
+  <section class="stationlist flow">
+    <dl>
+      <dt>{{ walk.meal }}</dt>
+      <dd>{{ walk.date | walkDateStr }}</dd>
+    </dl>
+
+    {{ content | safe }}
+
+    <h2>The Restaurants</h2>
+    {% for stop in walk.stops | sort(false, false, "stop") %}
+      {% set restaurant = foodwalk_restaurants[stop.restaurant] %}
+      {% set location = restaurant | locationForYear(walk.year) %}
+      {% set newer = restaurant | newerLocation(walk.year) %}
+      <h3>{% if location.closed %}<s>{{ restaurant.name }}</s> <span class="restaurant-closed">(closed {{ location.closed }})</span>{% else %}{{ restaurant.name }}{% endif %}</h3>
+      <p class="restaurant-address">
+        {% if newer %}
+          <s>{{ location.address }}</s>
+          {% set newerMapLink = newer | mapUrl %}
+          {% if newerMapLink %}<a href="{{ newerMapLink }}">{{ newer.address }}</a>{% else %}{{ newer.address }}{% endif %}
+        {% else %}
+          {% set mapLink = location | mapUrl %}
+          {% if mapLink %}<a href="{{ mapLink }}">{{ location.address }}</a>{% else %}{{ location.address }}{% endif %}
+        {% endif %}
+      </p>
+      <ol>
+        {% for item in stop.items %}
+        <li>{{ item.name }} @ {{ item.price | formatPrice }} (×{{ item.qty }})</li>
+        {% endfor %}
+      </ol>
+    {% endfor %}
+
+    {% if notes %}
+    <h2>Notes</h2>
+    {{ notes | markdownify | safe }}
+    {% endif %}
+  </section>
+
+  {% set prevWalks = foodwalks | otherWalks(walk.year) %}
+  {% if prevWalks.length %}
+  <section class="sidebar previous">
+    <h2>Other Food Walks</h2>
+    <ul>
+      {% for w in prevWalks %}
+      <li><a href="/fun/{{ w.slug }}">{{ w.year }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}
