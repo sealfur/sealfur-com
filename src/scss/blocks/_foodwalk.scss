@@ -47,6 +47,11 @@ main > .food-walk {
       margin-block-start: 0;
       margin-inline-start: 2ch;
       font-style: italic;
+      small {
+        font-style: initial;
+        font-family: monospace;
+        color: var(--clr-mintgreen);
+      }
     }
 
     ol {
