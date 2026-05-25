@@ -292,7 +292,7 @@
         "stop": 5,
         "items": [
           {
-            "name": "Boeuf Bourguignon",
+            "name": "B\u0153uf Bourguignon",
             "price": 5.0,
             "qty": 1
           }
@@ -332,7 +332,7 @@
       },
       {
         "restaurant": "la-bodega",
-        "stop": 8,
+        "stop": 9,
         "items": [
           {
             "name": "Beef empanada",
@@ -348,7 +348,7 @@
       },
       {
         "restaurant": "the-cross",
-        "stop": 9,
+        "stop": 8,
         "items": [
           {
             "name": "Scottish rarebit croquette",

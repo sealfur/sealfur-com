@@ -77,6 +77,12 @@ main > .food-walk {
     }
     h2 {
     }
+    aside.foodnotes {
+      p strong {
+	font-weight: var(--w-semibold);
+	color: var(--clr-mintgreen);
+}
+    }
   }
 
   .previous {

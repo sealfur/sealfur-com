@@ -22,7 +22,7 @@
       {% set restaurant = foodwalk_restaurants[stop.restaurant] %}
       {% set location = restaurant | locationForYear(walk.year) %}
       {% set newer = restaurant | newerLocation(walk.year) %}
-      <h3>{{ restaurant.name }}</h3>
+      <h3 id="{{ stop.restaurant }}">{{ restaurant.name }}</h3>
       <p class="restaurant-address">
         {% if location.closed %}
           <s>{{ location.address }}</s> <small class="restaurant-closed">(closed {{ location.closed }})</small>
@@ -43,8 +43,10 @@
     {% endfor %}
 
     {% if notes %}
-    <h2>Notes</h2>
+    <aside class="flow foodnotes">
+    <h2 id="foodwalk-notes">Notes</h2>
     {{ notes | markdownify | safe }}
+    </aside>
     {% endif %}
   </section>
 
