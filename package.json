@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^3.1.8",
-    "liquidjs": "^10.25.7",
+    "liquidjs": "^10.26.0",
     "markdown-it-deflist": "^2.1.0"
   }
 }
