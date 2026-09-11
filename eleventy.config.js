@@ -138,6 +138,9 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("walkForYear", (walks, year) =>
     walks.find(w => w.year === Number(year))
   );
+  eleventyConfig.addFilter("walkById", (walks, id) =>
+    walks.find(w => w.id === String(id))
+  );
   eleventyConfig.addFilter("locationForYear", (restaurant, year) =>
     restaurant.locations.find(loc =>
       (loc.from === null || loc.from <= Number(year)) &&
@@ -164,8 +167,8 @@ module.exports = (eleventyConfig) => {
     const hour12 = hours % 12 || 12;
     return `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} from ${hour12}:${mins} ${ampm}`;
   });
-  eleventyConfig.addFilter("otherWalks", (walks, year) =>
-    walks.filter(w => w.year !== Number(year)).sort((a, b) => b.year - a.year)
+  eleventyConfig.addFilter("otherWalks", (walks, id) =>
+    walks.filter(w => w.id !== String(id)).sort((a, b) => new Date(b.date) - new Date(a.date))
   );
   eleventyConfig.addFilter("formatPrice", (price) => Number(price).toFixed(2));
 

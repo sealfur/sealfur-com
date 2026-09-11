@@ -168,6 +168,48 @@
       }
     ]
   },
+  "mukka": {
+    "name": "Mukka",
+    "locations": [
+      {
+        "address": "16 Fitzroy Street",
+        "coords": [
+          -37.8612296,
+          144.9742663
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "pyramid": {
+    "name": "Pyramid Bar & Restaurant",
+    "locations": [
+      {
+        "address": "21/23 Fitzroy Street",
+        "coords": [
+          -37.8623057,
+          144.9733548
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  "sebbys-scrolls": {
+    "name": "Sebby\u2019s Scrolls",
+    "locations": [
+      {
+        "address": "2C Acland Street",
+        "coords": [
+          -37.8623131,
+          144.9741329
+        ],
+        "from": null,
+        "to": null
+      }
+    ]
+  },
   "taqueria": {
     "name": "Taqueria",
     "locations": [

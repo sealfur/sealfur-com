@@ -1,6 +1,8 @@
 [
   {
+    "id": "2024",
     "year": 2024,
+    "label": "2024",
     "slug": "fitzroystfood2024",
     "title": "Eating tour of Fitzroy Street (2024)",
     "description": "For Mel and Josh to follow",
@@ -110,7 +112,9 @@
     ]
   },
   {
+    "id": "2025",
     "year": 2025,
+    "label": "2025",
     "slug": "fitzroystfood2025",
     "title": "Eating Fitzroy Street 2025",
     "description": "For Lyndal and Josh to follow",
@@ -221,7 +225,9 @@
     ]
   },
   {
+    "id": "2026-05",
     "year": 2026,
+    "label": "May 2026",
     "slug": "fitzroystfood2026",
     "title": "Eating Fitzroy Street 2026",
     "description": "For Lyndal, Josh & Melanie to follow",
@@ -370,6 +376,158 @@
             "name": "Hot honey fried chicken",
             "price": 5.0,
             "qty": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-09",
+    "year": 2026,
+    "label": "September 2026",
+    "slug": "fitzroystfood2026sept",
+    "title": "Eating Fitzroy Street, September 2026",
+    "description": "For Lyndal, Melanie & Leanne to follow",
+    "meal": "Lunch",
+    "date": "2026-09-12T12:00:00",
+    "participants": [
+      "Lyndal",
+      "Melanie",
+      "Leanne"
+    ],
+    "stops": [
+      {
+        "restaurant": "little-prince",
+        "stop": 1,
+        "items": [
+          {
+            "name": "Fried haloumi",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Smoky pork sausage roll",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "pyramid",
+        "stop": 2,
+        "items": [
+          {
+            "name": "Falafel sliders",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Lamb kofta",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "three-elephants",
+        "stop": 3,
+        "items": [
+          {
+            "name": "Veg pan roll",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "babu-ji",
+        "stop": 4,
+        "items": [
+          {
+            "name": "Moong dal",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "bistro-voliere",
+        "stop": 5,
+        "items": [
+          {
+            "name": "Camembert au Four",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "French onion soup",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "taqueria",
+        "stop": 6,
+        "items": [
+          {
+            "name": "Cochinita taco",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Guacamole and chips",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "mukka",
+        "stop": 7,
+        "items": [
+          {
+            "name": "Onion bhaji",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "the-cross",
+        "stop": 8,
+        "items": [
+          {
+            "name": "Scotch egg",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "la-bodega",
+        "stop": 9,
+        "items": [
+          {
+            "name": "Plantains with sausage",
+            "price": 5.0,
+            "qty": 1
+          },
+          {
+            "name": "Plantains with guava & cheese",
+            "price": 5.0,
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "restaurant": "sebbys-scrolls",
+        "stop": 10,
+        "items": [
+          {
+            "name": "Mini cinnamon scroll",
+            "price": 5.0,
+            "qty": 2
           }
         ]
       }
