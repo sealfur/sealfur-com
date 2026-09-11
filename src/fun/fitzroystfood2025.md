@@ -2,7 +2,7 @@
 title: "Eating Fitzroy Street, 2025"
 description: "For Lyndal and Josh to follow"
 layout: layouts/food-walk-data.html
-year: 2025
+walkId: "2025"
 notes: |
   Harvey's (Sports Bar & Grill) was an awful experience. It took about 15 minutes for the food to come out and the atmosphere was only improved by a large bulldog vomiting on the floor.
 

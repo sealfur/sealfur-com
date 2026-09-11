@@ -3,7 +3,7 @@
 {% set specialPageType = 'for fun' %}
 
 {% block content %}
-{% set walk = foodwalks | walkForYear(year) %}
+{% set walk = foodwalks | walkById(walkId) %}
 <article class="food-walk flow">
   <header class="flow">
     <h1>{{ walk.title }}</h1>
@@ -50,13 +50,13 @@
     {% endif %}
   </section>
 
-  {% set prevWalks = foodwalks | otherWalks(walk.year) %}
+  {% set prevWalks = foodwalks | otherWalks(walk.id) %}
   {% if prevWalks.length %}
   <section class="sidebar previous">
     <h2>Other Food Walks</h2>
     <ul>
       {% for w in prevWalks %}
-      <li><a href="/fun/{{ w.slug }}">{{ w.year }}</a></li>
+      <li><a href="/fun/{{ w.slug }}">{{ w.label }}</a></li>
       {% endfor %}
     </ul>
   </section>

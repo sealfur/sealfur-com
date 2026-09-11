@@ -2,7 +2,7 @@
 title: "Eating Fitzroy Street, 2026"
 description: "For Lyndal, Josh & Melanie to follow"
 layout: layouts/food-walk-data.html
-year: 2026
+walkId: "2026-05"
 notes: |
     As often happens, the dedication to notes (and, [this time, photos](https://flic.kr/s/aHBqjCUJ3R)) waned in proportion to bellies getting fuller. Starting at Little Prince, once again, made me wonder why I don’t go there more often for the delicious food, wine and atmosphere. But living on the other side of St Kilda is the easy answer there. It’s difficult to walk past Cicciolina to spend whatever indulgence budget I may have.
     

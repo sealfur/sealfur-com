@@ -1,6 +1,6 @@
 ---
 title: "Eating Fitzroy Street 2026 (data demo)"
-year: 2026
+walkId: "2026-05"
 layout: layouts/food-walk-data.html
 permalink: /fun/foodwalk-demo/
 ---
