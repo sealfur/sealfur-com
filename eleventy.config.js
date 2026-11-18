@@ -121,6 +121,7 @@ module.exports = (eleventyConfig) => {
   // ----Set directories to pass through to the dist folder
   eleventyConfig.addPassthroughCopy("src/images/");
   eleventyConfig.addPassthroughCopy("src/fonts");
+  eleventyConfig.addPassthroughCopy("src/calendarfeeds");
 
   // ---- WatchIgnores changes to _includes/css to avoid a loop
   eleventyConfig.watchIgnores.add("src/_includes/css/**");

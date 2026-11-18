@@ -26,6 +26,12 @@
   NODE_ENV = "development"
   framework = "#custom"
 
+[[headers]]
+  for = "/calendarfeeds/*.ics"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=86400"
+
 [[plugins]]
   package = "netlify-plugin-webmentions"
 
