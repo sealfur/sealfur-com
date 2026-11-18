@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Jewish Holiday Calendar (Melbourne)</title>
+    <link>https://sealfur.com/calendarfeeds/</link>
+    <description>Selected Jewish holidays with candle-lighting, havdalah and fast times for Australia/Melbourne. Source: Hebcal (https://www.hebcal.com/)</description>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 18 Nov 2026 18:00:39 +1100</lastBuildDate>
+    <item>
+      <title>Erev Purim</title>
+      <description>Erev Purim (2026-03-02)</description>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">5d283c3efade8caaa757aa94bdc8ac825bee8eb6</guid>
+    </item>
+    <item>
+      <title>Purim</title>
+      <description>Purim (2026-03-03)</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">76b758faaea808a3efabef811c0cd1beeab62f36</guid>
+    </item>
+    <item>
+      <title>Erev Pesach — Candle lighting</title>
+      <description>Erev Pesach: Candle lighting at 6:55 PM on Wednesday, 01 April 2026 (local time)</description>
+      <pubDate>Wed, 01 Apr 2026 18:55:00 +1100</pubDate>
+      <guid isPermaLink="false">4fc0734f0f069c99ffdf314344e19aadeacd5aa4</guid>
+    </item>
+    <item>
+      <title>Pesach I — Candle lighting</title>
+      <description>Pesach I: Candle lighting at 7:51 PM on Thursday, 02 April 2026 (local time)</description>
+      <pubDate>Thu, 02 Apr 2026 19:51:00 +1100</pubDate>
+      <guid isPermaLink="false">dc45eb9841be0455dff2877b3a7465315bd45e5a</guid>
+    </item>
+    <item>
+      <title>Pesach II — Candle lighting</title>
+      <description>Pesach II: Candle lighting at 6:52 PM on Friday, 03 April 2026 (local time)</description>
+      <pubDate>Fri, 03 Apr 2026 18:52:00 +1100</pubDate>
+      <guid isPermaLink="false">ac3e3235fdbb7ceff5fc4033d77e4913092fa1ce</guid>
+    </item>
+    <item>
+      <title>Pesach VII — Candle lighting</title>
+      <description>Pesach VII: Candle lighting at 6:43 PM on Wednesday, 08 April 2026 (local time)</description>
+      <pubDate>Wed, 08 Apr 2026 18:43:00 +1000</pubDate>
+      <guid isPermaLink="false">60605ab8576823ff935c857a76e4da417c675005</guid>
+    </item>
+    <item>
+      <title>Pesach VIII — Havdalah</title>
+      <description>Pesach VIII: Havdalah at 6:41 PM on Thursday, 09 April 2026 (local time)</description>
+      <pubDate>Thu, 09 Apr 2026 18:41:00 +1000</pubDate>
+      <guid isPermaLink="false">dd07aeb2fbd2f7af257647b8d0c6f9757d0dc0bf</guid>
+    </item>
+    <item>
+      <title>Yom HaShoah</title>
+      <description>Yom HaShoah (2026-04-14)</description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +1000</pubDate>
+      <guid isPermaLink="false">16c3e5bba200ee92eb414c1f7f42f52a2749e1ae</guid>
+    </item>
+    <item>
+      <title>Erev Shavuot — Candle lighting</title>
+      <description>Erev Shavuot: Candle lighting at 4:56 PM on Thursday, 21 May 2026 (local time)</description>
+      <pubDate>Thu, 21 May 2026 16:56:00 +1000</pubDate>
+      <guid isPermaLink="false">153184a0aa5fe7d574e31b274d879fd8a4fe5460</guid>
+    </item>
+    <item>
+      <title>Shavuot I — Candle lighting</title>
+      <description>Shavuot I: Candle lighting at 4:56 PM on Friday, 22 May 2026 (local time)</description>
+      <pubDate>Fri, 22 May 2026 16:56:00 +1000</pubDate>
+      <guid isPermaLink="false">38fd525b3a54e5fee5abef32f1bb3a3857e5cc48</guid>
+    </item>
+    <item>
+      <title>Shavuot II — Havdalah</title>
+      <description>Shavuot II: Havdalah at 5:56 PM on Saturday, 23 May 2026 (local time)</description>
+      <pubDate>Sat, 23 May 2026 17:56:00 +1000</pubDate>
+      <guid isPermaLink="false">f5838393e3dfbe8ff3e4034732ea047bb1bae696</guid>
+    </item>
+    <item>
+      <title>Erev Rosh Hashana — Candle lighting</title>
+      <description>Erev Rosh Hashana: Candle lighting at 5:48 PM on Friday, 11 September 2026 (local time)</description>
+      <pubDate>Fri, 11 Sep 2026 17:48:00 +1000</pubDate>
+      <guid isPermaLink="false">9fbc48f2facdef1a2762f854fa7dab45ac662864</guid>
+    </item>
+    <item>
+      <title>Rosh Hashana — Candle lighting</title>
+      <description>Rosh Hashana: Candle lighting at 6:47 PM on Saturday, 12 September 2026 (local time)</description>
+      <pubDate>Sat, 12 Sep 2026 18:47:00 +1000</pubDate>
+      <guid isPermaLink="false">02e525583f0d750cfbafd034b271e7f222fcf3b7</guid>
+    </item>
+    <item>
+      <title>Rosh Hashana II — Havdalah</title>
+      <description>Rosh Hashana II: Havdalah at 6:48 PM on Sunday, 13 September 2026 (local time)</description>
+      <pubDate>Sun, 13 Sep 2026 18:48:00 +1000</pubDate>
+      <guid isPermaLink="false">6db86447e4329473f2a8f4e1773512b54a172630</guid>
+    </item>
+    <item>
+      <title>Tzom Gedaliah — Fast begins</title>
+      <description>Tzom Gedaliah: fast begins at 5:05 AM on Monday, 14 September 2026 (local time)</description>
+      <pubDate>Mon, 14 Sep 2026 05:05:00 +1000</pubDate>
+      <guid isPermaLink="false">a834d4593e5e0afe4c0706a40e8ea03150456c36</guid>
+    </item>
+    <item>
+      <title>Tzom Gedaliah — Fast ends</title>
+      <description>Tzom Gedaliah: fast ends at 6:41 PM on Monday, 14 September 2026 (local time)</description>
+      <pubDate>Mon, 14 Sep 2026 18:41:00 +1000</pubDate>
+      <guid isPermaLink="false">84c0e237e53a62791fa74c83a6bceb30f5fe9dcd</guid>
+    </item>
+    <item>
+      <title>Erev Yom Kippur — Candle lighting</title>
+      <description>Erev Yom Kippur: Candle lighting at 5:56 PM on Sunday, 20 September 2026 (local time)</description>
+      <pubDate>Sun, 20 Sep 2026 17:56:00 +1000</pubDate>
+      <guid isPermaLink="false">abf677346ab134dc45ab4c59bd4ce78944c1c5ff</guid>
+    </item>
+    <item>
+      <title>Yom Kippur — Havdalah</title>
+      <description>Yom Kippur: Havdalah at 6:54 PM on Monday, 21 September 2026 (local time)</description>
+      <pubDate>Mon, 21 Sep 2026 18:54:00 +1000</pubDate>
+      <guid isPermaLink="false">54507e955c5b233041fb8870c2f43ce308e47fa3</guid>
+    </item>
+    <item>
+      <title>Erev Sukkot — Candle lighting</title>
+      <description>Erev Sukkot: Candle lighting at 6:00 PM on Friday, 25 September 2026 (local time)</description>
+      <pubDate>Fri, 25 Sep 2026 18:00:00 +1000</pubDate>
+      <guid isPermaLink="false">d6b3cc9100e0d97535fec713c7c9af12a9bcdfef</guid>
+    </item>
+    <item>
+      <title>Sukkot I — Candle lighting</title>
+      <description>Sukkot I: Candle lighting at 6:59 PM on Saturday, 26 September 2026 (local time)</description>
+      <pubDate>Sat, 26 Sep 2026 18:59:00 +1000</pubDate>
+      <guid isPermaLink="false">946c5a40620a8fe950f81f75a0826db23546415e</guid>
+    </item>
+    <item>
+      <title>Sukkot II — Havdalah</title>
+      <description>Sukkot II: Havdalah at 7:00 PM on Sunday, 27 September 2026 (local time)</description>
+      <pubDate>Sun, 27 Sep 2026 19:00:00 +1000</pubDate>
+      <guid isPermaLink="false">62eb4107486ab3dd139f2eadbadb3d0285df3c99</guid>
+    </item>
+    <item>
+      <title>Sukkot VII (Hoshana Raba) — Candle lighting</title>
+      <description>Sukkot VII (Hoshana Raba): Candle lighting at 6:07 PM on Friday, 02 October 2026 (local time)</description>
+      <pubDate>Fri, 02 Oct 2026 18:07:00 +1000</pubDate>
+      <guid isPermaLink="false">bd30f6fa9b22559d1908f972b9a3a36a30627c65</guid>
+    </item>
+    <item>
+      <title>Shmini Atzeret — Candle lighting</title>
+      <description>Shmini Atzeret: Candle lighting at 7:05 PM on Saturday, 03 October 2026 (local time)</description>
+      <pubDate>Sat, 03 Oct 2026 19:05:00 +1000</pubDate>
+      <guid isPermaLink="false">412239aceef767c79ba63acf17baa277577f2722</guid>
+    </item>
+    <item>
+      <title>Simchat Torah — Havdalah</title>
+      <description>Simchat Torah: Havdalah at 8:06 PM on Sunday, 04 October 2026 (local time)</description>
+      <pubDate>Sun, 04 Oct 2026 20:06:00 +1100</pubDate>
+      <guid isPermaLink="false">272d648a412d72378046e3f322656526f305bd61</guid>
+    </item>
+    <item>
+      <title>Chanukah: 1 Candle</title>
+      <description>Chanukah: 1 Candle (2026-12-04)</description>
+      <pubDate>Fri, 04 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">e488108878c1995bc94dd7e528d88196323ad36a</guid>
+    </item>
+    <item>
+      <title>Chanukah: 2 Candles</title>
+      <description>Chanukah: 2 Candles (2026-12-05)</description>
+      <pubDate>Sat, 05 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">8675d679b30e55300af745abe3449b1941fbd249</guid>
+    </item>
+    <item>
+      <title>Chanukah: 3 Candles</title>
+      <description>Chanukah: 3 Candles (2026-12-06)</description>
+      <pubDate>Sun, 06 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">0d64ddf5426a742c28d95e68345549f9bc72cb12</guid>
+    </item>
+    <item>
+      <title>Chanukah: 4 Candles</title>
+      <description>Chanukah: 4 Candles (2026-12-07)</description>
+      <pubDate>Mon, 07 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">c9cb5a34c4284e44505bdd4470fe59837d62e7d6</guid>
+    </item>
+    <item>
+      <title>Chanukah: 5 Candles</title>
+      <description>Chanukah: 5 Candles (2026-12-08)</description>
+      <pubDate>Tue, 08 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">835606c76adbef9e8f0a20045339066e9224992a</guid>
+    </item>
+    <item>
+      <title>Chanukah: 6 Candles</title>
+      <description>Chanukah: 6 Candles (2026-12-09)</description>
+      <pubDate>Wed, 09 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">2092e07965811dd943febda0e1188917b61e6d07</guid>
+    </item>
+    <item>
+      <title>Chanukah: 7 Candles</title>
+      <description>Chanukah: 7 Candles (2026-12-10)</description>
+      <pubDate>Thu, 10 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">71850bc1823f9c3f09e4b09bef7a3c5447e8c0b7</guid>
+    </item>
+    <item>
+      <title>Chanukah: 8 Candles</title>
+      <description>Chanukah: 8 Candles (2026-12-11)</description>
+      <pubDate>Fri, 11 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">72bb6d420a04c1881d023efa2419312601f40c81</guid>
+    </item>
+    <item>
+      <title>Chanukah: 8th Day</title>
+      <description>Chanukah: 8th Day (2026-12-12)</description>
+      <pubDate>Sat, 12 Dec 2026 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">54b2f1e6ddfd91d1ef2b0708e74e76f1122a8823</guid>
+    </item>
+    <item>
+      <title>Erev Purim</title>
+      <description>Erev Purim (2027-03-22)</description>
+      <pubDate>Mon, 22 Mar 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">66ba5b1de3efc64dc16c2580966b4a6a44bb175e</guid>
+    </item>
+    <item>
+      <title>Purim</title>
+      <description>Purim (2027-03-23)</description>
+      <pubDate>Tue, 23 Mar 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">916aad1192f5cfbfd1031bef913eda97a987eef2</guid>
+    </item>
+    <item>
+      <title>Erev Pesach — Candle lighting</title>
+      <description>Erev Pesach: Candle lighting at 5:27 PM on Wednesday, 21 April 2027 (local time)</description>
+      <pubDate>Wed, 21 Apr 2027 17:27:00 +1000</pubDate>
+      <guid isPermaLink="false">0e4499e40a10cdc2c8fb91b80bb1e424f942a6a0</guid>
+    </item>
+    <item>
+      <title>Pesach I — Candle lighting</title>
+      <description>Pesach I: Candle lighting at 6:24 PM on Thursday, 22 April 2027 (local time)</description>
+      <pubDate>Thu, 22 Apr 2027 18:24:00 +1000</pubDate>
+      <guid isPermaLink="false">f73b8454ebdfb450a1eb82d2ffb110e4ab4a016b</guid>
+    </item>
+    <item>
+      <title>Pesach II — Candle lighting</title>
+      <description>Pesach II: Candle lighting at 5:25 PM on Friday, 23 April 2027 (local time)</description>
+      <pubDate>Fri, 23 Apr 2027 17:25:00 +1000</pubDate>
+      <guid isPermaLink="false">36848478eee434b5520cf4cac08e0c2b24aa7f10</guid>
+    </item>
+    <item>
+      <title>Pesach VII — Candle lighting</title>
+      <description>Pesach VII: Candle lighting at 6:17 PM on Wednesday, 28 April 2027 (local time)</description>
+      <pubDate>Wed, 28 Apr 2027 18:17:00 +1000</pubDate>
+      <guid isPermaLink="false">d19ff986e3cc3c987cb9fbc0c74b0083e6c6aafb</guid>
+    </item>
+    <item>
+      <title>Pesach VIII — Havdalah</title>
+      <description>Pesach VIII: Havdalah at 6:16 PM on Thursday, 29 April 2027 (local time)</description>
+      <pubDate>Thu, 29 Apr 2027 18:16:00 +1000</pubDate>
+      <guid isPermaLink="false">913df1fd7730484db5e7d9b1b994d7280fd10b55</guid>
+    </item>
+    <item>
+      <title>Yom HaShoah</title>
+      <description>Yom HaShoah (2027-05-04)</description>
+      <pubDate>Tue, 04 May 2027 00:00:00 +1000</pubDate>
+      <guid isPermaLink="false">dead28fdff28dbb063f8e5d85d4af65a66f79db4</guid>
+    </item>
+    <item>
+      <title>Erev Shavuot — Candle lighting</title>
+      <description>Erev Shavuot: Candle lighting at 4:49 PM on Thursday, 10 June 2027 (local time)</description>
+      <pubDate>Thu, 10 Jun 2027 16:49:00 +1000</pubDate>
+      <guid isPermaLink="false">001fbb6e8132ac89f95c6b4c88c58ebd4e192236</guid>
+    </item>
+    <item>
+      <title>Shavuot I — Candle lighting</title>
+      <description>Shavuot I: Candle lighting at 4:49 PM on Friday, 11 June 2027 (local time)</description>
+      <pubDate>Fri, 11 Jun 2027 16:49:00 +1000</pubDate>
+      <guid isPermaLink="false">2eae3d04d96973a7ad78fb77920148328c795b7b</guid>
+    </item>
+    <item>
+      <title>Shavuot II — Havdalah</title>
+      <description>Shavuot II: Havdalah at 5:50 PM on Saturday, 12 June 2027 (local time)</description>
+      <pubDate>Sat, 12 Jun 2027 17:50:00 +1000</pubDate>
+      <guid isPermaLink="false">6b13ed57d8fd5df736b5f912294759db32134134</guid>
+    </item>
+    <item>
+      <title>Erev Rosh Hashana — Candle lighting</title>
+      <description>Erev Rosh Hashana: Candle lighting at 6:05 PM on Friday, 01 October 2027 (local time)</description>
+      <pubDate>Fri, 01 Oct 2027 18:05:00 +1000</pubDate>
+      <guid isPermaLink="false">a52099150f6a297b0092e296477d32c824d7bb63</guid>
+    </item>
+    <item>
+      <title>Rosh Hashana — Candle lighting</title>
+      <description>Rosh Hashana: Candle lighting at 7:04 PM on Saturday, 02 October 2027 (local time)</description>
+      <pubDate>Sat, 02 Oct 2027 19:04:00 +1000</pubDate>
+      <guid isPermaLink="false">e3ee0218ce2e8f72c018b2941fb253877f6d6740</guid>
+    </item>
+    <item>
+      <title>Rosh Hashana II — Havdalah</title>
+      <description>Rosh Hashana II: Havdalah at 8:05 PM on Sunday, 03 October 2027 (local time)</description>
+      <pubDate>Sun, 03 Oct 2027 20:05:00 +1100</pubDate>
+      <guid isPermaLink="false">2118189c563cc3eca94954d5b388f94f29247a1d</guid>
+    </item>
+    <item>
+      <title>Tzom Gedaliah — Fast begins</title>
+      <description>Tzom Gedaliah: fast begins at 5:33 AM on Monday, 04 October 2027 (local time)</description>
+      <pubDate>Mon, 04 Oct 2027 05:33:00 +1100</pubDate>
+      <guid isPermaLink="false">375ecb7f6395283683116b0a9f2726eb38993ffb</guid>
+    </item>
+    <item>
+      <title>Tzom Gedaliah — Fast ends</title>
+      <description>Tzom Gedaliah: fast ends at 7:59 PM on Monday, 04 October 2027 (local time)</description>
+      <pubDate>Mon, 04 Oct 2027 19:59:00 +1100</pubDate>
+      <guid isPermaLink="false">d41ee472f60d2b951e2a3a9e7779c1d680dc29c5</guid>
+    </item>
+    <item>
+      <title>Erev Yom Kippur — Candle lighting</title>
+      <description>Erev Yom Kippur: Candle lighting at 7:14 PM on Sunday, 10 October 2027 (local time)</description>
+      <pubDate>Sun, 10 Oct 2027 19:14:00 +1100</pubDate>
+      <guid isPermaLink="false">697ff30023199638a7780835a76039c4f6e7fcf0</guid>
+    </item>
+    <item>
+      <title>Yom Kippur — Havdalah</title>
+      <description>Yom Kippur: Havdalah at 8:13 PM on Monday, 11 October 2027 (local time)</description>
+      <pubDate>Mon, 11 Oct 2027 20:13:00 +1100</pubDate>
+      <guid isPermaLink="false">4ab852df7c840aebe637e0b001f162ed92d75ffa</guid>
+    </item>
+    <item>
+      <title>Erev Sukkot — Candle lighting</title>
+      <description>Erev Sukkot: Candle lighting at 7:18 PM on Friday, 15 October 2027 (local time)</description>
+      <pubDate>Fri, 15 Oct 2027 19:18:00 +1100</pubDate>
+      <guid isPermaLink="false">f53c83403cdee76b4da525526001b36efa2b9b00</guid>
+    </item>
+    <item>
+      <title>Sukkot I — Candle lighting</title>
+      <description>Sukkot I: Candle lighting at 8:18 PM on Saturday, 16 October 2027 (local time)</description>
+      <pubDate>Sat, 16 Oct 2027 20:18:00 +1100</pubDate>
+      <guid isPermaLink="false">1b68e6cfa4a2c0d38c35d0081675b430233f5471</guid>
+    </item>
+    <item>
+      <title>Sukkot II — Havdalah</title>
+      <description>Sukkot II: Havdalah at 8:19 PM on Sunday, 17 October 2027 (local time)</description>
+      <pubDate>Sun, 17 Oct 2027 20:19:00 +1100</pubDate>
+      <guid isPermaLink="false">d216ba225a16610b2e0c3291a9c260b3d5c5147e</guid>
+    </item>
+    <item>
+      <title>Sukkot VII (Hoshana Raba) — Candle lighting</title>
+      <description>Sukkot VII (Hoshana Raba): Candle lighting at 7:25 PM on Friday, 22 October 2027 (local time)</description>
+      <pubDate>Fri, 22 Oct 2027 19:25:00 +1100</pubDate>
+      <guid isPermaLink="false">61be2fdc8952574acef24d2fc5558572ff8cea22</guid>
+    </item>
+    <item>
+      <title>Shmini Atzeret — Candle lighting</title>
+      <description>Shmini Atzeret: Candle lighting at 8:26 PM on Saturday, 23 October 2027 (local time)</description>
+      <pubDate>Sat, 23 Oct 2027 20:26:00 +1100</pubDate>
+      <guid isPermaLink="false">d892c6754b7d9b99187fcbca2773def4bd26bcd2</guid>
+    </item>
+    <item>
+      <title>Simchat Torah — Havdalah</title>
+      <description>Simchat Torah: Havdalah at 8:27 PM on Sunday, 24 October 2027 (local time)</description>
+      <pubDate>Sun, 24 Oct 2027 20:27:00 +1100</pubDate>
+      <guid isPermaLink="false">4cece45c2f5e6bf12e6fca34ddd9aebbde658b65</guid>
+    </item>
+    <item>
+      <title>Chanukah: 1 Candle</title>
+      <description>Chanukah: 1 Candle (2027-12-24)</description>
+      <pubDate>Fri, 24 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">ac274224b52757e12f442a39448f99ff92b0b1a6</guid>
+    </item>
+    <item>
+      <title>Chanukah: 2 Candles</title>
+      <description>Chanukah: 2 Candles (2027-12-25)</description>
+      <pubDate>Sat, 25 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">f0f00843994ddc602cf45b02c3827e3ad94fd1e8</guid>
+    </item>
+    <item>
+      <title>Chanukah: 3 Candles</title>
+      <description>Chanukah: 3 Candles (2027-12-26)</description>
+      <pubDate>Sun, 26 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">5ac42701bedf8b07c1b1e9765d770b06fe128e43</guid>
+    </item>
+    <item>
+      <title>Chanukah: 4 Candles</title>
+      <description>Chanukah: 4 Candles (2027-12-27)</description>
+      <pubDate>Mon, 27 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">51e822a53813f25d80c3abbdac4dbdd8fa918a43</guid>
+    </item>
+    <item>
+      <title>Chanukah: 5 Candles</title>
+      <description>Chanukah: 5 Candles (2027-12-28)</description>
+      <pubDate>Tue, 28 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">5c3e9d8ca6d7a6e9efc8227a1680b59cc8c6f6a5</guid>
+    </item>
+    <item>
+      <title>Chanukah: 6 Candles</title>
+      <description>Chanukah: 6 Candles (2027-12-29)</description>
+      <pubDate>Wed, 29 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">d8c4209c93b4e15a5b8a6c23a889d25497ea4374</guid>
+    </item>
+    <item>
+      <title>Chanukah: 7 Candles</title>
+      <description>Chanukah: 7 Candles (2027-12-30)</description>
+      <pubDate>Thu, 30 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">accaabbf7ab9c6d447bd0934abe25c674625e97f</guid>
+    </item>
+    <item>
+      <title>Chanukah: 8 Candles</title>
+      <description>Chanukah: 8 Candles (2027-12-31)</description>
+      <pubDate>Fri, 31 Dec 2027 00:00:00 +1100</pubDate>
+      <guid isPermaLink="false">8ed3a4cf173362c1a71f3f2b695c178971041330</guid>
+    </item>
+  </channel>
+</rss>
