@@ -3,11 +3,31 @@ title: "The Melbourne yomtov calendar I need"
 description: "A selection of Jewish holidays, where they fall on the Gregorian calendar with start and end times when needed."
 ---
 
+## How and what
 In your calendar app, add a new remote calendar and point it at [the `.ics` feed](https://sealfur.com/calendarfeeds/jewish_holidays-mel.ics)
 
 > `https://sealfur.com/calendarfeeds/jewish_holidays-mel.ics`
 
+The calendar includes your favourite mix of biblical and rabbinical observances:
+
+* Purim
+* Yom HaShoah
+* Yom HaAtzma'ut
+* Pesach
+* Shavuot
+* Rosh Hashana
+* Yom Kippur
+* Sukkot
+* Shmini Atzeret
+* Simchat Torah
+* Chanukah
+
+### Also…
+If, for example, you have a brother who was born on Tish'a B'Av, you’ll now never be left guessing when that might be.
+
 ## Data Examples
+
+All data is thanks to [Hebcal and their excellent API](https://www.hebcal.com/holidays/).
 
 ### Candle lighting
 ```ics
